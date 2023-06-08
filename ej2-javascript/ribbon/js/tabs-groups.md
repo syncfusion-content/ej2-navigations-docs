@@ -34,7 +34,7 @@ You can use the [groups](https://ej2.syncfusion.com/javascript/documentation/api
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/ribbon/groups-cs1/index.ts %}
+{% include code-snippet/ribbon/groups-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
 {% include code-snippet/ribbon/groups-cs1/index.html %}
