@@ -43,7 +43,7 @@ var tabs = [{
             items: [{
                 type: "Button",
                 buttonSettings: {
-                    content: "Prnt Layout",
+                    content: "Print Layout",
                     iconCss: "e-icons e-print"
                 }
             }]
@@ -90,7 +90,7 @@ var tabs = [{
             items: [{
                 type: "Button",
                 buttonSettings: {
-                    content: "Prnt Layout",
+                    content: "Print Layout",
                     iconCss: "e-icons e-print"
                 }
             }]

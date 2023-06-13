@@ -45,7 +45,7 @@ let tabs: RibbonTabModel[] = [{
             items: [{
                 type: RibbonItemType.Button,
                 buttonSettings: {
-                    content: "Prnt Layout",
+                    content: "Print Layout",
                     iconCss: "e-icons e-print"
                 }
             }]
@@ -94,7 +94,7 @@ let tabs: RibbonTabModel[] = [{
             items: [{
                 type: RibbonItemType.Button,
                 buttonSettings: {
-                    content: "Prnt Layout",
+                    content: "Print Layout",
                     iconCss: "e-icons e-print"
                 }
             }]
