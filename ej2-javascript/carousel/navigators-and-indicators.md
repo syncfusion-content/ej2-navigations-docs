@@ -211,7 +211,38 @@ You can customize the indicators by showing the preview image of each slide usin
 
 ### Indicator Types
 
-You can choose different type of indicators available using the [`indicatorsType`](../api/carousel/#indicatorstype) property. The following example depicts the code for applying different types of indicators in the carousel.
+You can choose different type of indicators available using the [`indicatorsType`]() property. The following example depicts the code for applying different types of indicators in the carousel.
+
+#### Default Indicator Type
+
+A default indicator in a carousel is a set of dots that indicate the current position of the slide in the carousel.
+
+{% if page.publishingplatform == "typescript" %}
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/carousel/indicator-type-cs0/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/carousel/indicator-type-cs0/index.html %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "page.domainurl/code-snippet/carousel/indicator-type-cs0" %}
+
+{% elsif page.publishingplatform == "javascript" %}
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/carousel/indicator-type-cs0/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/carousel/indicator-type-cs0/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/carousel/indicator-type-cs0" %}
+{% endif %}
 
 #### Dynamic Indicator Type
 
