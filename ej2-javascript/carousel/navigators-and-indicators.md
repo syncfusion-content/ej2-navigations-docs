@@ -211,16 +211,16 @@ You can customize the indicators by showing the preview image of each slide usin
 
 ### Indicator Types
 
-You can choose different type of indicators available using the [`indicatorsType`]() property. The indicator types are categorized as follows:
+You can choose different type of indicators available using the `indicatorsType` property. The indicator types are categorized as follows:
 
-* Default Indicator
-* Dynamic Indicator
-* Fraction Indicator
-* Progress Indicator
+* [Default Indicator](#default-indicator-type)
+* [Dynamic Indicator](#dynamic-indicator-type)
+* [Fraction Indicator](#fraction-indicator-type)
+* [Progress Indicator](#progress-indicator-type)
 
 #### Default Indicator Type
 
-A default indicator in a carousel is a set of dots that indicate the current position of the slide in the carousel. The Default indicator can be achieved by setting the [`indicatorsType`]() to Default.
+A default indicator in a carousel is a set of dots that indicate the current position of the slide in the carousel. The Default indicator can be achieved by setting the `indicatorsType` to `Default`.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -251,7 +251,7 @@ A default indicator in a carousel is a set of dots that indicate the current pos
 
 #### Dynamic Indicator Type
 
-A dynamic indicator in a carousel provides visual cues or markers that dynamically change or update to indicate the current position.The Dynamic indicator can be achieved by setting the [`indicatorsType`]() to Dynamic.
+A dynamic indicator in a carousel provides visual cues or markers that dynamically change or update to indicate the current position. The Dynamic indicator can be achieved by setting the `indicatorsType` to `Dynamic`.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -282,7 +282,7 @@ A dynamic indicator in a carousel provides visual cues or markers that dynamical
 
 #### Fraction Indicator Type
 
-In the fraction indicator type, the current slide index and total slide count are displayed as a fraction. The Fraction indicator can be achieved by setting the [`indicatorsType`]() to Fraction.
+In the fraction indicator type, the current slide index and total slide count are displayed as a fraction. The Fraction indicator can be achieved by setting the `indicatorsType` to `Fraction`.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -313,7 +313,7 @@ In the fraction indicator type, the current slide index and total slide count ar
 
 #### Progress Indicator Type
 
-In the Progress Indicator type, the current slide is displayed as a progress bar. The Progress indicator can be achieved by setting the [`indicatorsType`]() to Progress.
+In the Progress Indicator type, the current slide is displayed as a progress bar. The Progress indicator can be achieved by setting the `indicatorsType` to `Progress`.
 
 {% if page.publishingplatform == "typescript" %}
 
