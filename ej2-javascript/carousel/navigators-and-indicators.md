@@ -209,6 +209,102 @@ You can customize the indicators by showing the preview image of each slide usin
 {% previewsample "page.domainurl/code-snippet/carousel/indicator-preview-cs1" %}
 {% endif %}
 
+### Indicator Types
+
+You can choose different type of indicators available using the [`indicatorsType`](../api/carousel/#indicatorstype) property. The following example depicts the code for applying different types of indicators in the carousel.
+
+#### Dynamic Indicator Type
+
+A dynamic indicator in a carousel provides visual cues or markers that dynamically change or update to indicate the current position.
+
+{% if page.publishingplatform == "typescript" %}
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/carousel/indicator-type-cs1/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/carousel/indicator-type-cs1/index.html %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "page.domainurl/code-snippet/carousel/indicator-type-cs1" %}
+
+{% elsif page.publishingplatform == "javascript" %}
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/carousel/indicator-type-cs1/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/carousel/indicator-type-cs1/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/carousel/indicator-type-cs1" %}
+{% endif %}
+
+#### Fraction Indicator Type
+
+In the fraction indicator type, the current slide index and total slide count are displayed as a fraction.
+
+{% if page.publishingplatform == "typescript" %}
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/carousel/indicator-type-cs2/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/carousel/indicator-type-cs2/index.html %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "page.domainurl/code-snippet/carousel/indicator-type-cs2" %}
+
+{% elsif page.publishingplatform == "javascript" %}
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/carousel/indicator-type-cs2/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/carousel/indicator-type-cs2/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/carousel/indicator-type-cs2" %}
+{% endif %}
+
+#### Progress Indicator Type
+
+In the Progress Indicator type, the current slide is displayed as a progress bar.
+
+{% if page.publishingplatform == "typescript" %}
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/carousel/indicator-type-cs3/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/carousel/indicator-type-cs3/index.html %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "page.domainurl/code-snippet/carousel/indicator-type-cs3" %}
+
+{% elsif page.publishingplatform == "javascript" %}
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/carousel/indicator-type-cs3/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/carousel/indicator-type-cs3/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/carousel/indicator-type-cs3" %}
+{% endif %}
 ## Play button
 
 ### Show or hide the play button
