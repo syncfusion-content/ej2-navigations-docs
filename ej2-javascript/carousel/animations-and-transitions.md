@@ -270,3 +270,40 @@ In the carousel, you can swipe the carousel slides using touch actions by defaul
 
 {% previewsample "page.domainurl/code-snippet/carousel/default-cs7" %}
 {% endif %}
+
+## Swipe Modes
+
+In the carousel, [`swipeMode`](../api/carousel/#swipemode) property allows to specifies whether the slide transition should occur while performing swiping via touch/mouse. The slide swiping is enabled or disabled using bitwise operators. The swiping is disabled using ‘~’ bitwise operator. 
+
+* CarouselSwipeMode.Touch - Allows the user to slide the slides using touch actions.
+* CarouselSwipeMode.Mouse - Allows the user to slide the slides using mouse actions.
+* CarouselSwipeMode.Touch & CarouselSwipeMode.Mouse - Allows the user to slide the slides using both touch and mouse actions.
+* ~CarouselSwipeMode.Touch & ~CarouselSwipeMode.Mouse - Disables both touch and mouse actions.
+
+
+{% if page.publishingplatform == "typescript" %}
+
+ {% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/carousel/swipe-cs1/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/carousel/swipe-cs1/index.html %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "page.domainurl/code-snippet/carousel/swipe-cs1" %}
+
+{% elsif page.publishingplatform == "javascript" %}
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/carousel/swipe-cs1/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/carousel/swipe-cs1/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/carousel/swipe-cs1" %}
+{% endif %}
