@@ -209,16 +209,16 @@ You can customize the indicators by showing the preview image of each slide usin
 {% previewsample "page.domainurl/code-snippet/carousel/indicator-preview-cs1" %}
 {% endif %}
 
-### Indicator Types
+### Indicators Types
 
 Choose different types of indicators available using the [`indicatorsType`](../api/carousel/#indicatorstype) property. The indicator types are categorized as follows:
 
-* [Default Indicator](#default-indicator-type)
-* [Dynamic Indicator](#dynamic-indicator-type)
-* [Fraction Indicator](#fraction-indicator-type)
-* [Progress Indicator](#progress-indicator-type)
+* [Default Indicator](#default-indicator)
+* [Dynamic Indicator](#dynamic-indicator)
+* [Fraction Indicator](#fraction-indicator)
+* [Progress Indicator](#progress-indicator)
 
-#### Default Indicator Type
+#### Default Indicator
 
 A default indicator in a carousel is a set of dots that indicate the current position of the slide in the carousel. The Default indicator can be achieved by setting the [`indicatorsType`](../api/carousel/#indicatorstype) to `Default`.
 
@@ -249,7 +249,7 @@ A default indicator in a carousel is a set of dots that indicate the current pos
 {% previewsample "page.domainurl/code-snippet/carousel/indicator-type-cs0" %}
 {% endif %}
 
-#### Dynamic Indicator Type
+#### Dynamic Indicator
 
 A dynamic indicator in a carousel provides visual cues or markers that dynamically change or update to indicate the current position. The Dynamic indicator can be achieved by setting the [`indicatorsType`](../api/carousel/#indicatorstype) to `Dynamic`.
 
@@ -280,7 +280,7 @@ A dynamic indicator in a carousel provides visual cues or markers that dynamical
 {% previewsample "page.domainurl/code-snippet/carousel/indicator-type-cs1" %}
 {% endif %}
 
-#### Fraction Indicator Type
+#### Fraction Indicator
 
 The fraction indicator type displays the current slide index and total slide count as a fraction. The Fraction indicator can be achieved by setting the [`indicatorsType`](../api/carousel/#indicatorstype) to `Fraction`.
 
@@ -311,7 +311,7 @@ The fraction indicator type displays the current slide index and total slide cou
 {% previewsample "page.domainurl/code-snippet/carousel/indicator-type-cs2" %}
 {% endif %}
 
-#### Progress Indicator Type
+#### Progress Indicator
 
 The Progress Indicator type displays the current slide as a progress bar. The Progress indicator can be achieved by setting the [`indicatorsType`](../api/carousel/#indicatorstype) to `Progress`.
 
