@@ -1,4 +1,3 @@
-
 var carouselObj = new ej.navigations.Carousel({
     items: [
         { template: '<figure class="img-container"><img src="https://ej2.syncfusion.com/products/images/carousel/cardinal.png" alt="cardinal" style="height:100%;width:100%;" /><figcaption class="img-caption">Cardinal</figcaption></figure>' },
@@ -7,7 +6,7 @@ var carouselObj = new ej.navigations.Carousel({
         { template: '<figure class="img-container"><img src="https://ej2.syncfusion.com/products/images/carousel/kaohsiung.png" alt="yellow-warbler" style="height:100%;width:100%;" /><figcaption class="img-caption">Yellow-warbler</figcaption></figure>' },
         { template: '<figure class="img-container"><img src="https://ej2.syncfusion.com/products/images/carousel/bee-eater.png" alt="bee-eater" style="height:100%;width:100%;" /><figcaption class="img-caption">Bee-eater</figcaption></figure>' }
       ],
-    swipeMode: CarouselSwipeMode.Touch & CarouselSwipeMode.Mouse
+    swipeMode: ej.navigations.CarouselSwipeMode.Mouse & ej.navigations.CarouselSwipeMode.Touch
 });
 carouselObj.appendTo('#carousel');
 
