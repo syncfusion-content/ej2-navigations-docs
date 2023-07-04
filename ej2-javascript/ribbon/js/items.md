@@ -216,7 +216,11 @@ ribbon.appendTo("#ribbon");
 
 #### SortOrder
 
-You can make use of [sortOrder](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonComboBoxSettingsModel/#sortorder) property which specifies the order in which the data source needs to be sorted. The available type of sort orders are `None` - The data source is not sorted. `Ascending` - The data source is sorted in ascending order. `Descending` - The data source is sorted in descending order.
+You can make use of [sortOrder](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonComboBoxSettingsModel/#sortorder) property which specifies the order in which the data source needs to be sorted.
+
+`None` - The data source is not sorted.
+`Ascending` - The data source is sorted in ascending order.
+`Descending` - The data source is sorted in descending order.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
