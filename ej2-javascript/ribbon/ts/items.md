@@ -28,11 +28,11 @@ The following items can be rendered as built in items
 
 ### Button
 
-You can render a Button item by setting the [type](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonItemModel/#type) property to `Button`. Also, you can customize the ribbon button using [ribbonButtonSettingsModel](https://helpej2.syncfusion.com/documentation/api/ribbon/ribbonButtonSettingsModel/).
+You can render a Button item by setting the [type](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonItemModel/#type) property to `Button`. Also, you can customize the ribbon button using [ribbonButtonSettingsModel](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonButtonSettingsModel/).
 
 #### Toggle Button
 
-You can make use of [isToggle](https://helpej2.syncfusion.com/documentation/api/ribbon/ribbonButtonSettingsModel/#istoggle) property to define whether the button is a toggle button or not. By default the value is `false`.
+You can make use of [isToggle](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonButtonSettingsModel/#istoggle) property to define whether the button is a toggle button or not. By default the value is `false`.
 
 ```typescript
 
@@ -69,7 +69,7 @@ You can render a CheckBox item by setting the [type](https://ej2.syncfusion.com/
 
 #### CheckBox State
 
-You can make use of [checked](https://helpej2.syncfusion.com/documentation/api/ribbon/ribbonCheckBoxSettingsModel/#checked) property to define whether the checkbox is checked or not. A tick mark will be added to the visualization of CheckBox in checked state. By default the value is `false`.
+You can make use of [checked](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonCheckBoxSettingsModel/#checked) property to define whether the checkbox is checked or not. A tick mark will be added to the visualization of CheckBox in checked state. By default the value is `false`.
 
 ```typescript
 import { Ribbon, RibbonTabModel, RibbonItemType } from "@syncfusion/ej2-ribbon";
@@ -97,8 +97,8 @@ ribbon.appendTo("#ribbon");
 
 #### Label and label Position
 
-You can define the caption for a CheckBox, by utilizing the [label](https://helpej2.syncfusion.com/documentation/api/ribbon/ribbonCheckBoxSettingsModel/#label) property. This helps in reducing the need for manually adding a separate label element. 
-You can customize the position of the label relative to the CheckBox by using the [labelPosition](https://helpej2.syncfusion.com/documentation/api/ribbon/ribbonCheckBoxSettingsModel/#labelposition) property, which allows you to specify whether the label should appear before or after the CheckBox.
+You can define the caption for a CheckBox, by utilizing the [label](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonCheckBoxSettingsModel/#label) property. This helps in reducing the need for manually adding a separate label element. 
+You can customize the position of the label relative to the CheckBox by using the [labelPosition](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonCheckBoxSettingsModel/#labelposition) property, which allows you to specify whether the label should appear before or after the CheckBox.
 
 ```typescript
 import { Ribbon, RibbonTabModel, RibbonItemType } from "@syncfusion/ej2-ribbon";
@@ -130,7 +130,7 @@ You can render a DropDown item by setting the [type](https://ej2.syncfusion.com/
 
 #### Target
 
-You can make use of [target](https://helpej2.syncfusion.com/documentation/api/ribbon/ribbonDropDownSettingsModel/#target) property which specifies the selector for an element to be shown in the DropDownButton popup.
+You can make use of [target](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonDropDownSettingsModel/#target) property which specifies the selector for an element to be shown in the DropDownButton popup.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -149,7 +149,7 @@ You can render a SplitButton item by setting the [type](https://ej2.syncfusion.c
 
 #### Target
 
-You can make use of [target](https://helpej2.syncfusion.com/documentation/api/ribbon/ribbonSplitButtonSettingsModel/#target) property which specifies the selector for the element to be shown in the SplitButton popup.
+You can make use of [target](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonSplitButtonSettingsModel/#target) property which specifies the selector for the element to be shown in the SplitButton popup.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -164,11 +164,11 @@ You can make use of [target](https://helpej2.syncfusion.com/documentation/api/ri
 
 ### ComboBox
 
-you can render a ComboBox item, bt setting the [type](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonItem/#type) property to `ComboBox`. Also, you can customize the combobox using [ribbonComboBoxSettingsModel](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonComboBoxSettingsModel/).
+You can render a ComboBox item, by setting the [type](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonItem/#type) property to `ComboBox`. Also, you can customize the combobox using [ribbonComboBoxSettingsModel](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonComboBoxSettingsModel/).
 
 #### Filtering
 
-You can make use of [allowFiltering](https://helpej2.syncfusion.com/documentation/api/ribbon/ribbonComboBoxSettingsModel/#allowfiltering) property which provides built-in support for filtering data items. As soon as you start typing the characters, the filter operation initiates automatically. If no match is found, the value of the `noRecordsTemplate` property will be displayed. By default the value is `false`.
+You can make use of [allowFiltering](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonComboBoxSettingsModel/#allowfiltering) property which provides built-in support for filtering data items. As soon as you start typing the characters, the filter operation initiates automatically. If no match is found, the value of the `noRecordsTemplate` property will be displayed. By default the value is `false`.
 
 ```typescript
 import { Ribbon, RibbonTabModel, RibbonItemType } from "@syncfusion/ej2-ribbon";
@@ -198,7 +198,7 @@ ribbon.appendTo("#ribbon");
 
 #### Index
 
-You can make use of [index](https://helpej2.syncfusion.com/documentation/api/ribbon/ribbonComboBoxSettingsModel/#index) property which specifies the index of the selected item in the combobox.
+You can make use of [index](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonComboBoxSettingsModel/#index) property which specifies the index of the selected item in the combobox.
 
 ```typescript
 import { Ribbon, RibbonTabModel, RibbonItemType } from "@syncfusion/ej2-ribbon";
@@ -227,7 +227,7 @@ ribbon.appendTo("#ribbon");
 
 #### SortOrder
 
-You can make use of [sortOrder](https://helpej2.syncfusion.com/documentation/api/ribbon/ribbonComboBoxSettingsModel/#sortorder) property which specifies the order in which the data source needs to be sorted. The available type of sort orders are None - The data source is not sorted. Ascending - The data source is sorted in ascending order. Descending - The data source is sorted in descending order.
+You can make use of [sortOrder](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonComboBoxSettingsModel/#sortorder) property which specifies the order in which the data source needs to be sorted. The available type of sort orders are `None` - The data source is not sorted. `Ascending` - The data source is sorted in ascending order. `Descending` - The data source is sorted in descending order.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -246,7 +246,7 @@ You can render a ColorPicker item by setting the [type](https://ej2.syncfusion.c
 
 #### Value
 
-You can specify the value color, by using the [value](https://helpej2.syncfusion.com/documentation/api/ribbon/ribbonColorPickerSettingsModel/#value) property. The value should be a valid hex color code.
+You can specify the value color, by using the [value](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonColorPickerSettingsModel/#value) property. The value should be a valid hex color code.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -279,7 +279,7 @@ You can use the [type](https://ej2.syncfusion.com/documentation/api/ribbon/ribbo
 
 ### Display Options 
 
-By setting the [displayOptions](https://helpej2.syncfusion.com/documentation/api/ribbon/ribbonItem/#displayoptions) property you can determines how an item is displayed in different ribbon layouts.
+By setting the [displayOptions](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonItem/#displayoptions) property you can determines how an item is displayed in different ribbon layouts.
 
 `Auto` - The item is displayed in the classic layout group, simplified layout group, and overflow popup based on the ribbon's overflow state.
 `Classic` - The item is displayed only in the classic layout group.
@@ -299,7 +299,7 @@ By setting the [displayOptions](https://helpej2.syncfusion.com/documentation/api
 
 ## Enable or disable items
 
-You can use the [disabled](https://helpej2.syncfusion.com/documentation/api/ribbon/ribbonItem/#disabled) property to disable an item. When set to `true`, the item will be disabled and prevents the user interaction with it. By default the value is `false`.
+You can use the [disabled](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonItem/#disabled) property to disable an item. When set to `true`, the item will be disabled and prevents the user interaction with it. By default the value is `false`.
 
 ```typescript
 import { Ribbon, RibbonTabModel, RibbonItemType } from "@syncfusion/ej2-ribbon";
