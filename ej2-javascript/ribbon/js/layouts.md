@@ -58,7 +58,7 @@ The Ribbon group [orientation](https://ej2.syncfusion.com/javascript/documentati
           
 {% previewsample "page.domainurl/code-snippet/ribbon/orientation-cs1" %}
 
->  When the orientation is set to `row` a group may have a maximum of three collections each of which may contain any number of items. When the orientation is set to `column` a group may have any number of collections, each of which may contain one large-sized item or three medium/small-sized items. If two large-sized items are specified, it automatically converts into two medium/small-sized items.
+>  When the orientation is set to `Row` a group may have a maximum of three collections each of which may contain any number of items. When the orientation is set to `Column` a group may have any number of collections, each of which may contain one large-sized item or three medium/small-sized items. If two large-sized items are specified, it automatically converts into two medium/small-sized items.
 
 ### Defining group header
 
