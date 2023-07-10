@@ -3,7 +3,7 @@ layout: post
 title: Ribbon Tooltip in  ##Platform_Name## Menu control | Syncfusion
 description:  Checkout and learn about Ribbon Tooltip with ##Platform_Name## Menu control of Syncfusion Essential JS 2 and more details.
 platform: ej2-javascript
-control: Layout
+control: Ribbon
 publishingplatform: ##Platform_Name##
 documentation: ug
 domainurl: ##DomainURL##
@@ -11,9 +11,11 @@ domainurl: ##DomainURL##
 
 # Tooltip
 
+The Ribbon supports tooltips, which give users more information when they hover over items and improving the user experience.
+
 ## Adding Title
 
-To provide a title for the tooltip, you can utilize the [title](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonTooltipModel/#title) property.
+The [title](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonTooltipModel/#title) property is used to set the tooltip title for each Ribbon item.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -28,7 +30,7 @@ To provide a title for the tooltip, you can utilize the [title](https://ej2.sync
 
 ## Adding Content
 
-You can define the specific content to be displayed within the tooltip using the [content](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonTooltipModel/#content) property.
+The [content](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonTooltipModel/#content) property can be used to set the tooltip content for each Ribbon item.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -43,7 +45,7 @@ You can define the specific content to be displayed within the tooltip using the
 
 ## Adding Icon
 
-In addition to the text and content, you can also define CSS class for the icons to show in the tooltip using [iconCss](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonTooltipModel/#iconcss) property.
+In addition to the text and content, by using [iconCss](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonTooltipModel/#iconcss) property you can define the custom style for the icons.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
