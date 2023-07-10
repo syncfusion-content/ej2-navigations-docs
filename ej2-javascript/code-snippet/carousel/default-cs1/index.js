@@ -6,7 +6,7 @@ var carouselObj = new ej.navigations.Carousel({
         { template: '<figure class="img-container"><img src="https://ej2.syncfusion.com/products/images/carousel/kaohsiung.png" alt="yellow-warbler" style="height:100%;width:100%;" /><figcaption class="img-caption">Yellow-warbler</figcaption></figure>' },
         { template: '<figure class="img-container"><img src="https://ej2.syncfusion.com/products/images/carousel/bee-eater.png" alt="bee-eater" style="height:100%;width:100%;" /><figcaption class="img-caption">Bee-eater</figcaption></figure>' }
       ],
-    animationEffect: 'Fade', 
+    animationEffect: 'Fade'
 });
 carouselObj.appendTo('#carousel');
 
