@@ -11,7 +11,7 @@ domainurl: ##DomainURL##
 
 # HelpPaneTemplate
 
-The [helpPaneTemplate](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/#helppanetemplate) property in the Ribbon component allows you to customize the appearance and functionality of the help pane. The pane is positioned on the right side of the ribbon header row and can be customized by providing a template for its content.
+The users can access help content for tasks like controlling document permissions, sharing features, and more using the [helpPaneTemplate](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/#helppanetemplate) property in the Ribbon component allows you to customize the appearance and functionality of the help pane. The pane is positioned on the right side of the ribbon header row and can be customized by providing a template for its content.  
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

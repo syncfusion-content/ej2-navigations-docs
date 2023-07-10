@@ -13,7 +13,7 @@ domainurl: ##DomainURL##
 
 ## Built-in Ribbon items
 
-You can define each ribbon item using the [Items](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonCollectionModel/#items) property of ribbon collection and the type should be specified in the [type](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonItemModel/#type) property of ribbon item to define built-in items.
+By using the [Items](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonCollectionModel/#items) property, the ribbon items type should be specified in the [type](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonItemModel/#type) property to define the built-in items.
 
 The following items can be rendered as built in items
 
@@ -28,12 +28,11 @@ The following items can be rendered as built in items
 
 ### Button
 
-You can render a Button item by setting the [type](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonItemModel/#type) property to `Button`. Also, you can customize the ribbon button using [ribbonButtonSettingsModel](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonButtonSettingsModel/).
+By setting the [type](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonItemModel/#type) property to `Button` you can render a Button item. You can also customize the button item using the [ribbonButtonSettingsModel](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonButtonSettingsModel/) which provides options such as `iconCss`, `content`, `isToggle` and more.
 
 #### Toggle Button
 
-You can make use of [isToggle](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonButtonSettingsModel/#istoggle) property to define whether the button is a toggle button or not. By default the value is `false`.
-
+The [isToggle](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonButtonSettingsModel/#istoggle) property can be used to define whether the button is a toggle button or not. By default the value is `false`.
 
 ```js
 var tabs = [{
@@ -62,11 +61,11 @@ ribbon.appendTo("#ribbon");
 
 ### CheckBox
 
-You can render a CheckBox item by setting the [type](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonItemModel/#type) property to `CheckBox`. Also, you can customize the checkbox using [ribbonCheckBoxSettingsModel](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonCheckBoxSettingsModel/).
+By setting the [type](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonItemModel/#type) property to `CheckBox` you can render a CheckBox item. You can also customize the CheckBox item using the [ribbonCheckBoxSettingsModel](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonCheckBoxSettingsModel/) which provides options such as `labelPosition`, `label`, `checked` and more.
 
 #### CheckBox State
 
-You can make use of [checked](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonCheckBoxSettingsModel/#checked) property to define whether the checkbox is checked or not. A tick mark will be added to the visualization of CheckBox in checked state. By default the value is `false`.
+The [checked](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonCheckBoxSettingsModel/#checked) property is used to handle the checked and unchecked state. The CheckBox will display a tick mark when it is checked. By default the value is `false`.
 
 ```js
 var tabs = [{
@@ -92,8 +91,8 @@ ribbon.appendTo("#ribbon");
 
 #### Label and label Position
 
-You can define the caption for a CheckBox, by utilizing the [label](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonCheckBoxSettingsModel/#label) property. This helps in reducing the need for manually adding a separate label element. 
-You can customize the position of the label relative to the CheckBox by using the [labelPosition](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonCheckBoxSettingsModel/#labelposition) property, which allows you to specify whether the label should appear before or after the CheckBox.
+The [label](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonCheckBoxSettingsModel/#label) property can handle the caption for a CheckBox. This helps in reducing the need for manually adding a separate label element.
+The [labelPosition](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonCheckBoxSettingsModel/#labelposition) property can be used to alter the position of the label relative to the CheckBox, whether it should appear before or after the CheckBox.
 
 ```js
 var tabs = [{
@@ -119,11 +118,11 @@ ribbon.appendTo("#ribbon");
 
 ### DropDown
 
-You can render a DropDown item by setting the [type](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonItem/#type) property to `DropDown`. Also, you can customize the dropdown button using [ribbonDropDownSettingsModel](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonDropDownSettingsModel/).
+By setting the [type](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonItem/#type) property to `DropDown` you can render a DropDown item. You can also customize the DropDown item through [ribbonDropDownSettingsModel](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonDropDownSettingsModel/) which provides options such as `iconCss`, `content`, `target` and more.
 
 #### Target
 
-You can make use of [target](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonDropDownSettingsModel/#target) property which specifies the selector for an element to be shown in the DropDownButton popup.
+The [target](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonDropDownSettingsModel/#target) property specifies the element selector to be shown in the DropDownButton popup.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -138,11 +137,11 @@ You can make use of [target](https://ej2.syncfusion.com/javascript/documentation
 
 ### SplitButton
 
-You can render a SplitButton item by setting the [type](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonItem/#type) property to `SplitButton`. Also, you can customize the split button using [ribbonSplitButtonSettingsModel](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonSplitButtonSettingsModel/).
+By setting the [type](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonItem/#type) property to `SplitButton` you can render a SplitButton item. You can also customize the SplitButton item through [ribbonSplitButtonSettingsModel](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonSplitButtonSettingsModel/) which provides options such as `iconCss`, `items`, `target` and more.
 
 #### Target
 
-You can make use of [target](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonSplitButtonSettingsModel/#target) property which specifies the selector for the element to be shown in the SplitButton popup.
+The [target](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonSplitButtonSettingsModel/#target) property specifies the element selector to be shown in the SplitButton popup.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -157,11 +156,11 @@ You can make use of [target](https://ej2.syncfusion.com/javascript/documentation
 
 ### ComboBox
 
-You can render a ComboBox item, by setting the [type](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonItem/#type) property to `ComboBox`. Also, you can customize the combobox using [ribbonComboBoxSettingsModel](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonComboBoxSettingsModel/).
+By setting the [type](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonItem/#type) property to `ComboBox` you can render a ComboBox item. You can also customize the ComboBox item through [ribbonComboBoxSettingsModel](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonComboBoxSettingsModel/) which provides options such as `allowFiltering`, `autoFill`, `index`, `sortOrder` and more.
 
 #### Filtering
 
-You can make use of [allowFiltering](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonComboBoxSettingsModel/#allowfiltering) property which provides built-in support for filtering data items. As soon as you start typing the characters, the filter operation initiates automatically. If no match is found, the value of the `noRecordsTemplate` property will be displayed. By default the value is `false`.
+The [allowFiltering](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonComboBoxSettingsModel/#allowfiltering) property provides built-in support for filtering data items. The filtering operation is initiated automatically, as soon as you start typing characters. If no match is found, the value of the `noRecordsTemplate` property will be displayed. By default the value is `false`.
 
 ```js
 var fontStyle = ["Algerian", "Arial", "Calibri", "Cambria", "Cambria Math", "Courier New", "Candara", "Georgia"];
@@ -189,7 +188,7 @@ ribbon.appendTo("#ribbon");
 
 #### Index
 
-You can make use of [index](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonComboBoxSettingsModel/#index) property which specifies the index of the selected item in the combobox.
+The [index](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonComboBoxSettingsModel/#index) property can be used to specify the index of the selected item in the combobox.
 
 ```js
 var fontStyle = ["Algerian", "Arial", "Calibri", "Cambria", "Cambria Math", "Courier New", "Candara", "Georgia"];
@@ -216,7 +215,7 @@ ribbon.appendTo("#ribbon");
 
 #### SortOrder
 
-You can make use of [sortOrder](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonComboBoxSettingsModel/#sortorder) property which specifies the order in which the data source needs to be sorted.
+The [sortOrder](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonComboBoxSettingsModel/#sortorder) property is used to select the order in which the DataSource should be sorted.
 
 `None` - The data source is not sorted.
 `Ascending` - The data source is sorted in ascending order.
@@ -235,11 +234,11 @@ You can make use of [sortOrder](https://ej2.syncfusion.com/javascript/documentat
 
 ### ColorPicker
 
-You can render a ColorPicker item by setting the [type](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonItem/#type) property to `ColorPicker`. Also, you can customize the colorpicker using [ribbonColorPickerSettingsModel](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonColorPickerSettingsModel/).
+By setting the [type](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonItem/#type) property to `ColorPicker` you can render the ColorPicker item. You can also customize the ColorPicker item through [ribbonColorPickerSettingsModel](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonColorPickerSettingsModel/) which provides options such as `value`, `columns`, `showButtons` and more.
 
 #### Value
 
-You can specify the value color, by using the [value](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonColorPickerSettingsModel/#value) property. The value should be a valid hex color code.
+By using the [value](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonColorPickerSettingsModel/#value) property you can specify the value color. The value should be a valid hex color code.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -254,7 +253,7 @@ You can specify the value color, by using the [value](https://ej2.syncfusion.com
 
 ## Custom Ribbon items
 
-You can use the [type](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonItem/#type) property and set it to `Template` to customize ribbon items with non-built-in items. This allows you to define your own custom template for the ribbon item, giving you the flexibility to create unique and personalized content.
+The [type](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonItem/#type) property can be set to `Template` to customize ribbon items with non-built-in items. It can be used to define the custom template for the ribbon item, which has the flexibility to create unique and personalized content.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -292,7 +291,7 @@ By setting the [displayOptions](https://ej2.syncfusion.com/javascript/documentat
 
 ## Enable or disable items
 
-You can use the [disabled](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonItem/#disabled) property to disable an item. When set to `true`, the item will be disabled and prevents the user interaction with it. By default the value is `false`.
+The [disabled](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonItem/#disabled) property can be used to disable an item. The item will be disabled and prevents the user interaction when set to `true`. By default the value is `false`.
 
 ```js
 var tabs = [{

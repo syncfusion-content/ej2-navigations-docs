@@ -58,4 +58,4 @@ You can add collections of items to each group by using the [collections](https:
           
 {% previewsample "page.domainurl/code-snippet/ribbon/tabs-cs2" %}
 
-> Check out our [`items`](./items) page for examples and instructions on adding built-in and custom items. It covers different item types and helps you incorporate them into your project.
+> Check out our [`items`](./items) page on adding the built-in and custom items.
