@@ -3,7 +3,7 @@ layout: post
 title: Es5 getting started with ##Platform_Name## Ribbon control | Syncfusion
 description:  Checkout and learn about Es5 getting started with ##Platform_Name## Ribbon control of Syncfusion Essential JS 2 and more details.
 platform: ej2-javascript
-control: Es5 getting started 
+control: Ribbon
 publishingplatform: ##Platform_Name##
 documentation: ug
 domainurl: ##DomainURL##
