@@ -3,7 +3,7 @@ layout: post
 title: Tabs and Groups in  ##Platform_Name## Menu control | Syncfusion
 description:  Checkout and learn about Tabs and Groups with ##Platform_Name## Menu control of Syncfusion Essential JS 2 and more details.
 platform: ej2-javascript
-control: Tabs Groups
+control: Ribbon
 publishingplatform: ##Platform_Name##
 documentation: ug
 domainurl: ##DomainURL##
