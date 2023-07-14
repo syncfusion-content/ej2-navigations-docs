@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ribbon Events in  ##Platform_Name## Ribbon control | Syncfusion
+title: Events in  ##Platform_Name## Ribbon control | Syncfusion
 description:  Checkout and learn about Ribbon Events with ##Platform_Name## Ribbon control of Syncfusion Essential JS 2 and more details.
 platform: ej2-javascript
 control: Ribbon
