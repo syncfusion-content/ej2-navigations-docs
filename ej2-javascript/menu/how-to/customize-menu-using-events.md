@@ -11,9 +11,9 @@ domainurl: ##DomainURL##
 
 # Customize menu using events in ##Platform_Name## Menu control
 
-The Menu provides a set of [`events`](../../api/menu#events) to enable users to customize it.
+The Menu provides a set of [`events`](https://helpej2.syncfusion.com/javascript/documentation/api/menu/#events) to enable users to customize it.
 
-The available events are [`beforeOpen`](../../api/menu/#beforeopen), [`beforeClose`](../..api/menu/#beforeclose), [`onClose`](../../api/menu/#onclose), [`onOpen`](../../api/menu/#onopen), and [`select`](../..api//menu/#select).
+The available events are [`beforeOpen`](https://ej2.syncfusion.com/javascript/documentation/api/menu/#beforeopen), [`beforeClose`](https://ej2.syncfusion.com/javascript/documentation/api/menu/#beforeclose), [`onClose`](https://ej2.syncfusion.com/javascript/documentation/api/menu/#onclose), [`onOpen`](https://ej2.syncfusion.com/javascript/documentation/api/menu/#onopen), and [`select`](https://ej2.syncfusion.com/javascript/documentation/api/menu/#select).
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

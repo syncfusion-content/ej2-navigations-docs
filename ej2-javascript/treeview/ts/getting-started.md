@@ -32,14 +32,14 @@ The following list of dependencies are required to use the TreeView component in
 Clone the Essential JS 2 quickstart application project from [GitHub](https://github.com/syncfusion/ej2-quickstart), and install the necessary npm packages using the following command line scripts.
 
 ```
-git clone https://github.com/syncfusion/ej2-quickstart.git quickstart
+git clone https://github.com/syncfusion/ej2-quickstart quickstart
 cd quickstart
 npm install
 ```
 
 ## Configuring system JS
 
-The [Syncfusion TreeView packages](#dependencies) should be mapped in the `system.config.js` configuration file.
+The [Syncfusion TreeView packages](https://ej2.syncfusion.com/documentation/treeview/getting-started#dependencies) should be mapped in the `system.config.js` configuration file.
 
 ```javascript
 System.config({
@@ -136,7 +136,7 @@ treeViewInstance.appendTo("#tree");
 
 ## Binding data source
 
-TreeView can load data either from local data sources or remote data services. This can be done using the `dataSource` property that is a member of the [fields](../api/treeview#fields) property. The dataSource property supports array of JavaScript objects and `DataManager`. Here, an array of JSON values is passed to the TreeView component.
+TreeView can load data either from local data sources or remote data services. This can be done using the `dataSource` property that is a member of the [fields](https://helpej2.syncfusion.com/documentation/api/treeview/#fields) property. The dataSource property supports array of JavaScript objects and `DataManager`. Here, an array of JSON values is passed to the TreeView component.
 
 `[src/app/app.ts]`
 

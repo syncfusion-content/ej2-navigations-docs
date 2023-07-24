@@ -32,14 +32,14 @@ The following list of dependencies are required to use the ContextMenu component
 To get started with ContextMenu component, you can clone the [Essential JS 2 quickstart](https://github.com/syncfusion/ej2-quickstart) and install the npm packages by using the following commands.
 
 ```
-git clone https://github.com/syncfusion/ej2-quickstart.git quickstart
+git clone https://github.com/syncfusion/ej2-quickstart quickstart
 cd quickstart
 npm install
 ```
 
 > The project is preconfigured with common settings (`src/styles/styles.css`, `system.config.js`) to start all the Essential JS 2 components.
 
-* Refer to the [`ContextMenu component dependencies`](./getting-started#dependencies) in `system.config.js` configuration file.
+* Refer to the [`ContextMenu component dependencies`](https://helpej2.syncfusion.com/documentation/context-menu/getting-started#dependencies) in `system.config.js` configuration file.
 
 `[src/system.config.js]`
 
@@ -182,7 +182,7 @@ The following example shows a basic ContextMenu component.
 
 ## Rendering items with Separator
 
-The Separators are the horizontal lines that are used to separate the menu items. You cannot select the separators. You can enable separators to group the menu items using the [`separator`](../api/context-menu/menuItemModel#separator) property. Cut, Copy, and Paste menu items are grouped using the `separator` property in the following sample.
+The Separators are the horizontal lines that are used to separate the menu items. You cannot select the separators. You can enable separators to group the menu items using the [`separator`](https://helpej2.syncfusion.com/documentation/api/context-menu/menuItemModel/#separator) property. Cut, Copy, and Paste menu items are grouped using the `separator` property in the following sample.
 
 {% tabs %}
 {% highlight html tabtitle="index.html" %}
@@ -192,9 +192,9 @@ The Separators are the horizontal lines that are used to separate the menu items
           
 {% previewsample "page.domainurl/code-snippet/context-menu/getting-started-cs6" %}
 
-> The [`separator`](../api/context-menu/menuItemModel#separator) property `should not` be given along with the other fields in the [`MenuItem`](../api/context-menu/menuItemModel).
+> The [`separator`](https://helpej2.syncfusion.com/documentation/api/context-menu/menuItemModel/#separator) property `should not` be given along with the other fields in the [`MenuItem`](https://helpej2.syncfusion.com/documentation/api/context-menu/menuItemModel/).
 
 ## See Also
 
-* [ContextMenu with icons](./icons-and-navigation#icons)
-* [Multi-level nesting](./template-and-multilevel-nesting#multilevel-nesting)
+* [ContextMenu with icons](https://helpej2.syncfusion.com/documentation/context-menu/icons-and-navigation#icons)
+* [Multi-level nesting](https://helpej2.syncfusion.com/documentation/context-menu/template-and-multilevel-nesting#multilevel-nesting)

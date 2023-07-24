@@ -32,14 +32,14 @@ The following list of dependencies are required to use the Menu component in you
 To get started with the Menu component, clone [Essential JS 2 quickstart](https://github.com/syncfusion/ej2-quickstart), and install the npm packages using the following commands.
 
 ```
-git clone https://github.com/syncfusion/ej2-quickstart.git quickstart
+git clone https://github.com/syncfusion/ej2-quickstart quickstart
 cd quickstart
 npm install
 ```
 
 > The project is preconfigured with common settings (`src/styles/styles.css`, `system.config.js`) to start all the Essential JS 2 components.
 
-* Refer to the [`Menu component dependencies`](./getting-started#dependencies) in `system.config.js` configuration file.
+* Refer to the [`Menu component dependencies`](https://ej2.syncfusion.com/documentation/menu/getting-started#dependencies) in `system.config.js` configuration file.
 
 `[src/system.config.js]`
 
@@ -191,11 +191,11 @@ The following example shows a basic Menu component.
           
 {% previewsample "page.domainurl/code-snippet/menu/getting-started-cs11" %}
 
-> This example demonstrates the basic rendering of Menu with items support. For more information about data source support, refer to the [`Data Source Binding`](./data-source-binding-and-custom-menu-items#data-binding) section.
+> This example demonstrates the basic rendering of Menu with items support. For more information about data source support, refer to the [`Data Source Binding`](https://ej2.syncfusion.com/documentation/menu/data-source-binding-and-custom-menu-items#data-binding) section.
 
 ## Group menu items with separator
 
-The separators are both horizontal and vertical lines used to separate the menu items. You cannot select the separators, but you can enable separators to group the menu items using the [`separator`](../api/menu/menuItemModel#separator) property. The `Open` and `Save` sub menu items are grouped using the `separator` property in the following sample.
+The separators are both horizontal and vertical lines used to separate the menu items. You cannot select the separators, but you can enable separators to group the menu items using the [`separator`](https://helpej2.syncfusion.com/documentation/api/menu/menuItemModel/#separator) property. The `Open` and `Save` sub menu items are grouped using the `separator` property in the following sample.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -208,10 +208,10 @@ The separators are both horizontal and vertical lines used to separate the menu 
           
 {% previewsample "page.domainurl/code-snippet/menu/getting-started-cs12" %}
 
-> The [`separator`](../api/menu/menuItemModel#separator) property should not be given along with the other fields in the [`MenuItem`](../api/menu/menuItemModel). You can also enable the separator to group **horizontal** menu items.
+> The [`separator`](https://helpej2.syncfusion.com/documentation/api/menu/menuItemModel/#separator) property should not be given along with the other fields in the [`MenuItem`](https://helpej2.syncfusion.com/documentation/api/menu/menuItemModel/). You can also enable the separator to group **horizontal** menu items.
 
 ## See Also
 
-* [Create menu using data source](./data-source-binding-and-custom-menu-items#data-binding)
-* [Customize menu items using template support](./data-source-binding-and-custom-menu-items#custom-menu-items)
-* [Integrating with Toolbar component](./use-case-scenarios#toolbar)
+* [Create menu using data source](https://ej2.syncfusion.com/documentation/menu/data-source-binding-and-custom-menu-items#data-binding)
+* [Customize menu items using template support](https://ej2.syncfusion.com/documentation/menu/data-source-binding-and-custom-menu-items#custom-menu-items)
+* [Integrating with Toolbar component](https://ej2.syncfusion.com/documentation/menu/use-case-scenarios#toolbar)

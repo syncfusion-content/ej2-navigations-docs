@@ -12,7 +12,7 @@ domainurl: ##DomainURL##
 # Getting started in ##Platform_Name## Accordion control
 
 This section briefly explains about how to create a simple **Accordion** using TypeScript and
-configure the Accordion items using Essential JS 2 [quickstart](https://github.com/syncfusion/ej2-quickstart.git)
+configure the Accordion items using Essential JS 2 [quickstart](https://github.com/syncfusion/ej2-quickstart)
  &nbsp;seed repository.
 
 ## Dependencies
@@ -27,11 +27,11 @@ The following list of dependencies are required to use the Accordion component i
 ## Installation and configuration
 
 * Clone the Essential JS 2 quickstart application project from
-[GitHub](https://github.com/syncfusion/ej2-quickstart.git), and
+[GitHub](https://github.com/syncfusion/ej2-quickstart), and
 install necessary npm packages using the following command.
 
 ```
-git clone https://github.com/syncfusion/ej2-quickstart.git quickstart
+git clone https://github.com/syncfusion/ej2-quickstart quickstart
 cd quickstart
 npm install
 ```
@@ -39,7 +39,7 @@ npm install
 > By default, the project is configured with all the Essential JS 2 dependencies. For better understanding, remove all the dependencies from
 `src/system.config.js` to get started with the Accordion component.
 
-* Refer to the [Accordion component dependencies](#dependencies) in `system.config.js` configuration file.
+* Refer to the [Accordion component dependencies](https://ej2.syncfusion.com/documentation/accordion/getting-started#dependencies) in `system.config.js` configuration file.
 
 `[src/system.config.js]`
 
@@ -81,7 +81,7 @@ This can be referenced in your application using the following code.
 
 ## Initialize the Accordion using Items
 
-The Accordion can be rendered by defining an array of [`items`](../api/accordion#items).
+The Accordion can be rendered by defining an array of [`items`](https://helpej2.syncfusion.com/documentation/api/accordion/#items).
 
 * Add the HTML div tag with its id attribute as `element` in your `index.html` file to initialize the Accordion.
 
@@ -191,10 +191,10 @@ You need to follow the below structure of HTML elements to render the Accordion.
           
 {% previewsample "page.domainurl/code-snippet/accordion/accordion-template-cs3" %}
 
-> You can add the custom class into Accordion component using [`cssClass`](../api/accordion/accordionItem#cssclass) property which is used to customize the Accordion component.
+> You can add the custom class into Accordion component using [`cssClass`](https://helpej2.syncfusion.com/documentation/api/accordion/accordionItem/#cssclass) property which is used to customize the Accordion component.
 
 ## See Also
 
-* [How to load accordion items dynamically](./how-to/load-accordion-items-dynamically/)
+* [How to load accordion items dynamically](https://ej2.syncfusion.com/documentation/accordion/how-to/load-accordion-items-dynamically)
 
 N> You can refer to our [JavaScript Accordion](https://www.syncfusion.com/javascript-ui-controls/js-accordion) feature tour page for its groundbreaking feature representations. You can also explore our [JavaScript Accordion example](https://ej2.syncfusion.com/demos/#/fabric/accordion/default.html) that shows you how to render the Accordion in JavaScript.

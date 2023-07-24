@@ -11,7 +11,7 @@ domainurl: ##DomainURL##
 
 # Template in ##Platform_Name## Treeview control
 
-The TreeView component allows you to customize the look of TreeView nodes by using the [nodeTemplate](../api/treeview#nodetemplate) property. This property accepts either [template string](../common/template-engine/) or HTML element ID.
+The TreeView component allows you to customize the look of TreeView nodes by using the [nodeTemplate](https://helpej2.syncfusion.com/documentation/api/treeview/#nodetemplate) property. This property accepts either [template string](https://helpej2.syncfusion.com/documentation/common/template-engine) or HTML element ID.
 
 In the following sample, employee information such as employee photo, name, and designation have been included using the `nodeTemplate` property.
 
@@ -46,5 +46,5 @@ The template expression should be provided inside the `${...}` interpolation syn
 
 ## See Also
 
-* [How to customize the expand and collapse icons](./how-to/customize-the-expand-and-collapse-icons)
-* [How to customize the tree nodes based on levels](./how-to/customize-the-tree-nodes-based-on-levels)
+* [How to customize the expand and collapse icons](https://helpej2.syncfusion.com/documentation/treeview/how-to/customize-the-expand-and-collapse-icons)
+* [How to customize the tree nodes based on levels](https://helpej2.syncfusion.com/documentation/treeview/how-to/customize-the-tree-nodes-based-on-levels)
