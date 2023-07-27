@@ -9,9 +9,9 @@ documentation: ug
 domainurl: ##DomainURL##
 ---
 
-# HelpPaneTemplate
+# Help Pane
 
-The users can access help content for tasks like controlling document permissions, sharing features, and more using the [helpPaneTemplate](https://ej2.syncfusion.com/documentation/api/ribbon#helppanetemplate) property in the Ribbon component allows you to customize the appearance and functionality of the help pane. The pane is positioned on the right side of the ribbon header row and can be customized by providing a template for its content.
+The help pane is dedicated area where the users can define help contents like controlling document permissions, sharing features, and more which appears on the right side of the Ribbon. You can use the [helpPaneTemplate](https://ej2.syncfusion.com/documentation/api/ribbon/#helppanetemplate) property to set the help pane contents.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

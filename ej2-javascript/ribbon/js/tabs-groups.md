@@ -58,4 +58,4 @@ You can add collections of items to each group by using the [collections](https:
           
 {% previewsample "page.domainurl/code-snippet/ribbon/items-cs1" %}
 
-> Check out our [`items`](./items) page on adding the built-in and custom items.
+> For more information on the built-in and how to add custom Ribbon items,you can visit the [`items`](./items) page.
