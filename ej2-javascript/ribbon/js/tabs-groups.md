@@ -1,15 +1,15 @@
 ---
 layout: post
 title: Tabs and Groups in  ##Platform_Name## Menu control | Syncfusion
-description:  Checkout and learn about Tabs and Groups with ##Platform_Name## Menu control of Syncfusion Essential JS 2 and more details.
+description:  Checkout and learn about Tabs and Groups with ##Platform_Name## Ribbon control of Syncfusion Essential JS 2 and more details.
 platform: ej2-javascript
-control: Tabs Groups
+control: Ribbon
 publishingplatform: ##Platform_Name##
 documentation: ug
 domainurl: ##DomainURL##
 ---
 
-# Tabs and Groups in Ribbon control
+# Tabs and Groups
 
 The Ribbon control consists of a series of tabs that are organized into groups to enable quick access to specific commands or tools. Each tab contains a set of groups, and each group contains collections of items that are logically related to each other.
 
@@ -57,3 +57,5 @@ You can add collections of items to each group by using the [collections](https:
 {% endtabs %}
           
 {% previewsample "page.domainurl/code-snippet/ribbon/items-cs1" %}
+
+> For more information on the built-in and how to add custom Ribbon items, you can visit the [`items`](./items) page.
