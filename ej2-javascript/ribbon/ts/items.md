@@ -15,7 +15,7 @@ Ribbon renders various built-in items based on the item [type](https://ej2.syncf
 
 ## Built-in items
 
-You can render the built-in Ribbon items by using the [Items](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonCollectionModel/#items) property, to specify the [type](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonItem/#type) property.
+You can render the built-in Ribbon items by using the [items](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonCollectionModel/#items) property, to specify the [type](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonItem/#type) property.
 
 The following table explains the built-in items and their actions.
 
