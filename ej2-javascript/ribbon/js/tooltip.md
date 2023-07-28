@@ -45,7 +45,7 @@ You can use the [content](https://ej2.syncfusion.com/javascript/documentation/ap
 
 ## Adding Icon
 
-You can use the [iconCss](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonTooltip/#iconcss) property to define the custom style for the icons.
+You can use the [iconCss](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonTooltip/#iconcss) property to specify the icons to be displayed in the tooltip.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -58,7 +58,7 @@ You can use the [iconCss](https://ej2.syncfusion.com/javascript/documentation/ap
           
 {% previewsample "page.domainurl/code-snippet/ribbon/tooltip-icon-cs1" %}
 
-## Tooltip Customization
+## Customization
 
 You can use the [cssClass](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonTooltip/#cssclass) property to customize the appearance of the tooltip with your own custom styles.
 

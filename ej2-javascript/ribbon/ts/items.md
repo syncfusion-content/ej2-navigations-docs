@@ -30,7 +30,7 @@ The following table explains the built-in items and their actions.
 
 ### Button items
 
-You can render the built-in `Button` Ribbon item by setting the [type](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonItem/#type) property as `Button` you can render a Button item. You can also customize the button item using the [RibbonButtonSettingsModel](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonButtonSettingsModel/), which provides options such as `iconCss`, `content`, `isToggle` and more.
+You can render the built-in button Ribbon item by setting the [type](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonItem/#type) property as `Button` you can render a Button item. You can also customize the button item using the [RibbonButtonSettingsModel](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonButtonSettingsModel/), which provides options such as `iconCss`, `content`, `isToggle` and more.
 
 #### Toggle button
 
@@ -67,7 +67,7 @@ ribbon.appendTo("#ribbon");
 
 ### Checkbox items
 
-You can render the built-in `CheckBox` Ribbon item by setting the [type](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonItem/#type) property to `CheckBox`. You can also customize the CheckBox item using the [RibbonCheckBoxSettingsModel](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonCheckBoxSettingsModel/), which provides options such as `labelPosition`, `label`, `checked` and more.
+You can render the built-in checkBox Ribbon item by setting the [type](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonItem/#type) property to `CheckBox`. You can also customize the checkBox item using the [RibbonCheckBoxSettingsModel](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonCheckBoxSettingsModel/), which provides options such as `labelPosition`, `label`, `checked` and more.
 
 #### Checkbox state
 
@@ -127,7 +127,7 @@ ribbon.appendTo("#ribbon");
 
 ### DropDown button items
 
-You can render the built-in `DropDown` Ribbon item by setting the [type](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonItem/#type) property to `DropDown`. You can also customize the DropDown item through [RibbonDropDownSettingsModel](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonDropDownSettingsModel/), which provides options such as `iconCss`, `content`, `target` and more.
+You can render the built-in dropDown Ribbon item by setting the [type](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonItem/#type) property to `DropDown`. You can also customize the dropDown item through [RibbonDropDownSettingsModel](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonDropDownSettingsModel/), which provides options such as `iconCss`, `content`, `target` and more.
 
 #### Target
 
@@ -146,7 +146,7 @@ The [target](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonDropDownS
 
 ### Split button items
 
-You can render the built-in `SplitButton` Ribbon item by setting the [type](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonItem/#type) property to `SplitButton`. You can also customize the SplitButton item through [RibbonSplitButtonSettingsModel](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonSplitButtonSettingsModel/), which provides options such as `iconCss`, `items`, `target` and more.
+You can render the built-in splitButton Ribbon item by setting the [type](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonItem/#type) property to `SplitButton`. You can also customize the splitButton item through [RibbonSplitButtonSettingsModel](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonSplitButtonSettingsModel/), which provides options such as `iconCss`, `items`, `target` and more.
 
 
 #### Target
@@ -166,11 +166,11 @@ The [target](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonSplitButt
 
 ### Combobox items
 
-You can render the built-in `ComboBox` Ribbon item by setting the [type](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonItem/#type) property to `ComboBox`. You can also customize the ComboBox item through [RibbonComboBoxSettingsModel](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonComboBoxSettingsModel/), which provides options such as `allowFiltering`, `autoFill`, `index`, `sortOrder` and more.
+You can render the built-in comboBox Ribbon item by setting the [type](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonItem/#type) property to `ComboBox`. You can also customize the comboBox item through [RibbonComboBoxSettingsModel](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonComboBoxSettingsModel/), which provides options such as `allowFiltering`, `autoFill`, `index`, `sortOrder` and more.
 
 #### Filtering
 
-You can use the [allowFiltering](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonComboBoxSettingsModel/#allowfiltering) built-in property to filter the data items. The filtering operation is initiated automatically, as soon as you start typing characters. If no match is found the value of the `noRecordsTemplate` property will be displayed. By default, the value is `false`.
+You can use the [allowFiltering](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonComboBoxSettingsModel/#allowfiltering) property to filter the data items. The filtering operation is initiated automatically, as soon as you start typing characters. If no match is found the value of the `noRecordsTemplate` property will be displayed. By default, the value is `false`.
 
 ```typescript
 import { Ribbon, RibbonTabModel, RibbonItemType } from "@syncfusion/ej2-ribbon";
@@ -231,11 +231,20 @@ ribbon.appendTo("#ribbon");
 
 You can use the [sortOrder](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonComboBoxSettingsModel/#sortorder) property to specify the order in which the DataSource should be sorted.
 
-| | |
-|------------------------|---------|
-| `None` | The data source is not sorted. |
-| `Ascending` | The data source is sorted in ascending order. |
-| `Descending`| The data source is sorted in descending order. |
+<table>
+  <tr>
+    <td>`None`</td>
+    <td>The data source is not sorted.</td>
+  </tr>
+  <tr>
+    <td>`Ascending`</td>
+    <td>The data source is sorted in ascending order.</td>
+  </tr>
+  <tr>
+    <td>`Descending`</td>
+    <td>The data source is sorted in descending order.</td>
+  </tr>
+</table>
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -250,7 +259,7 @@ You can use the [sortOrder](https://ej2.syncfusion.com/documentation/api/ribbon/
 
 ### Colorpicker items
 
-You can render the built-in `ColorPicker` Ribbon item by setting the [type](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonItem/#type) property to `ColorPicker`. You can also customize the ColorPicker item through [RibbonColorPickerSettingsModel](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonColorPickerSettingsModel/), which provides options such as `value`, `columns`, `showButtons` and more.
+You can render the built-in colorPicker Ribbon item by setting the [type](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonItem/#type) property to `ColorPicker`. You can also customize the colorPicker item through [RibbonColorPickerSettingsModel](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonColorPickerSettingsModel/), which provides options such as `value`, `columns`, `showButtons` and more.
 
 #### Value
 
@@ -268,7 +277,7 @@ You can use the [value](https://ej2.syncfusion.com/documentation/api/ribbon/ribb
 
 ## Custom items
 
-You can customize the ribbon items with non-built-in items by setting the [type](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonItem/#type) property to `Template`. This provides an option to customize the ribbon items with greater flexibility.
+You can customize the ribbon items with non-built-in items or HTML content by setting the [type](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonItem/#type) property to `Template`. This provides an option to customize the ribbon items with greater flexibility.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -288,12 +297,24 @@ You can customize the ribbon items with non-built-in items by setting the [type]
 
 You can use the [displayOptions](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonItem/#displayoptions) property to display the items in the Ribbon layout.
 
-| | |
-|------------------------|---------|
-| `Auto` | The items are displayed in all layouts based on the ribbon's overflow state.|
-| `Classic` | The items are displayed only in the classic layout group. |
-| `Overflow` | The items are displayed only in the overflow popup. |
-| `Simplified` | The items are displayed only in the simplified layout group. |
+<table>
+  <tr>
+    <td>`Auto`</td>
+    <td>The items are displayed in all layouts based on the ribbon's overflow state.</td>
+  </tr>
+  <tr>
+    <td>`Classic`</td>
+    <td>The items are displayed only in the classic layout group.</td>
+  </tr>
+  <tr>
+    <td>`Simplified`</td>
+    <td>The items are displayed only in the simplified layout group.</td>
+  </tr>
+  <tr>
+    <td>`Overflow`</td>
+    <td>The items are displayed only in the overflow popup.</td>
+  </tr>
+</table>
 
 ### Display items in Classic only
 

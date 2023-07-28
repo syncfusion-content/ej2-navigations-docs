@@ -44,7 +44,7 @@ You can use the [allowedSizes](https://ej2.syncfusion.com/documentation/api/ribb
 
 ### Defining items orientation
 
-The Ribbon group [orientation](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonGroupModel/#orientation) property allows to manage how the items are aligned. By default, the orientation is set to `Column`, in which the items are arranged vertically.
+The Ribbon group [orientation](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonGroupModel/#orientation) property allows to manage how the items are aligned either in a `Row` or `Column`. By default, the orientation is set to `Column`, in which the items are arranged vertically.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -166,7 +166,7 @@ In simplified layout, the Ribbon component organizes the items and groups into a
 
 ### Enabling group overflow popup
 
-You can use the [enableGroupOverflow](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonGroup/#enablegroupoverflow) property to add a separate popup for the overflow items in the group while resizing. The overflow items will appear in the standard overflow popup, located at the right end of the tab content if it is set to `false`.
+You can use the [enableGroupOverflow](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonGroup/#enablegroupoverflow) property to add a separate popup for the overflow items in the group while resizing. The overflow items will appear in the common overflow popup, located at the right end of the tab content if it is set to `false`.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

@@ -34,4 +34,4 @@ You can use the [allowedSizes](https://ej2.syncfusion.com/documentation/api/ribb
 
 ## Defining items active size
 
-You can use the [activeSize](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonItem/#activesize) read-only property to define the item size intially before it is being resized. When being resized, if the `allowedSizes` property is configured the `activeSize` property is updated based on the ribbon's overflow state. By default, the value is `Medium`.
+You can use the [activeSize](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonItem/#activesize) property to define the item size intially, before it is being resized. When resized the `activeSize` property is updated based on the ribbon's overflow state, which is determined by the `allowedSizes` property being configured. By default, the value is `Medium`.
