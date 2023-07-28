@@ -152,3 +152,5 @@ The [`Custom Resource Generator (CRG)`](https://crg.syncfusion.com/) is an onlin
 {% endtabs %}
         
 {% previewsample "page.domainurl/code-snippet/appbar/es5-getting-started-cs1" %}
+
+N> You can refer to our [JavaScript AppBar](https://www.syncfusion.com/javascript-ui-controls/js-appbar) feature tour page for its groundbreaking feature representations. You can also explore our [JavaScript AppBar example](https://ej2.syncfusion.com/demos/#/bootstrap5/appbar/default.html) that show you how to render and configure the AppBar in JavaScript.
