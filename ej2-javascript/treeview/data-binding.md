@@ -11,17 +11,17 @@ domainurl: ##DomainURL##
 
 # Data binding in ##Platform_Name## Treeview control
 
-The TreeView component provides the option to load data either from local data sources or from remote data services. This can be done through `dataSource` property that is a member of the [fields](https://helpej2.syncfusion.com/documentation/api/treeview/#fields) property. The `dataSource` property supports array of JavaScript objects and [DataManager](https://helpej2.syncfusion.com/documentation/api/data/dataManager/). It also supports different kinds of data services such as OData, OData V4, Web API, URL, and JSON with the help of `DataManager` adaptors.
+The TreeView component provides the option to load data either from local data sources or from remote data services. This can be done through `dataSource` property that is a member of the [fields](../api/treeview#fields) property. The `dataSource` property supports array of JavaScript objects and [DataManager](../api/data/dataManager/). It also supports different kinds of data services such as OData, OData V4, Web API, URL, and JSON with the help of `DataManager` adaptors.
 
 TreeView has `load on demand` (Lazy load), by default. It reduces the bandwidth size when consuming huge data. It loads first level nodes initially, and when parent node is expanded,  loads the child nodes based on the `parentID/child` member.
 
 By default, the `loadOnDemand` is set to true. By disabling this property, all the tree nodes are rendered at the beginning itself.
 
-You can use the [`dataBound`](https://helpej2.syncfusion.com/documentation/api/treeview/#databound) event to perform actions. This event will be triggered once the data source is populated in the TreeView.
+You can use the [`dataBound`](../api/treeview#databound) event to perform actions. This event will be triggered once the data source is populated in the TreeView.
 
 ## Local data
 
-To bind local data to the TreeView, you can assign a JavaScript object array to the [dataSource](https://helpej2.syncfusion.com/documentation/api/treeview/fieldsSettingsModel/#datasource) property. The TreeView component requires three  fields (ID, text, and parentID) to render local data source. When mapper fields are not specified, it takes the default values as the mapping fields. Local data source can also be provided as an instance of the `DataManager`. It supports two kinds of local data binding methods.
+To bind local data to the TreeView, you can assign a JavaScript object array to the [dataSource](../api/treeview/fieldsSettingsModel#datasource) property. The TreeView component requires three  fields (ID, text, and parentID) to render local data source. When mapper fields are not specified, it takes the default values as the mapping fields. Local data source can also be provided as an instance of the `DataManager`. It supports two kinds of local data binding methods.
 
 * Hierarchical data
 
@@ -29,7 +29,7 @@ To bind local data to the TreeView, you can assign a JavaScript object array to 
 
 ### Hierarchical data
 
-TreeView can be populated with hierarchical data source that contains nested array of JSON objects. You can directly assign hierarchical data to the [dataSource](https://helpej2.syncfusion.com/documentation/api/treeview/fieldsSettingsModel/#datasource) property, and map all the field members with corresponding keys from the hierarchical data to `fields` property.
+TreeView can be populated with hierarchical data source that contains nested array of JSON objects. You can directly assign hierarchical data to the [dataSource](../api/treeview/fieldsSettingsModel#datasource) property, and map all the field members with corresponding keys from the hierarchical data to `fields` property.
 
 In the following example, **code**, **name**, and **countries** columns from hierarchical data have been mapped to **id**, **text**, and **child** fields, respectively.
 
@@ -64,7 +64,7 @@ In the following example, **code**, **name**, and **countries** columns from hie
 
 TreeView can be populated from self-referential data structure that contains array of JSON objects with `parentID` mapping.
 
-You can directly assign self-referential data to the `dataSource` property, and map all the field members with corresponding keys from self-referential data to [fields](https://helpej2.syncfusion.com/documentation/api/treeview/#fields) property.
+You can directly assign self-referential data to the `dataSource` property, and map all the field members with corresponding keys from self-referential data to [fields](../api/treeview#field) property.
 
 To render the root level nodes, specify the parentID as null or no need to specify the parentID in `dataSource`.
 
@@ -99,7 +99,7 @@ In the following example, **id**, **pid**, **hasChild**, and **name** columns fr
 
 ## Remote data
 
-TreeView can also be populated from a remote data service with the help of [DataManager](https://helpej2.syncfusion.com/documentation/api/data/dataManager//) component and `Query` property.
+TreeView can also be populated from a remote data service with the help of [DataManager](../api/data/dataManager/) component and `Query` property.
 
 It supports different kinds of data services such as OData, OData V4, Web API, URL, and JSON with the help of `DataManager` adaptors.
 

@@ -12,7 +12,7 @@ domainurl: ##DomainURL##
 # Getting started in ##Platform_Name## Accordion control
 
 This section briefly explains about how to create a simple **Accordion** using TypeScript and
-configure the Accordion items using Essential JS 2 [quickstart](https://github.com/syncfusion/ej2-quickstart)
+configure the Accordion items using Essential JS 2 [quickstart](https://github.com/syncfusion/ej2-quickstart.git)
  &nbsp;seed repository.
 
 ## Dependencies
@@ -27,11 +27,11 @@ The following list of dependencies are required to use the Accordion component i
 ## Installation and configuration
 
 * Clone the Essential JS 2 quickstart application project from
-[GitHub](https://github.com/syncfusion/ej2-quickstart), and
+[GitHub](https://github.com/syncfusion/ej2-quickstart.git), and
 install necessary npm packages using the following command.
 
 ```
-git clone https://github.com/syncfusion/ej2-quickstart quickstart
+git clone https://github.com/syncfusion/ej2-quickstart.git quickstart
 cd quickstart
 npm install
 ```
@@ -191,7 +191,7 @@ You need to follow the below structure of HTML elements to render the Accordion.
           
 {% previewsample "page.domainurl/code-snippet/accordion/accordion-template-cs3" %}
 
-> You can add the custom class into Accordion component using [`cssClass`](https://helpej2.syncfusion.com/documentation/api/accordion/accordionItem/#cssclass) property which is used to customize the Accordion component.
+> You can add the custom class into Accordion component using [`cssClass`](https://ej2.syncfusion.com/documentation/api/accordion/accordionItem/#cssclass) property which is used to customize the Accordion component.
 
 ## See Also
 
