@@ -64,7 +64,7 @@ In the following example, **code**, **name**, and **countries** columns from hie
 
 TreeView can be populated from self-referential data structure that contains array of JSON objects with `parentID` mapping.
 
-You can directly assign self-referential data to the `dataSource` property, and map all the field members with corresponding keys from self-referential data to [fields](../api/treeview#field) property.
+You can directly assign self-referential data to the `dataSource` property, and map all the field members with corresponding keys from self-referential data to [fields](../api/treeview#fields) property.
 
 To render the root level nodes, specify the parentID as null or no need to specify the parentID in `dataSource`.
 

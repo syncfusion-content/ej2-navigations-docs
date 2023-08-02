@@ -81,7 +81,7 @@ This can be referenced in your application using the following code.
 
 ## Initialize the Accordion using Items
 
-The Accordion can be rendered by defining an array of [`items`](https://helpej2.syncfusion.com/documentation/api/accordion/#items).
+The Accordion can be rendered by defining an array of [`items`](https://ej2.syncfusion.com/documentation/api/accordion/#items).
 
 * Add the HTML div tag with its id attribute as `element` in your `index.html` file to initialize the Accordion.
 
