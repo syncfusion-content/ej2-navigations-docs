@@ -164,7 +164,7 @@ let toolbar: Toolbar = new Toolbar({
 
 With the above code, the user can switch between the two Toolbar items using the Tab and Shift+Tab keys, in addition to using the arrow keys. The items will be navigated in the order specified by the [`tabIndex`](../api/toolbar/item/#tabindex) values.
 
-If you set the [`tabIndex`](https://ej2.syncfusion.com/documentation/api/toolbar/item/#tabindex) value to 0 for all Toolbar items, tab key navigation will be based on the element order rather than the [`tabIndex`](../api/toolbar/item/#tabindex) values. For example:
+If you set the [`tabIndex`](../api/toolbar/item/#tabindex) value to 0 for all Toolbar items, tab key navigation will be based on the element order rather than the [`tabIndex`](../api/toolbar/item/#tabindex) values. For example:
 
 ```ts
 import {Toolbar} from '@syncfusion/ej2-navigations';
