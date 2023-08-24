@@ -195,6 +195,6 @@ You need to follow the below structure of HTML elements to render the Accordion.
 
 ## See Also
 
-* [How to load accordion items dynamically](https://ej2.syncfusion.com/documentation/accordion/how-to/load-accordion-items-dynamically)
+* [How to load accordion items dynamically](./how-to/load-accordion-items-dynamically/)
 
 N> You can refer to our [JavaScript Accordion](https://www.syncfusion.com/javascript-ui-controls/js-accordion) feature tour page for its groundbreaking feature representations. You can also explore our [JavaScript Accordion example](https://ej2.syncfusion.com/demos/#/fabric/accordion/default.html) that shows you how to render the Accordion in JavaScript.

@@ -196,5 +196,5 @@ The Separators are the horizontal lines that are used to separate the menu items
 
 ## See Also
 
-* [ContextMenu with icons](https://ej2.syncfusion.com/documentation/context-menu/icons-and-navigation#icons)
-* [Multi-level nesting](https://ej2.syncfusion.com/documentation/context-menu/template-and-multilevel-nesting#multilevel-nesting)
+* [ContextMenu with icons](./icons-and-navigation#icons)
+* [Multi-level nesting](./template-and-multilevel-nesting#multilevel-nesting)

@@ -191,7 +191,7 @@ The following example shows a basic Menu component.
           
 {% previewsample "page.domainurl/code-snippet/menu/getting-started-cs11" %}
 
-> This example demonstrates the basic rendering of Menu with items support. For more information about data source support, refer to the [`Data Source Binding`](https://ej2.syncfusion.com/documentation/menu/data-source-binding-and-custom-menu-items#data-binding) section.
+> This example demonstrates the basic rendering of Menu with items support. For more information about data source support, refer to the [`Data Source Binding`](./data-source-binding-and-custom-menu-items#data-binding) section.
 
 ## Group menu items with separator
 
@@ -212,6 +212,6 @@ The separators are both horizontal and vertical lines used to separate the menu 
 
 ## See Also
 
-* [Create menu using data source](https://ej2.syncfusion.com/documentation/menu/data-source-binding-and-custom-menu-items#data-binding)
-* [Customize menu items using template support](https://ej2.syncfusion.com/documentation/menu/data-source-binding-and-custom-menu-items#custom-menu-items)
-* [Integrating with Toolbar component](https://ej2.syncfusion.com/documentation/menu/use-case-scenarios#toolbar)
+* [Create menu using data source](./data-source-binding-and-custom-menu-items#data-binding)
+* [Customize menu items using template support](./data-source-binding-and-custom-menu-items#custom-menu-items)
+* [Integrating with Toolbar component](./use-case-scenarios#toolbar)
