@@ -87,3 +87,40 @@ Use the following CSS to customize the selected toolbar item.
 }
 
 ```
+
+## Custom image in toolbar item
+
+You have the capability to incorporate a personalized image into the Toolbar as a toolbar item by utilizing the [`prefixIcon`](https://ej2.syncfusion.com/documentation/api/toolbar/item/#prefixicon) property. In the following example, we've exhibited an instance where a custom image is showcased as the left toolbar item. This is illustrated through the code snippets provided below.
+
+{% if page.publishingplatform == "typescript" %}
+
+ {% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/toolbar/toolbar-item-custom-image/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/toolbar/toolbar-item-custom-image/index.html %}
+{% endhighlight %}
+{% highlight css tabtitle="index.css" %}
+{% include code-snippet/toolbar/toolbar-item-custom-image/index.css %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "page.domainurl/code-snippet/toolbar/toolbar-item-custom-image" %}
+
+{% elsif page.publishingplatform == "javascript" %}
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/toolbar/toolbar-item-custom-image/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/toolbar/toolbar-item-custom-image/index.html %}
+{% endhighlight %}
+{% highlight css tabtitle="index.css" %}
+{% include code-snippet/toolbar/toolbar-item-custom-image/index.css %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/toolbar/toolbar-item-custom-image" %}
+{% endif %}
