@@ -81,7 +81,7 @@ This can be referenced in your application using the following code.
 
 ## Initialize the Accordion using Items
 
-The Accordion can be rendered by defining an array of [`items`](../api/accordion#items).
+The Accordion can be rendered by defining an array of [`items`](../api/accordion/#items).
 
 * Add the HTML div tag with its id attribute as `element` in your `index.html` file to initialize the Accordion.
 
@@ -191,7 +191,7 @@ You need to follow the below structure of HTML elements to render the Accordion.
           
 {% previewsample "page.domainurl/code-snippet/accordion/accordion-template-cs3" %}
 
-> You can add the custom class into Accordion component using [`cssClass`](../api/accordion/accordionItem#cssclass) property which is used to customize the Accordion component.
+> You can add the custom class into Accordion component using [`cssClass`](../api/accordion/accordionItem/#cssclass) property which is used to customize the Accordion component.
 
 ## See Also
 

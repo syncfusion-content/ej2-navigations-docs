@@ -195,7 +195,7 @@ The following example shows a basic Menu component.
 
 ## Group menu items with separator
 
-The separators are both horizontal and vertical lines used to separate the menu items. You cannot select the separators, but you can enable separators to group the menu items using the [`separator`](../api/menu/menuItemModel#separator) property. The `Open` and `Save` sub menu items are grouped using the `separator` property in the following sample.
+The separators are both horizontal and vertical lines used to separate the menu items. You cannot select the separators, but you can enable separators to group the menu items using the [`separator`](../api/menu/menuItemModel/#separator) property. The `Open` and `Save` sub menu items are grouped using the `separator` property in the following sample.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -208,7 +208,7 @@ The separators are both horizontal and vertical lines used to separate the menu 
           
 {% previewsample "page.domainurl/code-snippet/menu/getting-started-cs12" %}
 
-> The [`separator`](../api/menu/menuItemModel#separator) property should not be given along with the other fields in the [`MenuItem`](../api/menu/menuItemModel). You can also enable the separator to group **horizontal** menu items.
+> The [`separator`](../api/menu/menuItemModel/#separator) property should not be given along with the other fields in the [`MenuItem`](../api/menu/menuItemModel). You can also enable the separator to group **horizontal** menu items.
 
 ## See Also
 
