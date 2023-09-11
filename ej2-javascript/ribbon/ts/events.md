@@ -1301,6 +1301,121 @@ let ribbon: Ribbon = new Ribbon({ tabs: tabs });
 ribbon.appendTo("#ribbon");
 ```
 
+## GroupButton item events
+
+### beforeClick
+
+The [beforeClick]() event is triggered before clicking the button from group button.
+
+```typescript
+import { Ribbon, RibbonTabModel, RibbonItemType, BeforeClickGroupButtonEventArgs } from "@syncfusion/ej2-ribbon";
+
+let tabs: RibbonTabModel[] = [{
+    header: "Home",
+    groups: [{
+        header: "Header & Footer",
+        collections: [
+          {
+            items: [{
+                type: RibbonItemType.GroupButton,
+                groupButtonSettings: {
+                    selection: RibbonGroupButtonSelection.Single,
+                    items: [{
+                        iconCss: 'e-icons e-align-left',
+                        content: 'Align Left',
+                        beforeClick:(args: BeforeClickGroupButtonEventArgs) => {
+                            // Your required action here
+                        }
+                    },
+                    {
+                        iconCss: 'e-icons e-align-center',
+                        content: 'Align Center',
+                        selected: true,
+                        beforeClick:(args: BeforeClickGroupButtonEventArgs) => {
+                            // Your required action here
+                        }                        
+                    },
+                    {
+                        iconCss: 'e-icons e-align-right',
+                        content: 'Align Right',
+                        beforeClick:(args: BeforeClickGroupButtonEventArgs) => {
+                            // Your required action here
+                        }
+                    },
+                    {
+                        iconCss: 'e-icons e-justify',
+                        content: 'Justify',
+                        beforeClick:(args: BeforeClickGroupButtonEventArgs) => {
+                            // Your required action here
+                        }
+                    }]
+                }
+            }]
+        }]
+    }]
+}];
+
+let ribbon: Ribbon = new Ribbon({ tabs: tabs });
+ribbon.appendTo("#ribbon");
+```
+
+### click
+
+The [click]() event is triggered clicking the button from group button.
+
+```typescript
+import { Ribbon, RibbonTabModel, RibbonItemType, ClickGroupButtonEventArgs } from "@syncfusion/ej2-ribbon";
+
+let tabs: RibbonTabModel[] = [{
+    header: "Home",
+    groups: [{
+        header: "Header & Footer",
+        collections: [
+          {
+            items: [{
+                type: RibbonItemType.GroupButton,
+                groupButtonSettings: {
+                    selection: RibbonGroupButtonSelection.Single,
+                    items: [{
+                        iconCss: 'e-icons e-align-left',
+                        content: 'Align Left',
+                        click:(args: ClickGroupButtonEventArgs) => {
+                            // Your required action here
+                        }
+                    },
+                    {
+                        iconCss: 'e-icons e-align-center',
+                        content: 'Align Center',
+                        selected: true,
+                        click:(args: ClickGroupButtonEventArgs) => {
+                            // Your required action here
+                        }                        
+                    },
+                    {
+                        iconCss: 'e-icons e-align-right',
+                        content: 'Align Right',
+                        click:(args: ClickGroupButtonEventArgs) => {
+                            // Your required action here
+                        }
+                    },
+                    {
+                        iconCss: 'e-icons e-justify',
+                        content: 'Justify',
+                        click:(args: ClickGroupButtonEventArgs) => {
+                            // Your required action here
+                        }
+                    }]
+                }
+            }]
+        }]
+    }]
+}];
+
+let ribbon: Ribbon = new Ribbon({ tabs: tabs });
+ribbon.appendTo("#ribbon");
+```
+
+
 ## FileMenu events
 
 ### beforeClose

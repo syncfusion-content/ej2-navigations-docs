@@ -1186,6 +1186,120 @@ var ribbon = new ej.ribbon.Ribbon({ tabs: tabs });
 ribbon.appendTo("#ribbon");
 ```
 
+## GroupButton item events
+
+### beforeClick
+
+The [beforeClick]() event is triggered before clicking the button from group button.
+
+```js
+var tabs = [{
+    header: "Home",
+    groups: [{
+        header: "Paragraph",
+        collections: [
+          {
+            items: [{
+                type: "GroupButton",
+                allowedSizes: ej.ribbon.RibbonItemSize.Large,
+                groupButtonSettings: {
+                    selection: RibbonGroupButtonSelection.Multiple,
+                    items: [{
+                        iconCss: 'e-icons e-align-left',
+                        content: 'Align Left',
+                        beforeClick:(args) => {
+                            // Your required action here
+                        }
+                    },
+                    {
+                        iconCss: 'e-icons e-align-center',
+                        content: 'Align Center',
+                        selected: true,
+                        beforeClick:(args) => {
+                            // Your required action here
+                        }
+                    },
+                    {
+                        iconCss: 'e-icons e-align-right',
+                        content: 'Align Right',
+                        beforeClick:(args) => {
+                            // Your required action here
+                        }
+                    },
+                    {
+                        iconCss: 'e-icons e-justify',
+                        selected: true,
+                        content: 'Justify',
+                        beforeClick:(args) => {
+                            // Your required action here
+                        }
+                    }]
+                }
+            }]
+        }]
+    }]
+}];
+
+var ribbon = new ej.ribbon.Ribbon({ tabs: tabs });
+ribbon.appendTo("#ribbon");
+```
+
+### click
+
+The [click]() event is triggered clicking the button from group button.
+
+```js
+var tabs = [{
+    header: "Home",
+    groups: [{
+        header: "Paragraph",
+        collections: [
+          {
+            items: [{
+                type: "GroupButton",
+                allowedSizes: ej.ribbon.RibbonItemSize.Large,
+                groupButtonSettings: {
+                    selection: RibbonGroupButtonSelection.Single,
+                    items: [{
+                        iconCss: 'e-icons e-align-left',
+                        content: 'Align Left',
+                        click:(args) => {
+                            // Your required action here
+                        }
+                    },
+                    {
+                        iconCss: 'e-icons e-align-center',
+                        content: 'Align Center',
+                        selected: true,
+                        click:(args) => {
+                            // Your required action here
+                        }
+                    },
+                    {
+                        iconCss: 'e-icons e-align-right',
+                        content: 'Align Right',
+                        click:(args) => {
+                            // Your required action here
+                        }
+                    },
+                    {
+                        iconCss: 'e-icons e-justify',
+                        selected: true,
+                        content: 'Justify',
+                        click:(args) => {
+                            // Your required action here
+                        }
+                    }]
+                }
+            }]
+        }]
+    }]
+}];
+
+var ribbon = new ej.ribbon.Ribbon({ tabs: tabs });
+ribbon.appendTo("#ribbon");
+```
+
 ## FileMenu events
 
 ### beforeClose

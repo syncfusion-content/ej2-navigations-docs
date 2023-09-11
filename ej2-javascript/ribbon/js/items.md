@@ -263,6 +263,41 @@ You can use the [value](https://ej2.syncfusion.com/javascript/documentation/api/
           
 {% previewsample "page.domainurl/code-snippet/ribbon/colorPickerValue" %}
 
+### Groupbutton
+
+You can render the built-in group button Ribbon item by setting the [type]() property to `GroupButton`. You can also customize the group button through [RibbonGroupButtonSettingsModel](), which provides options such as `selection` and `items`.
+
+#### Groupbutton items
+You can render the group button items by using [items] property. You can also customize the group button items through [RibbonGroupButtonItemModel], which provides options such as `content`, `iconCss`, `selected` and more.
+
+#### Single selection
+When set [selection] property to `Single`," the ribbon group button permits users to choose only one option at a time. Clicking on a different option will deselect the previously selected one.
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/ribbon/singleSelection/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/ribbon/singleSelection/index.html %}
+{% endhighlight %}
+{% endtabs %}
+          
+{% previewsample "page.domainurl/code-snippet/ribbon/singleSelection" %}
+
+#### Multiple selection
+When set [selection] property to `Multiple`," the ribbon group button allows users to select more than one option simultaneously. Users can select multiple items by clicking on them individually and these selections remain active until explicitly deselected.
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/ribbon/multipleSelection/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/ribbon/multipleSelection/index.html %}
+{% endhighlight %}
+{% endtabs %}
+          
+{% previewsample "page.domainurl/code-snippet/ribbon/multipleSelection" %}
+
 ## Custom items
 
 You can customize the ribbon items with non-built-in items or HTML content by setting the [type](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonItem/#type) property to `Template`. This provides an option to customize the ribbon items with greater flexibility.
