@@ -1203,7 +1203,7 @@ var tabs = [{
                 type: "GroupButton",
                 allowedSizes: ej.ribbon.RibbonItemSize.Small,
                 groupButtonSettings: {
-                    selection: RibbonGroupButtonSelection.Multiple,
+                    selection: ej.ribbon.RibbonGroupButtonSelection.Multiple,
                     items: [{
                         iconCss: 'e-icons e-bold',
                         content: 'Bold',
@@ -1259,7 +1259,7 @@ var tabs = [{
                 type: "GroupButton",
                 allowedSizes: ej.ribbon.RibbonItemSize.Small,
                 groupButtonSettings: {
-                    selection: RibbonGroupButtonSelection.Single,
+                    selection: ej.ribbon.RibbonGroupButtonSelection.Single,
                     items: [{
                         iconCss: 'e-icons e-align-left',
                         content: 'Align Left',

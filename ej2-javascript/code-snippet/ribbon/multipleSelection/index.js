@@ -8,7 +8,7 @@ var tabs = [{
                 type: "GroupButton",
                 allowedSizes: ej.ribbon.RibbonItemSize.Small,
                 groupButtonSettings: {
-                    selection: RibbonGroupButtonSelection.Multiple,
+                    selection: ej.ribbon.RibbonGroupButtonSelection.Multiple,
                     items: [{
                         iconCss: 'e-icons e-bold',
                         content: 'Bold'
