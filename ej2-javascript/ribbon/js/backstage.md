@@ -11,11 +11,13 @@ domainurl: ##DomainURL##
 
 # Ribbon Backstage
 
-The Ribbon control provides a built-in backstage menu that allows you to add menu items for performing specific actions on the entire page. The backstage menu can be enabled by setting the [backStageMenu](https://ej2.syncfusion.com/documentation/api/ribbon#backstagemenu) property.
+The backstage view is an addition to the traditional file menu which is supported in the Ribbon component. It displays information like application settings, user details, etc. The backstage menu can be enabled by setting the `backStageMenu` property.
+
+The backstage menu options are displayed on the left, while the content of each option is shown on the right.
 
 ## Configure the backstage items
 
-You can add the backstage menu items by setting the [items]() property as an array of [`BackstageItemModel`](). You can show the backstage menu by setting the [visible]() property to `true`. By default, the backstage menu is hidden.
+The menu items can be added to the backstage menu by using the `items` property. You can show the backstage menu by setting the `visible` property to `true`. By default, the backstage menu is hidden.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -30,7 +32,7 @@ You can add the backstage menu items by setting the [items]() property as an arr
 
 ## Adding separator
 
-The separators are horizontal lines used to separate the backstage menu items. You cannot select the separators, but you can enable separators to group the menu items using the [`separator`]() property.
+The separators are horizontal lines used to separate the backstage menu items. You can use the `separator` property to split the menu items.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -45,7 +47,7 @@ The separators are horizontal lines used to separate the backstage menu items. Y
 
 ## Configure footer items
 
-You can add the backstage footer menu items by setting the [items]() property with a boolean property of [isFooter]() as a condition for items to render in footer.
+You can use the `isFooter` property in the `items` collection to add the backstage menu footer items. By default, the value is false.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -60,7 +62,7 @@ You can add the backstage footer menu items by setting the [items]() property wi
 
 ## Show/Hide backstage
 
-You can open/close the ribbon backstage programmatically using [showBackstage]() and [hideBackstage]() methods.
+You can open/close the ribbon backstage menu programmatically by using `showBackstage` and `hideBackstage` methods.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
