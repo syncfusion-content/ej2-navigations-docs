@@ -8,7 +8,7 @@ let tabs: RibbonTabModel[] = [{
           {
             items: [{
                 type: RibbonItemType.GroupButton,
-                allowedSizes: RibbonItemSize.Large,
+                allowedSizes: RibbonItemSize.Small,
                 groupButtonSettings: {
                     selection: RibbonGroupButtonSelection.Single,
                     items: [{

@@ -27,6 +27,7 @@ The following table explains the built-in items and their actions.
 | SplitButton | Renders splitbutton as ribbon item.|
 | ComboBox | Renders combobox as ribbon item.|
 | ColorPicker | Renders color picker as ribbon item.|
+| GroupButton | Renders groupbutton as ribbon item.|
 
 ### Button items
 
@@ -275,15 +276,17 @@ You can use the [value](https://ej2.syncfusion.com/documentation/api/ribbon/ribb
           
 {% previewsample "page.domainurl/code-snippet/ribbon/colorPickerValue" %}
 
-### Groupbutton
+### Groupbutton items
 
-You can render the built-in group button Ribbon item by setting the [type]() property to `GroupButton`. You can also customize the group button through [RibbonGroupButtonSettingsModel](), which provides options such as `selection` and `items`.
+You can render the built-in groupButton Ribbon item by setting the `type` property to `GroupButton`. You can also customize the groupButton item using the `RibbonGroupButtonSettingsModel`, which provides options such as `selection` and `items`.
 
-#### Groupbutton items
-You can render the group button items by using [items] property. You can also customize the group button items through [RibbonGroupButtonItemModel], which provides options such as `content`, `iconCss`, `selected` and more.
+#### Items
+
+You can render the groupButton items by using `items` property. You can also customize the groupButton items through `RibbonGroupButtonItemModel`, which provides options such as `content`, `iconCss`, `selected` and more.
 
 #### Single selection
-When set [selection] property to `Single`," the ribbon group button permits users to choose only one option at a time. Clicking on a different option will deselect the previously selected one.
+
+You can set the `selection` parameter value as `RibbonGroupButtonSelection.Single` to choose only one item at a time. It automatically deselects the previous choice when a different item is clicked.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -297,7 +300,8 @@ When set [selection] property to `Single`," the ribbon group button permits user
 {% previewsample "page.domainurl/code-snippet/ribbon/singleSelection" %}
 
 #### Multiple selection
-When set [selection] property to `Multiple`," the ribbon group button allows users to select more than one option simultaneously. Users can select multiple items by clicking on them individually and these selections remain active until explicitly deselected.
+
+You can set the `selection` parameter value as `RibbonGroupButtonSelection.Multiple` to select more than one item simultaneously. Users can click on items one by one to select multiple items, and these selections stay active until manually deselected.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

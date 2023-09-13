@@ -1190,7 +1190,7 @@ ribbon.appendTo("#ribbon");
 
 ### beforeClick
 
-The [beforeClick]() event is triggered before clicking the button from group button.
+The `beforeClick` event is triggered before selecting the button from the groupButton items.
 
 ```js
 var tabs = [{
@@ -1201,35 +1201,35 @@ var tabs = [{
           {
             items: [{
                 type: "GroupButton",
-                allowedSizes: ej.ribbon.RibbonItemSize.Large,
+                allowedSizes: ej.ribbon.RibbonItemSize.Small,
                 groupButtonSettings: {
                     selection: RibbonGroupButtonSelection.Multiple,
                     items: [{
-                        iconCss: 'e-icons e-align-left',
-                        content: 'Align Left',
+                        iconCss: 'e-icons e-bold',
+                        content: 'Bold',
                         beforeClick:(args) => {
                             // Your required action here
                         }
                     },
                     {
-                        iconCss: 'e-icons e-align-center',
-                        content: 'Align Center',
+                        iconCss: 'e-icons e-italic',
+                        content: 'Italic',
                         selected: true,
                         beforeClick:(args) => {
                             // Your required action here
                         }
                     },
                     {
-                        iconCss: 'e-icons e-align-right',
-                        content: 'Align Right',
+                        iconCss: 'e-icons e-underline',
+                        content: 'Underline',
                         beforeClick:(args) => {
                             // Your required action here
                         }
                     },
                     {
-                        iconCss: 'e-icons e-justify',
+                        iconCss: 'e-icons e-strikethrough',
                         selected: true,
-                        content: 'Justify',
+                        content: 'Strikethrough',
                         beforeClick:(args) => {
                             // Your required action here
                         }
@@ -1246,7 +1246,7 @@ ribbon.appendTo("#ribbon");
 
 ### click
 
-The [click]() event is triggered clicking the button from group button.
+The `click` event is triggered when selecting the button from the groupButton items.
 
 ```js
 var tabs = [{
@@ -1257,7 +1257,7 @@ var tabs = [{
           {
             items: [{
                 type: "GroupButton",
-                allowedSizes: ej.ribbon.RibbonItemSize.Large,
+                allowedSizes: ej.ribbon.RibbonItemSize.Small,
                 groupButtonSettings: {
                     selection: RibbonGroupButtonSelection.Single,
                     items: [{

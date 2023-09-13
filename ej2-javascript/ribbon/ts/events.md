@@ -1305,7 +1305,7 @@ ribbon.appendTo("#ribbon");
 
 ### beforeClick
 
-The [beforeClick]() event is triggered before clicking the button from group button.
+The `beforeClick` event is triggered before selecting the button from the groupButton items.
 
 ```typescript
 import { Ribbon, RibbonTabModel, RibbonItemType, BeforeClickGroupButtonEventArgs } from "@syncfusion/ej2-ribbon";
@@ -1318,33 +1318,34 @@ let tabs: RibbonTabModel[] = [{
           {
             items: [{
                 type: RibbonItemType.GroupButton,
+                allowedSizes: RibbonItemSize.Small,
                 groupButtonSettings: {
-                    selection: RibbonGroupButtonSelection.Single,
+                    selection: RibbonGroupButtonSelection.Multiple,
                     items: [{
-                        iconCss: 'e-icons e-align-left',
-                        content: 'Align Left',
+                        iconCss: 'e-icons e-bold',
+                        content: 'Bold',
                         beforeClick:(args: BeforeClickGroupButtonEventArgs) => {
                             // Your required action here
                         }
                     },
                     {
-                        iconCss: 'e-icons e-align-center',
-                        content: 'Align Center',
+                        iconCss: 'e-icons e-italic',
+                        content: 'Italic',
                         selected: true,
                         beforeClick:(args: BeforeClickGroupButtonEventArgs) => {
                             // Your required action here
                         }                        
                     },
                     {
-                        iconCss: 'e-icons e-align-right',
-                        content: 'Align Right',
+                        iconCss: 'e-icons e-underline',
+                        content: 'Underline',
                         beforeClick:(args: BeforeClickGroupButtonEventArgs) => {
                             // Your required action here
                         }
                     },
                     {
-                        iconCss: 'e-icons e-justify',
-                        content: 'Justify',
+                        iconCss: 'e-icons e-strikethrough',
+                        content: 'Strikethrough',
                         beforeClick:(args: BeforeClickGroupButtonEventArgs) => {
                             // Your required action here
                         }
@@ -1361,7 +1362,7 @@ ribbon.appendTo("#ribbon");
 
 ### click
 
-The [click]() event is triggered clicking the button from group button.
+The `click` event is triggered when selecting the button from the groupButton items.
 
 ```typescript
 import { Ribbon, RibbonTabModel, RibbonItemType, ClickGroupButtonEventArgs } from "@syncfusion/ej2-ribbon";
@@ -1374,6 +1375,7 @@ let tabs: RibbonTabModel[] = [{
           {
             items: [{
                 type: RibbonItemType.GroupButton,
+                allowedSizes: RibbonItemSize.Small,
                 groupButtonSettings: {
                     selection: RibbonGroupButtonSelection.Single,
                     items: [{

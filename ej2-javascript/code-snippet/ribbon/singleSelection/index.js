@@ -6,9 +6,9 @@ var tabs = [{
           {
             items: [{
                 type: "GroupButton",
-                allowedSizes: ej.ribbon.RibbonItemSize.Large,
+                allowedSizes: ej.ribbon.RibbonItemSize.Small,
                 groupButtonSettings: {
-                    selection: RibbonGroupButtonSelection.Single,
+                    selection: ej.ribbon.RibbonGroupButtonSelection.Single,
                     items: [{
                         iconCss: 'e-icons e-align-left',
                         content: 'Align Left'

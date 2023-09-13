@@ -6,26 +6,26 @@ var tabs = [{
           {
             items: [{
                 type: "GroupButton",
-                allowedSizes: ej.ribbon.RibbonItemSize.Large,
+                allowedSizes: ej.ribbon.RibbonItemSize.Small,
                 groupButtonSettings: {
                     selection: RibbonGroupButtonSelection.Multiple,
                     items: [{
-                        iconCss: 'e-icons e-align-left',
-                        content: 'Align Left'
+                        iconCss: 'e-icons e-bold',
+                        content: 'Bold'
                     },
                     {
-                        iconCss: 'e-icons e-align-center',
-                        content: 'Align Center',
+                        iconCss: 'e-icons e-italic',
+                        content: 'Italic',
                         selected: true
                     },
                     {
-                        iconCss: 'e-icons e-align-right',
-                        content: 'Align Right'
+                        iconCss: 'e-icons e-underline',
+                        content: 'Underline'
                     },
                     {
-                        iconCss: 'e-icons e-justify',
+                        iconCss: 'e-icons e-strikethrough',
                         selected: true,
-                        content: 'Justify'
+                        content: 'Strikethrough'
                     }]
                 }
             }]
