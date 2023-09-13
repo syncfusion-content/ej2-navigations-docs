@@ -1190,7 +1190,7 @@ ribbon.appendTo("#ribbon");
 
 ### beforeClick
 
-The `beforeClick` event is triggered before selecting the button from the groupButton items.
+The `beforeClick` event is triggered before selecting the button from the groupbutton items.
 
 ```js
 var tabs = [{
@@ -1246,7 +1246,7 @@ ribbon.appendTo("#ribbon");
 
 ### click
 
-The `click` event is triggered when selecting the button from the groupButton items.
+The `click` event is triggered when selecting the button from the groupbutton items.
 
 ```js
 var tabs = [{

@@ -1305,7 +1305,7 @@ ribbon.appendTo("#ribbon");
 
 ### beforeClick
 
-The `beforeClick` event is triggered before selecting the button from the groupButton items.
+The `beforeClick` event is triggered before selecting the button from the groupbutton items.
 
 ```typescript
 import { Ribbon, RibbonTabModel, RibbonItemType, BeforeClickGroupButtonEventArgs } from "@syncfusion/ej2-ribbon";
@@ -1362,7 +1362,7 @@ ribbon.appendTo("#ribbon");
 
 ### click
 
-The `click` event is triggered when selecting the button from the groupButton items.
+The `click` event is triggered when selecting the button from the groupbutton items.
 
 ```typescript
 import { Ribbon, RibbonTabModel, RibbonItemType, ClickGroupButtonEventArgs } from "@syncfusion/ej2-ribbon";

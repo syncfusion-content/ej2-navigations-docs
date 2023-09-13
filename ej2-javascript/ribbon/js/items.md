@@ -266,15 +266,15 @@ You can use the [value](https://ej2.syncfusion.com/javascript/documentation/api/
 
 ### Groupbutton items
 
-You can render the built-in groupButton Ribbon item by setting the `type` property to `GroupButton`. You can also customize the groupButton item using the `RibbonGroupButtonSettingsModel`, which provides options such as `selection` and `items`.
+You can render the built-in groupbutton Ribbon item by setting the `type` property to `GroupButton`. You can also customize the groupbutton item using the `RibbonGroupButtonSettingsModel`, which provides options such as `selection` and `items`.
 
 #### Items
 
-You can render the groupButton items by using `items` property. You can also customize the groupButton items through `RibbonGroupButtonItemModel`, which provides options such as `content`, `iconCss`, `selected` and more.
+You can render the groupbutton items by using `items` property. You can also customize the groupbutton items through `RibbonGroupButtonItemModel`, which provides options such as `content`, `iconCss`, `selected` and more.
 
 #### Single selection
 
-You can set the `selection` parameter value as `RibbonGroupButtonSelection.Single` to choose only one item at a time. It automatically deselects the previous choice when a different item is clicked.
+You can set the `selection` property value as `RibbonGroupButtonSelection.Single` to make one selection at a time. It automatically deselects the previous choice when a different item is clicked.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -289,7 +289,7 @@ You can set the `selection` parameter value as `RibbonGroupButtonSelection.Singl
 
 #### Multiple selection
 
-You can set the `selection` parameter value as `RibbonGroupButtonSelection.Multiple` to select more than one item simultaneously. Users can click on items one by one to select multiple items, and these selections stay active until manually deselected.
+You can set the `selection` property value as `RibbonGroupButtonSelection.Multiple` to select more than one button at a time. Users can select a button one by one to select multiple buttons.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
