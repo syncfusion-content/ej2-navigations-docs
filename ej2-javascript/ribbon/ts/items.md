@@ -284,7 +284,7 @@ You can render the built-in groupbutton Ribbon item by setting the `type` proper
 
 You can render the groupbutton items by using `items` property. You can also customize the groupbutton items through `RibbonGroupButtonItemModel`, which provides options such as `content`, `iconCss`, `selected` and more.
 
-#### Content
+#### Item content
 
 You can use the `content` property to define the text content for the groupbutton.
 
@@ -330,7 +330,7 @@ ribbon.appendTo("#ribbon");
 
 ```
 
-#### Iconcss
+#### Icon only
 
 You can use the `iconCss` property to customize the groupbutton icon. If the `iconCss` property is not defined, the groupbutton will not be rendered.
 
@@ -345,7 +345,7 @@ You can use the `iconCss` property to customize the groupbutton icon. If the `ic
           
 {% previewsample "page.domainurl/code-snippet/ribbon/groupButtonIcon" %}
 
-#### Selected
+#### Selection
 
 You can use the `selected` property to select the groupbutton item initally. When set to `true`, the button will be selected. By default the `selected` property is false.
 
