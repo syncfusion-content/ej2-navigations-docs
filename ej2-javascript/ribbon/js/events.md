@@ -1440,11 +1440,11 @@ var ribbon = new ej.ribbon.Ribbon({
 ribbon.appendTo("#ribbon");
 ```
 
-## Backstage menu events
+## Backstage view events
 
 ### backStageItemClick
 
-The `backStageItemClick` event is triggered when backstage item is clicked.
+The `backStageItemClick` event is triggered when backstage item is selected.
 
 ```js
 var tabs = [{
