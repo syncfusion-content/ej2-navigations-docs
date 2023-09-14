@@ -1,14 +1,15 @@
-var tabs = [{
+import { Ribbon, RibbonTabModel, RibbonItemType, RibbonItemSize } from "@syncfusion/ej2-ribbon";
+
+let tabs: RibbonTabModel[] = [{
     header: "Home",
     groups: [{
         header: "Paragraph",
         collections: [
           {
             items: [{
-                type: "GroupButton",
-                allowedSizes: ej.ribbon.RibbonItemSize.Small,
+                type: RibbonItemType.GroupButton,
+                allowedSizes: RibbonItemSize.Small,
                 groupButtonSettings: {
-                    selection: ej.ribbon.RibbonGroupButtonSelection.Single,
                     items: [{
                         iconCss: 'e-icons e-align-left',
                         content: 'Align Left'
@@ -32,5 +33,5 @@ var tabs = [{
     }]
 }];
 
-var ribbon = new ej.ribbon.Ribbon({ tabs: tabs });
+let ribbon: Ribbon = new Ribbon({ tabs: tabs });
 ribbon.appendTo("#ribbon");

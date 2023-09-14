@@ -8,23 +8,17 @@ var tabs = [{
                 type: "GroupButton",
                 allowedSizes: ej.ribbon.RibbonItemSize.Small,
                 groupButtonSettings: {
-                    selection: ej.ribbon.RibbonGroupButtonSelection.Single,
                     items: [{
-                        iconCss: 'e-icons e-align-left',
-                        content: 'Align Left'
+                        iconCss: 'e-icons e-align-left'
                     },
                     {
-                        iconCss: 'e-icons e-align-center',
-                        content: 'Align Center',
-                        selected: true
+                        iconCss: 'e-icons e-align-center'
                     },
                     {
-                        iconCss: 'e-icons e-align-right',
-                        content: 'Align Right'
+                        iconCss: 'e-icons e-align-right'
                     },
                     {
-                        iconCss: 'e-icons e-justify',
-                        content: 'Justify'
+                        iconCss: 'e-icons e-justify'
                     }]
                 }
             }]

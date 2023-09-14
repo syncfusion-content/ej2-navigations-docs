@@ -284,6 +284,82 @@ You can render the built-in groupbutton Ribbon item by setting the `type` proper
 
 You can render the groupbutton items by using `items` property. You can also customize the groupbutton items through `RibbonGroupButtonItemModel`, which provides options such as `content`, `iconCss`, `selected` and more.
 
+#### Content
+
+The `content` property can be used to define the desired text for the groupbutton.
+
+```typescript
+
+import { Ribbon, RibbonTabModel, RibbonItemType, RibbonItemSize } from "@syncfusion/ej2-ribbon";
+
+let tabs: RibbonTabModel[] = [{
+    header: "Home",
+    groups: [{
+        header: "Paragraph",
+        collections: [
+          {
+            items: [{
+                type: RibbonItemType.GroupButton,
+                allowedSizes: RibbonItemSize.Small,
+                groupButtonSettings: {
+                    items: [{
+                        iconCss: 'e-icons e-align-left',
+                        content: 'Align Left'
+                    },
+                    {
+                        iconCss: 'e-icons e-align-center',
+                        content: 'Align Center'
+                    },
+                    {
+                        iconCss: 'e-icons e-align-right',
+                        content: 'Align Right'
+                    },
+                    {
+                        iconCss: 'e-icons e-justify',
+                        content: 'Justify'
+                    }]
+                }
+            }]
+        }]
+    }]
+}];
+
+let ribbon: Ribbon = new Ribbon({ tabs: tabs });
+ribbon.appendTo("#ribbon");
+
+
+```
+
+#### Iconcss
+
+You can customize the groupbutton icon by setting the `iconCss` property. If the `iconCss` property is not defined, the groupbutton will not be rendered.
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/ribbon/groupButtonIcon/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/ribbon/groupButtonIcon/index.html %}
+{% endhighlight %}
+{% endtabs %}
+          
+{% previewsample "page.domainurl/code-snippet/ribbon/groupButtonIcon" %}
+
+#### Selected
+
+The `selected` property is used to specify whether the groupbutton should be initially rendered in a selected or activated state. When set to true, it indicates that the button is selected by default. By default the `selected` property is false.
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/ribbon/groupButtonSelected/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/ribbon/groupButtonSelected/index.html %}
+{% endhighlight %}
+{% endtabs %}
+          
+{% previewsample "page.domainurl/code-snippet/ribbon/groupButtonSelected" %}
+
 #### Single selection
 
 You can set the `selection` property value as `RibbonGroupButtonSelection.Single` to make one selection at a time. It automatically deselects the previous choice when a different item is clicked.
@@ -313,6 +389,21 @@ You can set the `selection` property value as `RibbonGroupButtonSelection.Multip
 {% endtabs %}
           
 {% previewsample "page.domainurl/code-snippet/ribbon/multipleSelection" %}
+
+#### Groupbutton in simplified mode layout
+
+In simplified mode, the groupbutton will be rendered as a dropdown button. The dropdown button icon will be based on the icon of the selected button. If none of the buttons are selected, the dropdown button icon will default to the icon of the first button.
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/ribbon/simplifiedModeGroupButton/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/ribbon/simplifiedModeGroupButton/index.html %}
+{% endhighlight %}
+{% endtabs %}
+          
+{% previewsample "page.domainurl/code-snippet/ribbon/simplifiedModeGroupButton" %}
 
 ## Custom items
 

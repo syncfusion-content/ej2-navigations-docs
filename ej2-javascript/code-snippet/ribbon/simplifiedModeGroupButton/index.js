@@ -32,5 +32,5 @@ var tabs = [{
     }]
 }];
 
-var ribbon = new ej.ribbon.Ribbon({ tabs: tabs });
+var ribbon = new ej.ribbon.Ribbon({ tabs: tabs, activeLayout: 'Simplified' });
 ribbon.appendTo("#ribbon");
