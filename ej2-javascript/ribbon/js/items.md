@@ -274,7 +274,7 @@ You can render the groupbutton items by using `items` property. You can also cus
 
 #### Content
 
-The `content` property can be used to define the desired text for the groupbutton.
+You can use the `content` property to define the text content for the groupbutton.
 
 ```js
 
@@ -317,7 +317,7 @@ ribbon.appendTo("#ribbon");
 
 #### Iconcss
 
-You can customize the groupbutton icon by setting the `iconCss` property. If the `iconCss` property is not defined, the groupbutton will not be rendered.
+You can use the `iconCss` property to customize the groupbutton icon. If the `iconCss` property is not defined, the groupbutton will not be rendered.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -332,7 +332,7 @@ You can customize the groupbutton icon by setting the `iconCss` property. If the
 
 #### Selected
 
-The `selected` property is used to specify whether the groupbutton should be initially rendered in a selected or activated state. When set to true, it indicates that the button is selected by default. By default the `selected` property is false.
+You can use the `selected` property to select the groupbutton item initally. When set to `true`, the button will be selected. By default the `selected` property is false.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -377,7 +377,7 @@ You can set the `selection` property value as `RibbonGroupButtonSelection.Multip
 
 #### Groupbutton in simplified mode layout
 
-In simplified mode, the groupbutton will be rendered as a dropdown button. The dropdown button icon will be based on the icon of the selected button. If none of the buttons are selected, the dropdown button icon will default to the icon of the first button.
+In simplified mode, the groupbutton will be rendered as a dropdownbutton. The dropdownbutton icon will be updated based on the button item selected. The initial button icon will be the set, if none of the buttons are selected.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
