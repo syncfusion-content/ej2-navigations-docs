@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ribbon Backstage in  ##Platform_Name## Ribbon control | Syncfusion
-description:  Checkout and learn about Ribbon Backstage with ##Platform_Name## Ribbon control of Syncfusion Essential JS 2 and more details.
+description:  Checkout and learn about Ribbon Backstage with ##Platform_Name## Ribbon control of Syncfusion Essential ts 2 and more details.
 platform: ej2-javascript
 control: Ribbon
 publishingplatform: ##Platform_Name##
@@ -14,6 +14,51 @@ domainurl: ##DomainURL##
 The Ribbon supports backstage view which is an addition to the traditional file menu. It displays information like application settings, user details, etc. The backstage view can be enabled by setting the `backStageMenu` property.
 
 The backstage view options are displayed on the left, while the content of each option is shown on the right.
+
+## Target
+
+The `target` property specifies the element selector in which backstage will be displayed. The target element should have the position as relative, else the backstage will be positioned nearest to the relative element. By default, the backstage is positioned to ribbon element.
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/ribbon/target-cs1/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/ribbon/target-cs1/index.html %}
+{% endhighlight %}
+{% endtabs %}
+          
+{% previewsample "page.domainurl/code-snippet/ribbon/target-cs1" %}
+
+## Back Button
+
+You can use the `backButton` property to customize the text and icon of the close button using the `text` and `iconCss` property. You can show the back button by setting the `visible` property to `true`.
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/ribbon/back-button-cs1/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/ribbon/back-button-cs1/index.html %}
+{% endhighlight %}
+{% endtabs %}
+          
+{% previewsample "page.domainurl/code-snippet/ribbon/back-button-cs1" %}
+
+## Backstage dimension
+
+You can customize the height and width of the backstage view using the `height` and `width` property. By default, dimensions are set based on the content added.
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/ribbon/customization-cs1/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/ribbon/customization-cs1/index.html %}
+{% endhighlight %}
+{% endtabs %}
+          
+{% previewsample "page.domainurl/code-snippet/ribbon/customization-cs1" %}
 
 ## Adding the backstage items
 
@@ -59,51 +104,6 @@ You can use the `isFooter` property in the `items` collection to add the backsta
 {% endtabs %}
           
 {% previewsample "page.domainurl/code-snippet/ribbon/footer-items-cs1" %}
-
-## Target
-
-The `target` property specifies the element selector in which backstage will be positioned. By default backstage is positioned to ribbon element. The target element must have relative position, else backstage will get positioned based on the closest element which has relative position.
-
-{% tabs %}
-{% highlight js tabtitle="index.ts" %}
-{% include code-snippet/ribbon/target-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/ribbon/target-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "page.domainurl/code-snippet/ribbon/target-cs1" %}
-
-## Back Button
-
-You can use the `backButton` property to customize the text and icon of the close button using the `text` and `iconCss` property. You can show the back button by setting the `visible` property to `true`.
-
-{% tabs %}
-{% highlight js tabtitle="index.ts" %}
-{% include code-snippet/ribbon/back-button-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/ribbon/back-button-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "page.domainurl/code-snippet/ribbon/back-button-cs1" %}
-
-## Customization of backstage height and width
-
-You can customize the height and width of the backstage menu using the `height` and `width` property.
-
-{% tabs %}
-{% highlight js tabtitle="index.ts" %}
-{% include code-snippet/ribbon/customization-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/ribbon/customization-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "page.domainurl/code-snippet/ribbon/customization-cs1" %}
 
 ## Show/hide backstage
 
