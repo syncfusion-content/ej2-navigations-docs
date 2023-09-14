@@ -30,7 +30,7 @@ The `target` property specifies the element selector in which backstage will be 
           
 {% previewsample "page.domainurl/code-snippet/ribbon/target-cs1" %}
 
-## Back Button
+## Back button
 
 You can use the `backButton` property to customize the text and icon of the close button using the `text` and `iconCss` property. You can show the back button by setting the `visible` property to `true`.
 
@@ -45,7 +45,7 @@ You can use the `backButton` property to customize the text and icon of the clos
           
 {% previewsample "page.domainurl/code-snippet/ribbon/back-button-cs1" %}
 
-## Backstage dimension
+## Setting width and height
 
 You can customize the height and width of the backstage view using the `height` and `width` property. By default, dimensions are set based on the content added.
 
@@ -60,7 +60,7 @@ You can customize the height and width of the backstage view using the `height` 
           
 {% previewsample "page.domainurl/code-snippet/ribbon/customization-cs1" %}
 
-## Adding the backstage items
+## Adding backstage items
 
 The menu items can be added to the backstage view by using the `items` property. You can show the backstage view by setting the `visible` property to `true`. By default, the backstage view is hidden.
 
@@ -119,3 +119,5 @@ You can open/close the ribbon backstage view programmatically by using `showBack
 {% endtabs %}
           
 {% previewsample "page.domainurl/code-snippet/ribbon/show-hide-cs1" %}
+
+> [Adding Backstage view events](./events#backStageItemClick)
