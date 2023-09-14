@@ -105,6 +105,21 @@ You can use the `isFooter` property in the `items` collection to add the backsta
           
 {% previewsample "page.domainurl/code-snippet/ribbon/footer-items-cs1" %}
 
+## Template
+
+You can use custom template on the backstage menu instead of the default backstage menu using the `template` property.
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/ribbon/template-cs1/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/ribbon/template-cs1/index.html %}
+{% endhighlight %}
+{% endtabs %}
+          
+{% previewsample "page.domainurl/code-snippet/ribbon/template-cs1" %}
+
 ## Show/hide backstage
 
 You can open/close the ribbon backstage view programmatically by using `showBackstage` and `hideBackstage` methods.

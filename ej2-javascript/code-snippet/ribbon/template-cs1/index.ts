@@ -49,22 +49,13 @@ let tabs: RibbonTabModel[] = [
 let ribbon: Ribbon = new Ribbon({
     tabs: tabs,
     backStageMenu: {
-      items: [
-        { id: 'home', text: 'Home', iconCss: 'e-icons e-home', content: '#homeContent' },
-        { id: 'new', text: 'New', iconCss: 'e-icons e-file-new', content: '#newContent' },
-        { id: 'open', text: 'Open', iconCss: 'e-icons e-folder-open', content: '#openContent' }
-      ],
       visible: true,
-      backButton: { text: 'Close' }
+      template: '#templateContent'
     }
 });
 ribbon.appendTo("#ribbon");
 
-//Show and Hide backstage click event handler
-(document.getElementById('show') as HTMLElement).addEventListener('click', function () {
-  ribbon.ribbonBackstageModule.showBackstage();
-});
-
-(document.getElementById('hide') as HTMLElement).addEventListener('click', function() {
-  ribbon.ribbonBackstageModule.hideBackstage();
-});
+let ribbonEle: HTMLElement | null = document.getElementById('ribbon');
+(document.getElementById('ribbon_backstage') as HTMLElement).onclick  = () => {
+  (ribbonEle?.querySelector('#ribbon_backstagepopup') as HTMLElement).style.display = 'block'
+}
