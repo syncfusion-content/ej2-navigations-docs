@@ -15,7 +15,7 @@ The Ribbon supports backstage view which is an addition to the traditional file 
 
 The backstage view options are displayed on the left, while the content of each option is shown on the right.
 
-## Target
+## Backstage target
 
 The `target` property specifies the element selector in which backstage will be displayed. The target element should have the position as relative, else the backstage will be positioned nearest to the relative element. By default, the backstage is positioned to ribbon element.
 
