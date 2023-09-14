@@ -1584,3 +1584,53 @@ let ribbon: Ribbon = new Ribbon({
 });
 ribbon.appendTo("#ribbon");
 ```
+
+## Backstage menu events
+
+### backStageItemClick
+
+The `backStageItemClick` event is triggered when backstage item is clicked.
+
+```typescript
+import { Ribbon, RibbonTabModel, RibbonItemType, RibbonBackstage, FileMenuBeforeOpenCloseEventArgs } from "@syncfusion/ej2-ribbon";
+
+Ribbon.Inject(RibbonBackstage);
+
+let tabs: RibbonTabModel[] = [{
+    header: "Home",
+    groups: [{
+        header: "Clipboard",
+        collections: [
+          {
+            items: [{
+                type: RibbonItemType.Button,
+                allowedSizes: RibbonItemSize.Large,
+                buttonSettings: {
+                  content: "Cut",
+                  iconCss: "e-icons e-cut"
+                }
+            }]
+        }]
+    }]
+}];
+
+let ribbon: Ribbon = new Ribbon({
+  tabs: tabs,
+  backStageMenu: {
+      items: [
+        { 
+            id: 'home', 
+            text: 'Home', 
+            iconCss: 'e-icons e-home', 
+            content: '#homeContent',
+            backStageItemClick: (args: BackstageItemClickArgs) => {
+                // Your required action here
+            } 
+        }
+      ],
+      visible: true,
+      backButton: { text: 'Close' }
+    }
+});
+ribbon.appendTo("#ribbon");
+```
