@@ -23,6 +23,7 @@ The following modules are available in Ribbon. If the module injection type is *
 | `RibbonGroupButton` | To use the built-in groupbutton as a ribbon item. | default |
 | `RibbonColorPicker` | Inject this module to use the built-in colorpicker as a ribbon item.| selective |
 | `RibbonFileMenu` | Inject this module to use the file menu feature.| selective |
+| `RibbonBackstage` | Inject this module to use the backstage menu feature.| selective |
 
 These selective modules should be injected into the Ribbon using the `Ribbon.Inject` method.
 
