@@ -105,9 +105,9 @@ You can use the `isFooter` property in the `items` collection to add the backsta
           
 {% previewsample "page.domainurl/code-snippet/ribbon/footer-items-cs1" %}
 
-## Template
+## Backstage template
 
-You can use custom template on the backstage menu instead of the default backstage menu using the `template` property.
+You can use the `template` property to modify the backstage view menu items and their contents.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
