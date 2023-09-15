@@ -1553,3 +1553,48 @@ var ribbon = new ej.ribbon.Ribbon({
 });
 ribbon.appendTo("#ribbon");
 ```
+
+## Backstage view events
+
+### backStageItemClick
+
+The `backStageItemClick` event is triggered when backstage item is selected.
+
+```js
+var tabs = [{
+    header: "Home",
+    groups: [{
+        header: "Clipboard",
+        collections: [
+          {
+            items: [{
+                type: "Button",
+                buttonSettings: {
+                  content: "Cut",
+                  iconCss: "e-icons e-cut"
+                }
+            }]
+        }]
+    }]
+}];
+
+var ribbon = new ej.ribbon.Ribbon({
+  tabs: tabs,
+  backStageMenu: {
+      items: [
+        { 
+            id: 'home', 
+            text: 'Home', 
+            iconCss: 'e-icons e-home', 
+            content: '#homeContent',
+            backStageItemClick: (args) => {
+                // Your required action here
+            } 
+        }
+      ],
+      visible: true,
+      backButton: { text: 'Close' }
+    }
+});
+ribbon.appendTo("#ribbon");
+```
