@@ -278,15 +278,15 @@ You can use the [value](https://ej2.syncfusion.com/documentation/api/ribbon/ribb
 
 ### Groupbutton items
 
-You can render the built-in groupbutton Ribbon item by setting the `type` property to `GroupButton`. You can also customize the groupbutton item using the `RibbonGroupButtonSettingsModel`, which provides options such as `selection` and `items`.
+You can render the built-in groupbutton Ribbon item by setting the [type](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonItem/#type) property to `GroupButton`. You can also customize the groupbutton item using the [RibbonGroupButtonSettingsModel](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonGroupButtonSettingsModel/), which provides options such as `selection` and `items`.
 
 #### Items
 
-You can render the groupbutton items by using `items` property. You can also customize the groupbutton items through `RibbonGroupButtonItemModel`, which provides options such as `content`, `iconCss`, `selected` and more.
+You can render the groupbutton items by using [items](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonGroupButtonSettingsModel/#items) property. You can also customize the groupbutton items through [RibbonGroupButtonItemModel](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonGroupButtonItemModel/), which provides options such as `content`, `iconCss`, `selected` and more.
 
 #### Item content
 
-You can use the `content` property to define the text content for the groupbutton.
+You can use the [content](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonGroupButtonItemModel/#content) property to define the text content for the groupbutton.
 
 ```typescript
 
@@ -332,7 +332,7 @@ ribbon.appendTo("#ribbon");
 
 #### Icon only
 
-You can use the `iconCss` property to customize the groupbutton icon. If the `iconCss` property is not defined, the groupbutton will not be rendered.
+You can use the [iconCss](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonGroupButtonItemModel/#iconcss) property to customize the groupbutton icon. If the `iconCss` property is not defined, the groupbutton will not be rendered.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -347,7 +347,7 @@ You can use the `iconCss` property to customize the groupbutton icon. If the `ic
 
 #### Selection
 
-You can use the `selected` property to select the groupbutton item initally. When set to `true`, the button will be selected. By default the `selected` property is false.
+You can use the [selected](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonGroupButtonItemModel/#selected) property to select the groupbutton item initally. When set to `true`, the button will be selected. By default the `selected` property is false.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -362,7 +362,7 @@ You can use the `selected` property to select the groupbutton item initally. Whe
 
 #### Single selection
 
-You can set the `selection` property value as `RibbonGroupButtonSelection.Single` to make one selection at a time. It automatically deselects the previous choice when a different item is clicked.
+You can set the [selection](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonGroupButtonSettingsModel/#selection) property value as `RibbonGroupButtonSelection.Single` to make one selection at a time. It automatically deselects the previous choice when a different item is clicked.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -377,7 +377,7 @@ You can set the `selection` property value as `RibbonGroupButtonSelection.Single
 
 #### Multiple selection
 
-You can set the `selection` property value as `RibbonGroupButtonSelection.Multiple` to select more than one button at a time. Users can select a button one by one to select multiple buttons.
+You can set the [selection](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonGroupButtonSettingsModel/#selection) property value as `RibbonGroupButtonSelection.Multiple` to select more than one button at a time. Users can select a button one by one to select multiple buttons.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
