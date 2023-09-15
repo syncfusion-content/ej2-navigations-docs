@@ -120,19 +120,4 @@ You can use the `template` property to modify the backstage view menu items and 
           
 {% previewsample "page.domainurl/code-snippet/ribbon/template-cs1" %}
 
-## Show/hide backstage
-
-You can open/close the ribbon backstage view programmatically by using `showBackstage` and `hideBackstage` methods.
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/ribbon/show-hide-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/ribbon/show-hide-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "page.domainurl/code-snippet/ribbon/show-hide-cs1" %}
-
 > [Adding Backstage view events](./events#backStageItemClick)
