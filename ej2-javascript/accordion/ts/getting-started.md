@@ -63,6 +63,8 @@ The quickstart application is preconfigured to use the `Material` theme in the `
 
 ## Initialize the Accordion using Items
 
+Open the application in Visual Studio Code and add the Syncfusion JavaScript UI controls.
+
 The Accordion can be rendered by defining an array of [`items`](../api/accordion#items).
 
 * Add the HTML div tag with its id attribute as `element` in your `index.html` file to initialize the Accordion.
