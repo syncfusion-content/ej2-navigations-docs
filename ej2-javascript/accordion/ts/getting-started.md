@@ -50,8 +50,6 @@ The quickstart application is preconfigured with the dependent [@syncfusion/ej2]
 ```
 ![ej2 typescript seed local setup](images/local-setup.png)
 
-> To learn more about the individual packages and different ways to install them, refer [here](https://ej2.syncfusion.com/documentation/installation-and-upgrade/installation/).
-
 ## Import the Syncfusion CSS styles
 
 Syncfusion JavaScript controls come with [built-in themes](https://ej2.syncfusion.com/documentation/appearance/theme/), which are available in the installed packages. It's easy to adapt the Syncfusion JavaScript controls to match the style of your application by referring to one of the built-in themes.
