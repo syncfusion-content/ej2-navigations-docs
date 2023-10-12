@@ -64,7 +64,7 @@ The quickstart application is preconfigured to use the `Material` theme in the `
 
 Open the application in Visual Studio Code and add the Syncfusion JavaScript UI controls.
 
-Add the HTML div tag with its id attribute as `appbar` in your `index.html` file to initialize the Accordion.
+Add the HTML div tag with its id attribute as `appbar` in your `index.html` file to initialize the Appbar.
 
 `[src/index.html]`
 
