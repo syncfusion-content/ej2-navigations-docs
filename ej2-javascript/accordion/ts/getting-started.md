@@ -67,7 +67,7 @@ Open the application in Visual Studio Code and add the Syncfusion JavaScript UI 
 
 The Accordion can be rendered by defining an array of [`items`](../api/accordion#items).
 
-* Add the HTML div tag with its id attribute as `element` in your `index.html` file to initialize the Accordion.
+* Add the HTML div tag with its `id` attribute as `element` in your `index.html` file to initialize the Accordion.
 
 `[src/index.html]`
 
