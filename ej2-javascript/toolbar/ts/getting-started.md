@@ -64,7 +64,7 @@ The quickstart application is preconfigured to use the `Material` theme in the `
 
 The Toolbar can be rendered by defining an array of [`items`](https://ej2.syncfusion.com/documentation/api/toolbar/#items). An item is rendered with text by defining the default item type as a `Button`. For more information about item configuration, refer to the [Item Configuration](./item-configuration) section.
 
-* Add the HTML div tag with its ID attribute set to `element` in your `index.html` file where you will initialize the Toolbar.
+* Add the HTML div tag with its `id` attribute set to `element` in your `index.html` file where you will initialize the Toolbar.
 
 `[src/index.html]`
 
