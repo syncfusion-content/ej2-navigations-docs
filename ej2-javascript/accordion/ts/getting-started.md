@@ -48,7 +48,6 @@ The quickstart application is preconfigured with the dependent [@syncfusion/ej2]
 ```
  npm install
 ```
-![ej2 typescript seed local setup](images/local-setup.png)
 
 ## Import the Syncfusion CSS styles
 
@@ -84,7 +83,7 @@ The Accordion can be rendered by defining an array of [`items`](../api/accordion
 
     <body>
         <div>
-            <!--HTML grid element, which is going to render as Essential JS 2 Grid-->
+            <!--element which is going to render-->
             <div id="element"></div>
         </div>
     </body>
