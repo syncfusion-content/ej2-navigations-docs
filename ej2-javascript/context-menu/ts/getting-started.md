@@ -33,15 +33,23 @@ The following list of dependencies are required to use the ContextMenu component
 
 Open the command prompt from the required directory, and run the following command to clone the Syncfusion JavaScript (Essential JS 2) quickstart project from [GitHub](https://github.com/SyncfusionExamples/ej2-quickstart-webpack-).
 
-```
-    git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack- ej2-quickstart
-```
+{% tabs %}
+{% highlight bash tabtitle="CMD" %}
+
+git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack- ej2-quickstart
+
+{% endhighlight %}
+{% endtabs %}
 
 After cloning the application in the `ej2-quickstart` folder, run the following command line to navigate to the `ej2-quickstart` folder.
 
-```
-    cd ej2-quickstart
-```
+{% tabs %}
+{% highlight bash tabtitle="CMD" %}
+
+cd ej2-quickstart
+
+{% endhighlight %}
+{% endtabs %}
 
 ## Add Syncfusion JavaScript packages
 
@@ -49,9 +57,13 @@ Syncfusion JavaScript (Essential JS 2) packages are available on the [npmjs.com]
 
 The quickstart application is preconfigured with the dependent [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package in the `~/package.json` file. Use the following command to install the dependent npm packages from the command prompt.
 
-```
-    npm install
-```
+{% tabs %}
+{% highlight bash tabtitle="NPM" %}
+
+npm install
+
+{% endhighlight %}
+{% endtabs %}
 
 ## Import the Syncfusion CSS styles
 
@@ -59,9 +71,13 @@ Syncfusion JavaScript controls come with [built-in themes](https://ej2.syncfusio
 
 The quickstart application is preconfigured to use the `Material` theme in the `~/src/styles/styles.css` file, as shown below: 
 
-```
-  @import "../../node_modules/@syncfusion/ej2/material.css";
-```
+{% tabs %}
+{% highlight css tabtitle="styles.css" %}
+
+@import "../../node_modules/@syncfusion/ej2/material.css";
+
+{% endhighlight %}
+{% endtabs %}
 
 > You can check out the [themes](https://ej2.syncfusion.com/documentation/appearance/theme/) section to know more about built-in themes and CSS reference for individual controls.
 
@@ -73,32 +89,38 @@ Add the HTML div tag with the `id` attribute as `contextmenu` to your `index.htm
 
 `[src/index.html]`
 
-```html
-    <!DOCTYPE html>
-    <html lang="en">
+{% tabs %}
+{% highlight html tabtitle="index.html" %}
 
-    <head>
-        <title>Essential JS 2</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-        ....
-        ....
-    </head>
+<!DOCTYPE html>
+<html lang="en">
 
-    <body>
-        <div>
-            <div id="contextmenu"></div>
-        </div>
-    </body>
+<head>
+    <title>Essential JS 2</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    ....
+    ....
+</head>
 
-    </html>
- ```
+<body>
+    <div>
+        <div id="contextmenu"></div>
+    </div>
+</body>
+
+</html>
+
+{% endhighlight %}
+{% endtabs %}
 
 Import the ContextMenu component in your `app.ts` file and initialize it with the `#contextmenu` and `target` option.
 
 `[src/app/app.ts]`
 
-```ts
+{% tabs %}
+{% highlight ts tabtitle="app.ts" %}
+
 import { ContextMenu, MenuItemModel, ContextMenuModel } from '@syncfusion/ej2-navigations';
 import { enableRipple } from '@syncfusion/ej2-base';
 
@@ -121,15 +143,21 @@ let menuOptions: ContextMenuModel = {
 
 // Initialize ContextMenu component.
 let menuObj: ContextMenu = new ContextMenu(menuOptions, '#contextmenu')
-```
+
+{% endhighlight %}
+{% endtabs %}
 
 ## Run the application
 
 Run the application in the browser using the following command:
 
-```
+{% tabs %}
+{% highlight bash tabtitle="NPM" %}
+
 npm start
-```
+
+{% endhighlight %}
+{% endtabs %}
 
 The following example shows a basic ContextMenu component.
 
