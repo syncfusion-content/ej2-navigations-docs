@@ -32,7 +32,7 @@ Open the command prompt from the required directory, and run the following comma
 {% tabs %}
 {% highlight bash tabtitle="CMD" %}
 
- git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack- ej2-quickstart
+git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack- ej2-quickstart
  
 {% endhighlight %}
 {% endtabs %}
@@ -42,7 +42,7 @@ After cloning the application in the `ej2-quickstart` folder, run the following 
 {% tabs %}
 {% highlight bash tabtitle="CMD" %}
 
-cd ej2-nextjs-grid
+cd ej2-quickstart
 
 {% endhighlight %}
 {% endtabs %}
@@ -70,7 +70,7 @@ The quickstart application is preconfigured to use the `Material` theme in the `
 {% tabs %}
 {% highlight css tabtitle="styles.css" %}
 
-  @import "../../node_modules/@syncfusion/ej2/material.css";
+@import "../../node_modules/@syncfusion/ej2/material.css";
   
 {% endhighlight %}
 {% endtabs %}
@@ -87,33 +87,36 @@ The Accordion can be rendered by defining an array of [`items`](../api/accordion
 
 `[src/index.html]`
 
-```html
-    <!DOCTYPE html>
-    <html lang="en">
+{% tabs %}
+{% highlight html tabtitle="index.html" %}
+<!DOCTYPE html>
+<html lang="en">
 
-    <head>
-        <title>Essential JS 2</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-        ....
-        ....
-    </head>
+<head>
+    <title>Essential JS 2</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    ....
+    ....
+</head>
 
-    <body>
-        <div>
-            <!--element which is going to render-->
-            <div id="element"></div>
-        </div>
-    </body>
+<body>
+    <div>
+        <!--element which is going to render-->
+        <div id="element"></div>
+    </div>
+</body>
 
-    </html>
- ```
+</html>
+{% endhighlight %}
+{% endtabs %}
 
 * Import the Accordion component to your `app.ts` file and initialize it to the `#element` as shown below.
 
 `[src/app/app.ts]`
 
-```ts
+{% tabs %}
+{% highlight ts tabtitle="app.ts" %}
 
 import { Accordion } from '@syncfusion/ej2-navigations';
 
@@ -129,13 +132,18 @@ let accordion: Accordion = new Accordion({
 // Render initialized Accordion
 accordion.appendTo('#element');
 
-```
+{% endhighlight %}
+{% endtabs %}
 
 * Run the application in the browser using the following command.
 
-  ```
-  npm start
-  ```
+{% tabs %}
+{% highlight bash tabtitle="NPM" %}
+
+npm start
+
+{% endhighlight %}
+{% highlight bash tabtitle="YARN" %}
 
 Output will be as follows:
 
@@ -157,7 +165,8 @@ Output will be as follows:
 The Accordion component can be rendered based on the given HTML element using `id` as `target` property.
 You need to follow the below structure of HTML elements to render the Accordion.
 
-```
+{% tabs %}
+{% highlight html tabtitle="index.html" %}
   <div id='accordion_html_markup'>   --> Root Accordion Element
        <div>      --> Accordion Item Container
             <div>   --> Accordion Header Container
@@ -168,7 +177,8 @@ You need to follow the below structure of HTML elements to render the Accordion.
              </div>
         </div>
   </div>
-```
+{% endhighlight %}
+{% endtabs %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
