@@ -36,15 +36,23 @@ The following list of dependencies are required to use the Ribbon control in you
 
 Open the command prompt from the required directory, and run the following command to clone the Syncfusion JavaScript (Essential JS 2) quickstart project from [GitHub](https://github.com/SyncfusionExamples/ej2-quickstart-webpack-).
 
-```
-    git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack- ej2-quickstart
-```
+{% tabs %}
+{% highlight bash tabtitle="CMD" %}
+
+git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack- ej2-quickstart
+
+{% endhighlight %}
+{% endtabs %}
 
 After cloning the application in the `ej2-quickstart` folder, run the following command line to navigate to the `ej2-quickstart` folder.
 
-```
-    cd ej2-quickstart
-```
+{% tabs %}
+{% highlight bash tabtitle="CMD" %}
+
+cd ej2-quickstart
+
+{% endhighlight %}
+{% endtabs %}
 
 ## Add Syncfusion JavaScript packages
 
@@ -52,9 +60,13 @@ Syncfusion JavaScript (Essential JS 2) packages are available on the [npmjs.com]
 
 The quickstart application is preconfigured with the dependent [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package in the `~/package.json` file. Use the following command to install the dependent npm packages from the command prompt.
 
-```
-    npm install
-```
+{% tabs %}
+{% highlight bash tabtitle="NPM" %}
+
+npm install
+
+{% endhighlight %}
+{% endtabs %}
 
 ## Import the Syncfusion CSS styles
 
@@ -62,9 +74,13 @@ Syncfusion JavaScript controls come with [built-in themes](https://ej2.syncfusio
 
 The quickstart application is preconfigured to use the `Material` theme in the `~/src/styles/styles.css` file, as shown below: 
 
-```
-  @import "../../node_modules/@syncfusion/ej2/material.css";
-```
+{% tabs %}
+{% highlight css tabtitle="style.css" %}
+
+@import "../../node_modules/@syncfusion/ej2/material.css";
+
+{% endhighlight %}
+{% endtabs %}
 
 > You can check out the [themes](https://ej2.syncfusion.com/documentation/appearance/theme/) section to know more about built-in themes and CSS reference for individual controls.
 
@@ -76,69 +92,87 @@ Add the HTML div tag with the `id` attribute as `ribbon` to your `index.html` fi
 
 `[src/index.html]`
 
-```html
-    <!DOCTYPE html>
-    <html lang="en">
+{% tabs %}
+{% highlight html tabtitle="index.html" %}
 
-    <head>
-        <title>Essential JS 2</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-        ....
-        ....
-    </head>
+<!DOCTYPE html>
+<html lang="en">
 
-    <body>
-        <div>
-            <div id="ribbon"></div>
-        </div>
-    </body>
+<head>
+    <title>Essential JS 2</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    ....
+    ....
+</head>
 
-    </html>
- ```
+<body>
+    <div>
+        <div id="ribbon"></div>
+    </div>
+</body>
+
+</html>
+
+{% endhighlight %}
+{% endtabs %}
 
 Import the Ribbon control in your `app.ts` file and initialize it with the `#ribbon`.
 
 `[src/app/app.ts]`
 
-```ts
+{% tabs %}
+{% highlight ts tabtitle="app.ts" %}
+
 import { Ribbon } from "@syncfusion/ej2-ribbon";
 
 let ribbon: Ribbon = new Ribbon({});
 ribbon.appendTo("#ribbon");
-```
+
+{% endhighlight %}
+{% endtabs %}
 
 ### Injecting required modules
 
 Inject the Ribbon required modules in your `app.ts` file using the following code snippet.
 
-```ts
+{% tabs %}
+{% highlight ts tabtitle="app.ts" %}
+
 import { Ribbon, RibbonFileMenu, RibbonColorPicker } from "@syncfusion/ej2-ribbon";
 
 Ribbon.Inject(RibbonFileMenu, RibbonColorPicker);
 
 let ribbon: Ribbon = new Ribbon({});
 ribbon.appendTo("#ribbon");
-```
+
+{% endhighlight %}
+{% endtabs %}
 
 ## Adding Ribbon Tab
 
 In Ribbon, the options are arranged in tabs for easy access. You can use the `tabs` property of ribbon to define the ribbon tab like below.
 
-```ts
+{% tabs %}
+{% highlight css tabtitle="style.css" %}
+
 import { Ribbon, RibbonTabModel } from "@syncfusion/ej2-ribbon";
 
 let tabs: RibbonTabModel[] = [{ header: "Home" }];
 
 let ribbon: Ribbon = new Ribbon({ tabs: tabs });
 ribbon.appendTo("#ribbon");
-```
+
+{% endhighlight %}
+{% endtabs %}
 
 ## Adding Ribbon Group
 
 To define a ribbon group under each tab, you can use the `groups` property of ribbon tab like below. The `orientation` property of ribbon group defines whether the collection of items will be rendered column-wise or row-wise.
 
-```ts
+{% tabs %}
+{% highlight ts tabtitle="app.ts" %}
+
 import { Ribbon, RibbonTabModel, ItemOrientation } from "@syncfusion/ej2-ribbon";
 
 let tabs: RibbonTabModel[] = [{
@@ -148,13 +182,17 @@ let tabs: RibbonTabModel[] = [{
 
 let ribbon: Ribbon = new Ribbon({ tabs: tabs });
 ribbon.appendTo("#ribbon");
-```
+
+{% endhighlight %}
+{% endtabs %}
 
 ## Adding Ribbon Item
 
 You can use the `collections` property of ribbon group to define each ribbon collection that contains one or more items. To define each ribbon item, you can use the `items` property of ribbon collection and the `type` property of ribbon item to specify the type of control to be rendered, like a button, a drop-down button, a combo box, and more.
 
-```ts
+{% tabs %}
+{% highlight ts tabtitle="app.ts" %}
+
 import { Ribbon, RibbonTabModel, ItemOrientation, RibbonItemType, RibbonItemSize } from "@syncfusion/ej2-ribbon";
 
 let tabs: RibbonTabModel[] = [{
@@ -198,15 +236,21 @@ let tabs: RibbonTabModel[] = [{
 
 let ribbon: Ribbon = new Ribbon({ tabs: tabs });
 ribbon.appendTo("#ribbon");
-```
+
+{% endhighlight %}
+{% endtabs %}
 
 ## Run the application
 
 Run the application in the browser using the following command:
 
-```
+{% tabs %}
+{% highlight bash tabtitle="NPM" %}
+
 npm start
-```
+
+{% endhighlight %}
+{% endtabs %}
 
 The following example illustrates how tabs, groups, collections, and items are used in a ribbon control to form the ribbon layout.
 
