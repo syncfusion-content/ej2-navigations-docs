@@ -30,15 +30,23 @@ The following is the list of dependencies required to use the Tab component in y
 
 Open the command prompt from the required directory, and run the following command to clone the Syncfusion JavaScript (Essential JS 2) quickstart project from [GitHub](https://github.com/SyncfusionExamples/ej2-quickstart-webpack-).
 
-```
-    git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack- ej2-quickstart
-```
+{% tabs %}
+{% highlight bash tabtitle="CMD" %}
+
+git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack- ej2-quickstart
+
+{% endhighlight %}
+{% endtabs %}
 
 After cloning the application in the `ej2-quickstart` folder, run the following command line to navigate to the `ej2-quickstart` folder.
 
-```
-    cd ej2-quickstart
-```
+{% tabs %}
+{% highlight bash tabtitle="CMD" %}
+
+cd ej2-quickstart
+
+{% endhighlight %}
+{% endtabs %}
 
 ## Add Syncfusion JavaScript packages
 
@@ -46,9 +54,13 @@ Syncfusion JavaScript (Essential JS 2) packages are available on the [npmjs.com]
 
 The quickstart application is preconfigured with the dependent [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package in the `~/package.json` file. Use the following command to install the dependent npm packages from the command prompt.
 
-```
-    npm install
-```
+{% tabs %}
+{% highlight bash tabtitle="NPM" %}
+
+npm install
+
+{% endhighlight %}
+{% endtabs %}
 
 ## Import the Syncfusion CSS styles
 
@@ -56,9 +68,13 @@ Syncfusion JavaScript controls come with [built-in themes](https://ej2.syncfusio
 
 The quickstart application is preconfigured to use the `Material` theme in the `~/src/styles/styles.css` file, as shown below: 
 
-```
-  @import "../../node_modules/@syncfusion/ej2/material.css";
-```
+{% tabs %}
+{% highlight css tabtitle="style.css" %}
+
+@import "../../node_modules/@syncfusion/ej2/material.css";
+
+{% endhighlight %}
+{% endtabs %}
 
 > You can check out the [themes](https://ej2.syncfusion.com/documentation/appearance/theme/) section to know more about built-in themes and CSS reference for individual controls.
 
@@ -70,32 +86,37 @@ The Tab can be rendered by defining a JSON array. The item is rendered with [`he
 
 `[src/index.html]`
 
-```html
-    <!DOCTYPE html>
-    <html lang="en">
+{% tabs %}
+{% highlight html tabtitle="index.html" %}
 
-    <head>
-        <title>Essential JS 2</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-        ....
-        ....
-    </head>
+<!DOCTYPE html>
+<html lang="en">
 
-    <body>
-        <div>
-            <div id="element"></div>
-        </div>
-    </body>
+<head>
+    <title>Essential JS 2</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    ....
+    ....
+</head>
 
-    </html>
-```
+<body>
+    <div>
+        <div id="tab"></div>
+    </div>
+</body>
+
+</html>
+
+{% endhighlight %}
+{% endtabs %}
 
 * Import the Tab component to your `app.ts` file and initialize it to the `#element` as shown below.
 
 `[src/app/app.ts]`
 
-```ts
+{% tabs %}
+{% highlight ts tabtitle="app.ts" %}
 
 import { Tab } from '@syncfusion/ej2-navigations';
 
@@ -131,13 +152,18 @@ let tabObj: Tab = new Tab({
 });
 tabObj.appendTo('#element');
 
-```
+{% endhighlight %}
+{% endtabs %}
 
 * Run the application in the browser using the following command.
 
-```
+{% tabs %}
+{% highlight bash tabtitle="NPM" %}
+
 npm start
-```
+
+{% endhighlight %}
+{% endtabs %}
 
 Output will be as follows:
 
@@ -162,7 +188,8 @@ Header section must be enclosed with in a wrapper element using `e-tab-header` c
 
 You need to follow the below structure of HTML elements to render the Tab,
 
-```
+{% tabs %}
+{% highlight html tabtitle="index.html" %}
 
   <div id='tab_html_markup'>   --> Root Tab element
     <div class="e-tab-header">      --> Tab header
@@ -175,13 +202,16 @@ You need to follow the below structure of HTML elements to render the Tab,
     </div>
   </div>
 
-```
+{% endhighlight %}
+{% endtabs %}
 
 * Add the HTML template data with its id attribute and add it in your `index.html` file to initialize the Tab.
 
 `[src/index.html]`
 
-```html
+{% tabs %}
+{% highlight html tabtitle="index.html" %}
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -218,13 +248,16 @@ You need to follow the below structure of HTML elements to render the Tab,
 </body>
 
 </html>
-```
+
+{% endhighlight %}
+{% endtabs %}
 
 * Import the tab component to your `app.ts` file and initialize it to the element `#tab_html_markup` as shown below.
 
 `[src/app/app.ts]`
 
-```ts
+{% tabs %}
+{% highlight ts tabtitle="app.ts" %}
 
 import { Tab } from '@syncfusion/ej2-navigations';
 
@@ -232,7 +265,8 @@ let tab: Tab;
 tab = new Tab();
 tab.appendTo('#tab_html_markup');
 
-```
+{% endhighlight %}
+{% endtabs %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
