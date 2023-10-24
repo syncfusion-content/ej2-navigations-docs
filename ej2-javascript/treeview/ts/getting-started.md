@@ -44,7 +44,7 @@ git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack- ej2-quic
 After cloning the application in the `ej2-quickstart` folder, run the following command line to navigate to the `ej2-quickstart` folder.
 
 {% tabs %}
-{% highlight css tabtitle="style.css" %}
+{% highlight bash tabtitle="CMD" %}
 
 cd ej2-quickstart
 

@@ -154,7 +154,7 @@ ribbon.appendTo("#ribbon");
 In Ribbon, the options are arranged in tabs for easy access. You can use the `tabs` property of ribbon to define the ribbon tab like below.
 
 {% tabs %}
-{% highlight css tabtitle="style.css" %}
+{% highlight ts tabtitle="app.ts" %}
 
 import { Ribbon, RibbonTabModel } from "@syncfusion/ej2-ribbon";
 
