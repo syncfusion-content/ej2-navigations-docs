@@ -105,7 +105,7 @@ The Accordion can be rendered by defining an array of [`items`](../api/accordion
 </head>
 
 <body>
-    <div  style="margin: 50px;">
+    <div style="margin: 50px;">
         <!--element which is going to render-->
         <div id="element"></div>
     </div>
