@@ -99,15 +99,19 @@ Add the HTML div tag with the `id` attribute as `ribbon` to your `index.html` fi
 <html lang="en">
 
 <head>
-    <title>Essential JS 2</title>
+    <title>Essential JS 2 - Ribbon</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta name="description" content="Essential JS 2" />
+    <meta name="author" content="Syncfusion" />
+    <link rel="shortcut icon" href="resources/favicon.ico" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
     ....
     ....
 </head>
 
 <body>
-    <div>
+    <div class="control-container">
         <div id="ribbon"></div>
     </div>
 </body>

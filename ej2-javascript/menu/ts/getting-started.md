@@ -96,10 +96,10 @@ Add the HTML UL tag with the `id` attribute as `menu` to your `index.html` file.
 <html lang="en">
 
 <head>
-    <title>Essential JS 2</title>
+    <title>Essential JS 2 - Menu</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-    <meta name="description" content="Essential JS 2" />
+    <meta name="description" content="Essential JS 2 - Menu" />
     <meta name="author" content="Syncfusion" />  
 </head>
 <body>
