@@ -99,12 +99,28 @@ Add the HTML div tag with the `id` attribute as `contextmenu` to your `index.htm
     <title>Essential JS 2</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta name="description" content="Essential JS 2" />
+    <meta name="author" content="Syncfusion" />
+    <link rel="shortcut icon" href="resources/favicon.ico" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        #target {
+            border: 1px dashed;
+            height: 150px;
+            padding: 10px;
+            position: relative;
+            text-align: justify;
+            color: gray;
+            user-select: none;
+        }
+    </style>
     ....
     ....
 </head>
 
 <body>
     <div>
+        <div id="target">Right click / Touch hold to open the ContextMenu</div>
         <div id="contextmenu"></div>
     </div>
 </body>

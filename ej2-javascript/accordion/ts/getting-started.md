@@ -93,15 +93,19 @@ The Accordion can be rendered by defining an array of [`items`](../api/accordion
 <html lang="en">
 
 <head>
-    <title>Essential JS 2</title>
+    <title>Essential JS 2 Accordion</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta name="description" content="Essential JS 2" />
+    <meta name="author" content="Syncfusion" />
+    <link rel="shortcut icon" href="resources/favicon.ico" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
     ....
     ....
 </head>
 
 <body>
-    <div>
+    <div  style="margin: 50px;">
         <!--element which is going to render-->
         <div id="element"></div>
     </div>

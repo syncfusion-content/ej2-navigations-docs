@@ -94,12 +94,16 @@ The Toolbar can be rendered by defining an array of [`items`](https://ej2.syncfu
     <title>Essential JS 2</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta name="description" content="Essential JS 2" />
+    <meta name="author" content="Syncfusion" />
+    <link rel="shortcut icon" href="resources/favicon.ico" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
     ....
     ....
 </head>
 
 <body>
-    <div>
+    <div style="margin: 50px;">
         <div id="element"></div>
     </div>
 </body>
