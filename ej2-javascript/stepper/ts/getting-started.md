@@ -11,7 +11,7 @@ domainurl: ##DomainURL##
 
 # Getting started in ##Platform_Name## Stepper control
 
-This section explains how to create a simple application with Stepper control and to configure it.
+This section explains how to create a simple Stepper in TypeScript using Essential JS 2 QuickStart seed repository.
 
 ## Dependencies
 
@@ -120,7 +120,7 @@ stepper.appendTo("#stepper");
 
 ## Run the application
 
-Run the application in the browser using the following command:
+Run the application in the browser by using the following command:
 
 ```
 npm start

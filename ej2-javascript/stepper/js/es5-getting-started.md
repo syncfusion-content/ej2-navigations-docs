@@ -15,7 +15,7 @@ The Essential JS 2 for JavaScript (global script) is an ES5 formatted pure JavaS
 
 ## Dependencies
 
-The following list of dependencies are required to use the Stepper control in your application.
+The following are the list of dependencies, that are required to use the Stepper control in your application.
 
 ```js
 |-- @syncfusion/ej2-navigations
