@@ -168,16 +168,18 @@ You need to follow the below structure of HTML elements to render the Accordion.
 
 {% tabs %}
 {% highlight html tabtitle="index.html" %}
-  <div id='accordion_html_markup'>   --> Root Accordion Element
-       <div>      --> Accordion Item Container
-            <div>   --> Accordion Header Container
-                <div> </div> --> Accordion Header
-            </div>
-            <div>  --> Accordion Panel Container
-                <div> </div> --> Accordion Content
-             </div>
+
+<div id='accordion_html_markup'>   --> Root Accordion Element
+    <div>      --> Accordion Item Container
+        <div>   --> Accordion Header Container
+            <div> </div> --> Accordion Header
         </div>
-  </div>
+        <div>  --> Accordion Panel Container
+            <div> </div> --> Accordion Content
+        </div>
+    </div>
+</div>
+
 {% endhighlight %}
 {% endtabs %}
 

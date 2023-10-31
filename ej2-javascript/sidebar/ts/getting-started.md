@@ -107,7 +107,7 @@ To render the Sidebar, refer to the following structure of the HTML elements:
 </head>
 
 <body>
-        <div id='container'>
+    <div id='container'>
         <aside id="default">
             <div class="title"> Sidebar </div>
         </aside>
