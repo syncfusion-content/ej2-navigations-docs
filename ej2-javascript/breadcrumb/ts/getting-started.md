@@ -103,8 +103,6 @@ Add the HTML div tag with its `id` attribute as `breadcrumb` in your `index.html
     <meta name="author" content="Syncfusion" />
     <link rel="shortcut icon" href="resources/favicon.ico" />
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
-    ....
-    ....
 </head>
 
 <body>

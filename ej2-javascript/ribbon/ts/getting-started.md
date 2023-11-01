@@ -110,8 +110,6 @@ Add the HTML div tag with the `id` attribute as `ribbon` to your `index.html` fi
     <meta name="author" content="Syncfusion" />
     <link rel="shortcut icon" href="resources/favicon.ico" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-    ....
-    ....
 </head>
 
 <body>

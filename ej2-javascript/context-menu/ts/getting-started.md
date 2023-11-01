@@ -111,8 +111,6 @@ Add the HTML div tag with the `id` attribute as `contextmenu` to your `index.htm
             user-select: none;
         }
     </style>
-    ....
-    ....
 </head>
 
 <body>
