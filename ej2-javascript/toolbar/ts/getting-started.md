@@ -99,8 +99,6 @@ The Toolbar can be rendered by defining an array of [`items`](https://ej2.syncfu
     <meta name="author" content="Syncfusion" />
     <link rel="shortcut icon" href="resources/favicon.ico" />
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
-    ....
-    ....
 </head>
 
 <body>
