@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting started with ##Platform_Name## Sidebar control | Syncfusion
-description:  Checkout and learn about Getting started with ##Platform_Name## Sidebar control of Syncfusion Essential JS 2 and more details.
+description: Learn here all about Getting started with ##Platform_Name## Sidebar control of Syncfusion Essential JS 2 and more details.
 platform: ej2-javascript
 control: Getting started 
 publishingplatform: ##Platform_Name##
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: ##DomainURL##
 ---
 
-# Getting started in ##Platform_Name## Sidebar control
+# Getting started with ##Platform_Name## Sidebar control
 
 The Essential JS 2 for JavaScript (global script) is an ES5 formatted pure JavaScript framework which can be directly used in latest web browsers.
 
