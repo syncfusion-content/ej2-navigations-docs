@@ -144,3 +144,18 @@ The [`Custom Resource Generator (CRG)`](https://crg.syncfusion.com/) is an onlin
 {% previewsample "page.domainurl/code-snippet/stepper/es5-getting-started-cs1" %}
 
 **Step 4:** Now, run the `index.html` in web browser, it will render the `Syncfusion JavaScript Stepper` control.
+
+## Icon and Label
+
+You can set the stepper with icon and label by using the `iconCss` and `label` property.
+
+{% tabs %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/stepper/es5-iconWithLabel-cs1/index.html %}
+{% endhighlight %}
+{% highlight html tabtitle="styles.css" %}
+{% include code-snippet/stepper/es5-iconWithLabel-cs1/styles.css %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "page.domainurl/code-snippet/stepper/es5-iconWithLabel-cs1" %}
