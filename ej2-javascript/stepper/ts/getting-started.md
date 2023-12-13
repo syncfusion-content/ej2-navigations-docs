@@ -139,9 +139,9 @@ The following example shows a basic Stepper control.
           
 {% previewsample "page.domainurl/code-snippet/stepper/getting-started-cs1" %}
 
-## Configuring Icon and Label
+## Configure Icon and Label
 
-You can set the stepper with icon and label by using the `iconCss` and `label` property.
+You can set the stepper `iconCss` and `label` by using the `steps` property.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

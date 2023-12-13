@@ -145,9 +145,9 @@ The [`Custom Resource Generator (CRG)`](https://crg.syncfusion.com/) is an onlin
 
 **Step 4:** Now, run the `index.html` in web browser, it will render the `Syncfusion JavaScript Stepper` control.
 
-## Configuring Icon and Label
+## Configure Icon and Label
 
-You can set the stepper with icon and label by using the `iconCss` and `label` property.
+You can set the stepper `iconCss` and `label` by using the `steps` property.
 
 {% tabs %}
 {% highlight html tabtitle="index.html" %}
