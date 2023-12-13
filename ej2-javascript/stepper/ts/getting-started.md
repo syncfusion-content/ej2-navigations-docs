@@ -139,7 +139,7 @@ The following example shows a basic Stepper control.
           
 {% previewsample "page.domainurl/code-snippet/stepper/getting-started-cs1" %}
 
-## Icon and Label
+## Configuring Icon and Label
 
 You can set the stepper with icon and label by using the `iconCss` and `label` property.
 
