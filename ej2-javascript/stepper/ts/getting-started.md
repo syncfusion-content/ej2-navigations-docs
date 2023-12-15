@@ -17,7 +17,7 @@ This section explains how to create a simple Stepper and configure its available
 
 ## Dependencies
 
-The following list of dependencies are required to use the Stepper control in your application.
+The following list of dependencies is required to use the Stepper control in your application.
 
 ```js
 |-- @syncfusion/ej2-navigations
@@ -109,7 +109,7 @@ Add the HTML nav tag with the `id` attribute as `stepper` to your `index.html` f
 {% endhighlight %}
 {% endtabs %}
 
-Import the Stepper control in your `app.ts` file, define the steps using `steps` property and initialize it with the `#stepper`.
+Import the Stepper control in your `app.ts` file, define the steps using `steps` property, and initialize it with `#stepper`.
 
 `[src/app/app.ts]`
 
@@ -151,9 +151,9 @@ The following example demonstrates the usage of a basic Stepper control.
           
 {% previewsample "page.domainurl/code-snippet/stepper/getting-started-cs1" %}
 
-## Configure Icon and Label
+## Configure icon and label
 
-You can set the stepper `iconCss` and `label` by using the `steps` property.
+You can define the step icon and label by setting the `iconCss` and `label` properties.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
