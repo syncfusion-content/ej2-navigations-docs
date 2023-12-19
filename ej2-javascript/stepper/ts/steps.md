@@ -9,7 +9,7 @@ documentation: ug
 domainurl: ##DomainURL##
 ---
 
-# Adding Stepper Steps
+# Adding Stepper steps
 
 The `steps` property can be used to add the Stepper steps. The steps collections represent the options for each step within the stepper.
 

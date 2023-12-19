@@ -13,8 +13,10 @@ domainurl: ##DomainURL##
 
 Enhance user interaction and provide additional information with tooltips in the Stepper component. Can utilize the following properties for tooltip customization:
 
-## ShowTooltip:
+## Show tooltip
+
 The `showTooltip` property allows you to control the visibility of tooltip within the Stepper.
 
-## TooltipTemplate:
-The `tooltipTemplate` property enables you to customize the content and appearance of tooltips. It can be used suit your specific tooltip requirements.
+## Tooltip template
+
+The `tooltipTemplate` property enables you to customize the content and appearance of tooltips. It can be used based on your specific tooltip requirements.
