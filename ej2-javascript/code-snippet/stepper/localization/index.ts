@@ -1,7 +1,7 @@
 
 
 import { Stepper, StepModel } from '@syncfusion/ej2-navigations';
-import { L10n, setCulture } from '@syncfusion/ej2-base';
+import { L10n } from '@syncfusion/ej2-base';
 
 L10n.load({
   'fr-BE': {
