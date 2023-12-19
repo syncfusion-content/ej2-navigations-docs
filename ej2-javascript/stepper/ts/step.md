@@ -11,9 +11,10 @@ domainurl: ##DomainURL##
 
 # Adding Stepper Steps
 
-The `steps` property can be used to add the Stepper steps. The steps collections represents the options to be rendered for each step within the stepper.
+The `steps` property can be used to add the Stepper steps. The steps collections represent the options for each step within the stepper.
 
 ## Icon
+
 The `iconCss` property allows us to specify and customize an icon for each step.
 
 {% tabs %}
@@ -31,6 +32,7 @@ The `iconCss` property allows us to specify and customize an icon for each step.
 {% previewsample "page.domainurl/code-snippet/stepper/steps/icon" %}
 
 ## Text
+
 The `text` property allows to specify the text content for each step.
 
 {% tabs %}
@@ -48,6 +50,7 @@ The `text` property allows to specify the text content for each step.
 {% previewsample "page.domainurl/code-snippet/stepper/steps/text" %}
 
 ## Label
+
 By using the `label` property, additional information can be provided for each step.
 
 {% tabs %}
@@ -65,6 +68,7 @@ By using the `label` property, additional information can be provided for each s
 {% previewsample "page.domainurl/code-snippet/stepper/steps/label" %}
 
 ## Optional
+
 The `optional` property defines whether the step is optional to skip completion or not. By default the `optional` property is false.
 
 {% tabs %}
@@ -82,6 +86,7 @@ The `optional` property defines whether the step is optional to skip completion 
 {% previewsample "page.domainurl/code-snippet/stepper/steps/optional" %}
 
 ## Disabled
+
 The `disabled` property can be used to disable any step. By default the `disabled` property is false.
 
 {% tabs %}
@@ -99,7 +104,8 @@ The `disabled` property can be used to disable any step. By default the `disable
 {% previewsample "page.domainurl/code-snippet/stepper/steps/disabled" %}
 
 ## Validation
-Seting the `isValid` property to true for valid completion; otherwise, set it to false. Indicates whether a step has met its required criteria. The default value is false.
+
+Setting the `isValid` property to true for valid completion; otherwise, set it to false. Indicates whether a step has met its required criteria. The default value is false.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -116,7 +122,9 @@ Seting the `isValid` property to true for valid completion; otherwise, set it to
 {% previewsample "page.domainurl/code-snippet/stepper/steps/validation" %}
 
 ## Status
+
 The `status` property holds a `StepperStatus` value representing the progress state of each step. You can set the status for the current active step (StepperStatus.NotStarted, StepperStatus.InProgress, StepperStatus.Completed). The default value is `NotStarted.`
 
 ## CssClass
+
 The `cssClass` property is used to set a custom CSS class for customizing the appearance of the step.
