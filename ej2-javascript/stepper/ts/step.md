@@ -105,7 +105,7 @@ The `disabled` property can be used to disable any step. By default the `disable
 
 ## Validation
 
-Setting the `isValid` property to true for valid completion; otherwise, set it to false. Indicates whether a step has met its required criteria. The default value is false.
+Setting the `isValid` property to true for valid completion otherwise, set it to false. Indicates whether a step has met its required criteria. The default value is `false`.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -123,7 +123,7 @@ Setting the `isValid` property to true for valid completion; otherwise, set it t
 
 ## Status
 
-The `status` property holds a `StepperStatus` value representing the progress state of each step. You can set the status for the current active step (StepperStatus.NotStarted, StepperStatus.InProgress, StepperStatus.Completed). The default value is `NotStarted.`
+The `status` property holds a `StepperStatus` value representing the progress state of each step. You can set the status for the current active step (`NotStarted`, `InProgress`, `Completed`). The default value is `NotStarted.`
 
 ## CssClass
 

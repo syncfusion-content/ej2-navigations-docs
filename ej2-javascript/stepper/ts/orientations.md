@@ -11,11 +11,11 @@ domainurl: ##DomainURL##
 
 # Orientation
 
-The `orientation` property has control over the display arrangement of steps in the Stepper. The possible orientations are `horizontal` and `vertical` layouts. By default the orientation is set to `horizontal`.
+The `orientation` property determines the order in which steps are displayed in the Stepper. The possible orientations are `horizontal` and `vertical` layouts. By default, the orientation is set to `horizontal`.
 
-## Horizontal Stepper
+## Horizontal
 
-By setting the orientation to `horizontal` results in presenting the stepper steps in a side-by-side fashion, progressing from left to right.
+The `horizontal` orientation results in presenting the stepper steps in a side-by-side fashion, progressing from left to right.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -31,7 +31,7 @@ By setting the orientation to `horizontal` results in presenting the stepper ste
 
 {% previewsample "page.domainurl/code-snippet/stepper/horizontal" %}
 
-## Vertical Stepper
+## Vertical
 
 When the orientation is set to `vertical`, it organizes the steps one below the other following a top-to-bottom arrangement.
 
