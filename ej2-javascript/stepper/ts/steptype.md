@@ -28,10 +28,10 @@ The Stepper control allows you to place the label on the top, bottom, left, or r
 
 The following label positions are supported in stepper:
 
-* Top: The label is placed on the top of the stepper.
-* Bottom: The label is placed on the bottom of the stepper.
-* Left: The label is placed on the left side of the stepper.
-* Right: The label is placed on the right side of the stepper.
+* Top: Positions the label at the top of the stepper.
+* Bottom: Positions the label at the bottom of the stepper.
+* Start: Positions the label to the left side of the stepper.
+* End: Positions the label to the right side of the stepper.
 
 ## Indicator
 
