@@ -9,12 +9,13 @@ documentation: ug
 domainurl: ##DomainURL##
 ---
 
-# Adding Stepper Steps
+# Adding Stepper steps
 
-The `steps` property can be used to add the Stepper steps. The steps collections represents the options to be rendered for each step within the stepper.
+You can use the `steps` property to add the Stepper steps. The steps collections represent the options for each step within the stepper.
 
 ## Icon
-The `iconCss` property allows us to specify and customize an icon for each step.
+
+You can use the `iconCss` property to specify and customize an icon for each step.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -31,7 +32,8 @@ The `iconCss` property allows us to specify and customize an icon for each step.
 {% previewsample "page.domainurl/code-snippet/stepper/steps/icon" %}
 
 ## Text
-The `text` property allows to specify the text content for each step.
+
+You can use the `text` property to specify the text content for each step.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -48,7 +50,8 @@ The `text` property allows to specify the text content for each step.
 {% previewsample "page.domainurl/code-snippet/stepper/steps/text" %}
 
 ## Label
-By using the `label` property, additional information can be provided for each step.
+
+You can use the `label` property to provide additional information for each step.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -65,7 +68,8 @@ By using the `label` property, additional information can be provided for each s
 {% previewsample "page.domainurl/code-snippet/stepper/steps/label" %}
 
 ## Optional
-The `optional` property defines whether the step is optional to skip completion or not. By default the `optional` property is false.
+
+You can use the `optional` property to determine whether the step can be skipped or not. By default the `optional` property is false.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -82,7 +86,8 @@ The `optional` property defines whether the step is optional to skip completion 
 {% previewsample "page.domainurl/code-snippet/stepper/steps/optional" %}
 
 ## Disabled
-The `disabled` property can be used to disable any step. By default the `disabled` property is false.
+
+You can use the `disabled` property to in-active any step. By default the `disabled` property is false.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -99,7 +104,10 @@ The `disabled` property can be used to disable any step. By default the `disable
 {% previewsample "page.domainurl/code-snippet/stepper/steps/disabled" %}
 
 ## Validation
-Seting the `isValid` property to true for valid completion; otherwise, set it to false. Indicates whether a step has met its required criteria. The default value is false.
+
+You can toggle the `isValid` property based on the application logic to success or error states. If the current step is invalid, it prevents the user from moving on to the next one. The default value is `null`.
+
+> Based on the stepper `stepType` the validation icons will be displayed either in the step indicator or as part of the step label/text.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -116,7 +124,9 @@ Seting the `isValid` property to true for valid completion; otherwise, set it to
 {% previewsample "page.domainurl/code-snippet/stepper/steps/validation" %}
 
 ## Status
-The `status` property holds a `StepperStatus` value representing the progress state of each step. You can set the status for the current active step (StepperStatus.NotStarted, StepperStatus.InProgress, StepperStatus.Completed). The default value is `NotStarted.`
+
+You can use the`status` property to represent the progress states of each activeStep. The possible values are `NotStarted`, `InProgress` and `Completed`. By default, the value is `NotStarted.`
 
 ## CssClass
-The `cssClass` property is used to set a custom CSS class for customizing the appearance of the step.
+
+You can use the `cssClass` property to customize the appearance of the step.

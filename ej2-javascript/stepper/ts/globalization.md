@@ -13,7 +13,7 @@ domainurl: ##DomainURL##
 
 ## Localization
 
-The Localization library allows you to localize optional property of the Stepper. Optional property of the stepper component can be changed to other cultures (Arabic, Deutsch, French, etc.) by defining the locale value and translation object.
+The Localization library allows you to localize optional property of the Stepper. Optional property of the stepper component can be changed to other cultures (Arabic, Deutsch, French, etc.) by defining the `locale` value and translation object.
 
 
 Locale key |en-US (default)
@@ -36,7 +36,7 @@ optional | Optional
 
 ## RTL
 
-RTL provides an option to switch the text direction and layout of the Stepper component from right to left. It improves the user experiences and accessibility for users who use right-to-left languages. To enable RTL, set the enableRtl to true.
+RTL provides an option to switch the text direction and layout of the Stepper component from right to left. It improves the user experiences and accessibility for users who use right-to-left languages. To enable RTL, set the `enableRtl` to true.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

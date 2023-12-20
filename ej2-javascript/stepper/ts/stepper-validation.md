@@ -9,7 +9,7 @@ documentation: ug
 domainurl: ##DomainURL##
 ---
 
-# Validating Steps 
+# Validating steps 
 
 The `isValid` property in the Stepper determines the validation of a specific step in the process.
 
