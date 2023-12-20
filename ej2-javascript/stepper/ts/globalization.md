@@ -13,8 +13,7 @@ domainurl: ##DomainURL##
 
 ## Localization
 
-The Localization library allows you to localize optional property of the Stepper. Optional property of the stepper component can be changed to other cultures (Arabic, Deutsch, French, etc.) by defining the `locale` value and translation object.
-
+The Localization library allows you to localize optional property of the Stepper. Optional property of the stepper component can be changed to other cultures (Arabic, Deutsch, French, etc.) by defining the `locale` value and translation object. In the below sample, `French` culture is set to Stepper and changed the optional property text.
 
 Locale key |en-US (default)
 -----|-----

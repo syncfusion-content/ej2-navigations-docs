@@ -11,18 +11,6 @@ domainurl: ##DomainURL##
 
 # Customizing Stepper steps with templates
 
-You can personalize the appearance of Stepper steps by using the `template` property. It enables the customization feature for different progress states within the stepper, encompassing indicators and the progress bar.
+The Stepper control allows you to customize the appearance of the stepper steps using `template` property. You can use template to define a unique layout for the stepper. This allows you to create a more customized and interactive experience for the user. 
 
-Below are examples demonstrating the customization of Stepper steps using the template support:
-
-## Icon only
-
-Customize the stepper step with only an icon for a minimalist visual representation.
-
-## Icon with label
-
-The stepper step combines the icon with a label, providing additional context and information.
-
-## Icon with text
-
-It incorporates both the icon and text, creating a visual representation with textual details.
+The following example shows the customization of stepper with `icon` and `text` using `template` property.

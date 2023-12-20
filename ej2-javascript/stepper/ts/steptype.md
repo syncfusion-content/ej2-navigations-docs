@@ -19,28 +19,19 @@ Steps are displayed with icons and the labels when defined.
 
 ## Label
 
-Steps are displayed with only labels irrespective of the step model configured.
+Steps are displayed with their defined labels only.
 
 
 ### Label positions
 
-The `labelPosition` property offers four positioning options: `Top`, `Bottom`, `Start`, and `End`. This property indicated the placement of the labels, depending on the updated position. The labels can be positioned only when the icon and label is configured with the stepper step. The available positions are as follows:
+The Stepper control allows you to place the label on the top, bottom, left, or right side of the stepper using the `labelPosition` property.
 
-#### Top
+The following label positions are supported in stepper:
 
-Positions the label at the top, regardless of the Stepper's orientation.
-
-#### Bottom
-
-Positions the label at the bottom, regardless of the Stepper's orientation.
-
-#### Start
-
-Positions the label to the left side, regardless of the Stepper's orientation.
-
-#### End
-
-Positions the label to the right side, regardless of the Stepper's orientation. By default `labelPosition` is set to `End`.
+* Top: The label is placed on the top of the stepper.
+* Bottom: The label is placed on the bottom of the stepper.
+* Left: The label is placed on the left side of the stepper.
+* Right: The label is placed on the right side of the stepper.
 
 ## Indicator
 
