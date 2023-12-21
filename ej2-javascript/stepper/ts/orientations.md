@@ -11,11 +11,11 @@ domainurl: ##DomainURL##
 
 # Orientation
 
-You can use the `orientation` property to set `Horizontal` or `Vertical` orientations, which controls the sequence order of the steps displayed in the Stepper. By default, the orientation is set to `horizontal`.
+You can use the [orientation](https://ej2.syncfusion.com/documentation/api/stepper#orientation) property to set `Horizontal` or `Vertical` orientations, which controls the sequence order of the steps displayed in the Stepper. By default, the orientation is set to `horizontal`.
 
 ## Horizontal
 
-The Stepper steps are arranged in a side-by-side manner, by setting the `Horizontal` in the `orientation` property.
+The Stepper steps are arranged in a side-by-side manner, by setting the `Horizontal` in the [orientation](https://ej2.syncfusion.com/documentation/api/stepper#orientation) property.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -33,7 +33,7 @@ The Stepper steps are arranged in a side-by-side manner, by setting the `Horizon
 
 ## Vertical
 
-To display the steps vertically, use the `Vertical` in the `orientation` property, to arrange the steps one below the other.
+To display the steps vertically, use the `Vertical` in the [orientation](https://ej2.syncfusion.com/documentation/api/stepper#orientation) property, to arrange the steps one below the other.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

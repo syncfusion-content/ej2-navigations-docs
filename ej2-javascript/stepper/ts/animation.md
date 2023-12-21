@@ -11,19 +11,19 @@ domainurl: ##DomainURL##
 
 # AnimationSettings
 
-The Stepper progress bar can be animated during each step transition. You can use the `animation` property in the Stepper setting the `enable` property to `true`. By default, it is `true`.
+The Stepper progress bar can be animated during each step transition. You can use the [animation](https://ej2.syncfusion.com/documentation/api/stepper#animation) property in the Stepper setting the [enable](https://ej2.syncfusion.com/documentation/api/stepper/animationModel/#enable) property to `true`. By default, it is `true`.
 
 ## Enabling animation
 
-Using the `enable` property you can activate/deactivate an animation. The default value is true, indicating that animation is enabled.
+Using the [enable](https://ej2.syncfusion.com/documentation/api/stepper/animationModel/#enable) property you can activate/deactivate an animation. The default value is true, indicating that animation is enabled.
 
 ## Duration
 
-The `duration` property specifies the duration of the animation. The default value is set to `1000` milliseconds.
+The [duration](https://ej2.syncfusion.com/documentation/api/stepper/animationModel/#duration) property specifies the duration of the animation. The default value is set to `1000` milliseconds.
 
 ## Delay
 
-The `delay` property sets the animation delay. The default value is `0` milliseconds.
+The [delay](https://ej2.syncfusion.com/documentation/api/stepper/animationModel/#delay) property sets the animation delay. The default value is `0` milliseconds.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

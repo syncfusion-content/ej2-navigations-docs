@@ -15,7 +15,7 @@ Improve user interaction and offer extra information with tooltips in the Steppe
 
 ## Show tooltip
 
-The `showTooltip` property allows you to control the visibility of tooltip within the Stepper.
+The [showTooltip](https://ej2.syncfusion.com/documentation/api/stepper#showtooltip) property allows you to control the visibility of tooltip within the Stepper.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -33,4 +33,4 @@ The `showTooltip` property allows you to control the visibility of tooltip withi
 
 ## Tooltip template
 
-The `tooltipTemplate` property enables you to customize the content and appearance of tooltips. It can be used based on your specific tooltip requirements.
+The [tooltipTemplate](https://ej2.syncfusion.com/documentation/api/stepper#tooltiptemplate) property enables you to customize the content and appearance of tooltips. It can be used based on your specific tooltip requirements.

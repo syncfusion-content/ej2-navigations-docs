@@ -109,7 +109,7 @@ Add the HTML nav tag with the `id` attribute as `stepper` to your `index.html` f
 {% endhighlight %}
 {% endtabs %}
 
-Import the Stepper control in your `app.ts` file, define the steps using `steps` property, and initialize it with `#stepper`.
+Import the Stepper control in your `app.ts` file, define the steps using [steps](https://ej2.syncfusion.com/documentation/api/stepper#steps) property, and initialize it with `#stepper`.
 
 `[src/app/app.ts]`
 

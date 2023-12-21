@@ -15,7 +15,7 @@ This section describes the stepper events that will be triggered when an appropr
 
 ## created
 
-The `created` event is triggered when the Stepper component is initially created.
+The [created](https://ej2.syncfusion.com/documentation/api/stepper#created) event is triggered when the Stepper component is initially created.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -33,7 +33,7 @@ The `created` event is triggered when the Stepper component is initially created
 
 ## stepChanged
 
-The `stepChanged` event occurs when the active step in the Stepper changes. The `StepperChangedEventArgs` passed as an event argument provides the information about stepChanged event callback.
+The [stepChanged](https://ej2.syncfusion.com/documentation/api/stepper#stepchanged) event occurs when the active step in the Stepper changes. The [StepperChangedEventArgs](https://ej2.syncfusion.com/documentation/api/stepper/stepperChangedEventArgs/) passed as an event argument provides the information about stepChanged event callback.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -51,7 +51,7 @@ The `stepChanged` event occurs when the active step in the Stepper changes. The 
 
 ## stepChanging
 
-The `stepChanging` event is triggered before the active step changes in the Stepper. The `StepperChangingEventArgs` passed as an event argument provides the information about stepChanging event callback.
+The [stepChanging](https://ej2.syncfusion.com/documentation/api/stepper#stepchanging) event is triggered before the active step changes in the Stepper. The [StepperChangingEventArgs](https://ej2.syncfusion.com/documentation/api/stepper/stepperChangingEventArgs/) passed as an event argument provides the information about stepChanging event callback.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -69,7 +69,7 @@ The `stepChanging` event is triggered before the active step changes in the Step
 
 ## stepClick
 
-The `stepClick` event is triggered when a step in the Stepper is clicked. The `StepperClickEventArgs` passed as an event argument provides the information about stepClick event callback.
+The [stepClick](https://ej2.syncfusion.com/documentation/api/stepper#stepclick) event is triggered when a step in the Stepper is clicked. The [StepperClickEventArgs](https://ej2.syncfusion.com/documentation/api/stepper/stepperClickEventArgs/) passed as an event argument provides the information about stepClick event callback.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -87,7 +87,7 @@ The `stepClick` event is triggered when a step in the Stepper is clicked. The `S
 
 ## beforeStepRender
 
-The `beforeStepRender` event occurs before a step is rendered in the Stepper. The `StepperRenderingEventArgs` passed as an event argument provides the information about beforeStepRender event callback.
+The [beforeStepRender](https://ej2.syncfusion.com/documentation/api/stepper#beforesteprender) event occurs before a step is rendered in the Stepper. The [StepperRenderingEventArgs](https://ej2.syncfusion.com/documentation/api/stepper/stepperRenderingEventArgs/) passed as an event argument provides the information about beforeStepRender event callback.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

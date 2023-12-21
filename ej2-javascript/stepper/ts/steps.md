@@ -123,7 +123,7 @@ You can use the`status` property to represent the progress states of each active
 
 ## CssClass
 
-You can use the `cssClass` property to customize the appearance of the step.
+You can use the [cssClass](https://ej2.syncfusion.com/documentation/api/stepper#cssclass) property to customize the appearance of the step.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

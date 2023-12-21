@@ -11,7 +11,7 @@ domainurl: ##DomainURL##
 
 # StepType
 
-The `stepType` property in the Stepper determines whether steps should be displayed using only with indicators, only labels, or a combination of both. The available values for this property are `default`, `label`, and `indicator`.
+The [stepType](https://ej2.syncfusion.com/documentation/api/stepper#steptype) property in the Stepper determines whether steps should be displayed using only with indicators, only labels, or a combination of both. The available values for this property are `default`, `label`, and `indicator`.
 
 ## Default
 
@@ -23,7 +23,7 @@ Steps are displayed with their defined labels only.
 
 ### Label positions
 
-The Stepper control allows you to place the label on the top, bottom, left, or right side of the stepper using the `labelPosition` property.
+The Stepper control allows you to place the label on the top, bottom, left, or right side of the stepper using the [labelPosition](https://ej2.syncfusion.com/documentation/api/stepper#labelposition) property.
 
 The following label positions are supported in stepper:
 

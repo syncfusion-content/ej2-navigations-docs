@@ -11,9 +11,9 @@ domainurl: ##DomainURL##
 
 # Customizing Stepper steps with templates
 
-The Stepper control allows you to customize the appearance of the stepper steps using `template` property. You can use template to define a unique layout for the stepper. This allows you to create a more customized and interactive experience for the user. 
+The Stepper control allows you to customize the appearance of the stepper steps using [template](https://ej2.syncfusion.com/documentation/api/stepper#template) property. You can use template to define a unique layout for the stepper. This allows you to create a more customized and interactive experience for the user. 
 
-The following example shows the customization of stepper with `icon` and `label` using `template` property.
+The following example shows the customization of stepper with `icon` and `label` using [template](https://ej2.syncfusion.com/documentation/api/stepper#template) property.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
