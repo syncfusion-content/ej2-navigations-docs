@@ -2,6 +2,8 @@
     margin-top: 30px;
     padding: 30px;
     min-height: 450px;
+    display: flex;
+    justify-content: center;
 }
 @font-face {
     font-family: 'Default';
@@ -24,7 +26,6 @@
 }
 
 .sf-icon-cart:before { content: "\e710"; }
-.sf-icon-user:before { content: "\e708"; }
 .sf-icon-transport:before { content: "\e702"; }
 .sf-icon-payment:before { content: "\e706"; }
 .sf-icon-success:before { content: "\e715"; }

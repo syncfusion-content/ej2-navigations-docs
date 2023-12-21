@@ -18,18 +18,9 @@
 </head>
 <body>
   
-  <div id="container">
-      <nav id="stepper"></nav>
+  <div id="container" class="stepper-template-wrapper">
+    <nav id="stepperTemplate"></nav>
   </div>
-  <script id="template" type="text/x-jsrender">
-    ${if(value==0)}
-    <span class='cart emoji'>&#128722;</span>${else if(value==1)}
-    <span class='address emoji'>&#127968;</span>${else if(value==2)}
-    <span class='delivery emoji'>&#128666;</span>${else if(value==3)}
-    <span class='payment emoji'>&#128179;</span>${else}
-    <span class='order emoji'>&#10004;</span>
-    ${/if}
-</script>
 
 <script>
 var ele = document.getElementById('container');

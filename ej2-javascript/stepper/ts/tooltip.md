@@ -17,6 +17,20 @@ Improve user interaction and offer extra information with tooltips in the Steppe
 
 The `showTooltip` property allows you to control the visibility of tooltip within the Stepper.
 
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/stepper/tooltip/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/stepper/tooltip/index.html %}
+{% endhighlight %}
+{% highlight html tabtitle="styles.css" %}
+{% include code-snippet/stepper/tooltip/styles.css %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/stepper/tooltip" %}
+
 ## Tooltip template
 
 The `tooltipTemplate` property enables you to customize the content and appearance of tooltips. It can be used based on your specific tooltip requirements.

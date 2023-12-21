@@ -21,7 +21,6 @@ Steps are displayed with icons and the labels when defined.
 
 Steps are displayed with their defined labels only.
 
-
 ### Label positions
 
 The Stepper control allows you to place the label on the top, bottom, left, or right side of the stepper using the `labelPosition` property.

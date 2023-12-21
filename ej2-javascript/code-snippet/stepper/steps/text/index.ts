@@ -1,11 +1,8 @@
-
-
 import { Stepper, StepModel } from '@syncfusion/ej2-navigations';
 
 let iconWithLabel: StepModel[] = [
   { text: 'Cart' },
-  { text: 'Address' },
-  { text: 'Delivery' },
+  { text: 'Delivery Address' },
   { text: 'Payment' },
   { text: 'Ordered' }
 ];
@@ -15,5 +12,3 @@ let iconLabelStepper: Stepper = new Stepper({
 });
 
 iconLabelStepper.appendTo('#stepper');
-
-

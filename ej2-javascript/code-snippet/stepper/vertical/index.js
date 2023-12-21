@@ -1,13 +1,12 @@
-var iconWithLabel = [
-  { label: 'Cart', iconCss: 'sf-icon-cart' },
-  { label: 'Address', iconCss: 'sf-icon-user' },
-  { label: 'Delivery', iconCss: 'sf-icon-transport' },
-  { label: 'Payment', iconCss: 'sf-icon-payment' },
-  { label: 'Ordered', iconCss: 'sf-icon-success' }
+var icon = [
+  { iconCss: 'sf-icon-cart' },
+  { iconCss: 'sf-icon-transport' },
+  { iconCss: 'sf-icon-payment' },
+  { iconCss: 'sf-icon-success' }
   ];
 
-  var iconLabelStepper = new ej.navigations.Stepper({
-  steps: iconWithLabel,
+  var verticalStepper = new ej.navigations.Stepper({
+  steps: icon,
   orientation: 'vertical'
   });
-  iconLabelStepper.appendTo("#stepper");
+  verticalStepper.appendTo("#stepper");

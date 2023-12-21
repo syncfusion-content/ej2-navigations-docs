@@ -1,13 +1,10 @@
-
-
 import { Stepper, StepModel } from '@syncfusion/ej2-navigations';
 
 let stepperLabel: StepModel[] = [
   { label: 'Cart'},
-  { label: 'Address'},
-  { label: 'Delivery'},
+  { label: 'Delivery Address'},
   { label: 'Payment'},
-  { label: 'Ordered' }
+  { label: 'Confirmation' }
 ];
 
 let stepperWithLabel: Stepper = new Stepper({
@@ -15,5 +12,3 @@ let stepperWithLabel: Stepper = new Stepper({
 });
 
 stepperWithLabel.appendTo('#stepper');
-
-

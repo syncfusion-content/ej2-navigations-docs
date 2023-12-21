@@ -1,9 +1,8 @@
 var stepperLabel = [
   { label: 'Cart'},
-  { label: 'Address'},
-  { label: 'Delivery'},
+  { label: 'Delivery Address' },
   { label: 'Payment'},
-  { label: 'Ordered' }
+  { label: 'Confirmation' }
   ];
 
   var stepperWithLabel = new ej.navigations.Stepper({

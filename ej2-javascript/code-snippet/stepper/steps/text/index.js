@@ -1,9 +1,8 @@
 var iconWithLabel = [
   { text: 'Cart' },
-  { text: 'Address' },
-  { text: 'Delivery' },
+  { text: 'Delivery Address' },
   { text: 'Payment' },
-  { text: 'Ordered' }
+  { text: 'Confirmation' }
   ];
 
   var iconLabelStepper = new ej.navigations.Stepper({

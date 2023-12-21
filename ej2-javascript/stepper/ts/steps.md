@@ -42,9 +42,6 @@ You can use the `text` property to specify the text content for each step.
 {% highlight html tabtitle="index.html" %}
 {% include code-snippet/stepper/steps/text/index.html %}
 {% endhighlight %}
-{% highlight html tabtitle="styles.css" %}
-{% include code-snippet/stepper/steps/text/styles.css %}
-{% endhighlight %}
 {% endtabs %}
 
 {% previewsample "page.domainurl/code-snippet/stepper/steps/text" %}
@@ -59,9 +56,6 @@ You can use the `label` property to provide additional information for each step
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
 {% include code-snippet/stepper/steps/label/index.html %}
-{% endhighlight %}
-{% highlight html tabtitle="styles.css" %}
-{% include code-snippet/stepper/steps/label/styles.css %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -130,3 +124,17 @@ You can use the`status` property to represent the progress states of each active
 ## CssClass
 
 You can use the `cssClass` property to customize the appearance of the step.
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/stepper/steps/cssClass/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/stepper/steps/cssClass/index.html %}
+{% endhighlight %}
+{% highlight html tabtitle="styles.css" %}
+{% include code-snippet/stepper/steps/cssClass/styles.css %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/stepper/steps/cssClass" %}
