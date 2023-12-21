@@ -15,7 +15,7 @@ The Stepper progress bar can be animated during each step transition. You can us
 
 ## Enabling animation
 
-By using, the `enable` property to activate/deactivate an animation. The default value is true, indicating that animation is enabled.
+Using the `enable` property you can activate/deactivate an animation. The default value is true, indicating that animation is enabled.
 
 ## Duration
 
@@ -31,9 +31,6 @@ The `delay` property sets the animation delay. The default value is `0` millisec
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
 {% include code-snippet/stepper/animation/index.html %}
-{% endhighlight %}
-{% highlight html tabtitle="styles.css" %}
-{% include code-snippet/stepper/animation/styles.css %}
 {% endhighlight %}
 {% endtabs %}
 

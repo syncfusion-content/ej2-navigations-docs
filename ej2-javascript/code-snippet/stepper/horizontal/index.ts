@@ -1,17 +1,15 @@
 import { Stepper, StepModel } from '@syncfusion/ej2-navigations';
 
-let iconWithLabel: StepModel[] = [
-  { label: 'Cart', iconCss: 'sf-icon-cart' },
-  { label: 'Delivery Address', iconCss: 'sf-icon-transport' },
-  { label: 'Payment', iconCss: 'sf-icon-payment'},
-  { label: 'Confirmation', iconCss: 'sf-icon-success' }
+let icon: StepModel[] = [
+  { iconCss: 'sf-icon-cart' },
+  { iconCss: 'sf-icon-transport' },
+  { iconCss: 'sf-icon-payment'},
+  { iconCss: 'sf-icon-success' }
 ];
 
-let iconLabelStepper: Stepper = new Stepper({
-  steps: iconWithLabel,
+let horizontalStepper: Stepper = new Stepper({
+  steps: icon,
   orientation: 'horizontal'
 });
 
-iconLabelStepper.appendTo('#stepper');
-
-
+horizontalStepper.appendTo('#stepper');
