@@ -11,7 +11,7 @@ domainurl: ##DomainURL##
 
 # Stepper Flow
 
-The Stepper component provides control over the flow of steps through the utilization of the [linear](https://ej2.syncfusion.com/javascript/documentation/api/stepper#linear) property.
+The Stepper control provides control over the flow of steps through the utilization of the [linear](https://ej2.syncfusion.com/javascript/documentation/api/stepper#linear) property.
 
 ## Linear flow
 

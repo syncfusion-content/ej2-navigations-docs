@@ -15,7 +15,7 @@ This section describes the stepper events that will be triggered when an appropr
 
 ## created
 
-The [created](https://ej2.syncfusion.com/documentation/api/stepper#created) event is triggered when the Stepper component is initially created.
+The [created](https://ej2.syncfusion.com/documentation/api/stepper#created) event is triggered when the Stepper control is initially created.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

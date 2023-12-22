@@ -11,7 +11,7 @@ domainurl: ##DomainURL##
 
 # Tooltips in Stepper
 
-Improve user interaction and offer extra information with tooltips in the Stepper component. You can customize tooltips using the following properties:
+Improve user interaction and offer extra information with tooltips in the Stepper control. You can customize tooltips using the following properties:
 
 ## Show tooltip
 
