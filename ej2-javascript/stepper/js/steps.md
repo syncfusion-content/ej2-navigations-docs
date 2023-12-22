@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Step in  ##Platform_Name## Stepper control | Syncfusion
-description:  Checkout and learn about Step with ##Platform_Name## Stepper control of Syncfusion Essential JS 2 and more details.
+title: Steps in  ##Platform_Name## Stepper control | Syncfusion
+description:  Checkout and learn about Steps with ##Platform_Name## Stepper control of Syncfusion Essential JS 2 and more details.
 platform: ej2-javascript
 control: Stepper
 publishingplatform: ##Platform_Name##
