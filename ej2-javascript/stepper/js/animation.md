@@ -11,7 +11,7 @@ domainurl: ##DomainURL##
 
 # AnimationSettings
 
-The Stepper progress bar can be animated during each step transition. You can use the [animation](https://ej2.syncfusion.com/javascript/documentation/api/stepper/#animation) property in the Stepper setting the [enable](https://ej2.syncfusion.com/javascript/documentation/api/stepper/animationModel/#enable) property to `true`. By default, it is `true`.
+The Stepper progress bar can be animated during each step transition. You can use the [animation](https://ej2.syncfusion.com/javascript/documentation/api/stepper/#animation) property in the Stepper by setting the [enable](https://ej2.syncfusion.com/javascript/documentation/api/stepper/animationModel/#enable) property to `true`. By default, it is `true`.
 
 ## Enabling animation
 
