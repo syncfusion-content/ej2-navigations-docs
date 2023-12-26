@@ -28,6 +28,6 @@
 .sf-icon-payment:before { content: "\e706"; }
 .sf-icon-success:before { content: "\e715"; }
 
-.default-stepper-section {
+.stepper-section {
     margin: 50px 100px;
 }
