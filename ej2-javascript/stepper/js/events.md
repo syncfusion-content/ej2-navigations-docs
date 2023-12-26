@@ -24,9 +24,6 @@ The [created](https://ej2.syncfusion.com/javascript/documentation/api/stepper#cr
 {% highlight html tabtitle="index.html" %}
 {% include code-snippet/stepper/events/created/index.html %}
 {% endhighlight %}
-{% highlight html tabtitle="styles.css" %}
-{% include code-snippet/stepper/events/created/styles.css %}
-{% endhighlight %}
 {% endtabs %}
 
 {% previewsample "page.domainurl/code-snippet/stepper/events/created" %}
@@ -41,9 +38,6 @@ The [stepChanged](https://ej2.syncfusion.com/javascript/documentation/api/steppe
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
 {% include code-snippet/stepper/events/stepChanged/index.html %}
-{% endhighlight %}
-{% highlight html tabtitle="styles.css" %}
-{% include code-snippet/stepper/events/stepChanged/styles.css %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -60,9 +54,6 @@ The [stepChanging](https://ej2.syncfusion.com/javascript/documentation/api/stepp
 {% highlight html tabtitle="index.html" %}
 {% include code-snippet/stepper/events/stepChanging/index.html %}
 {% endhighlight %}
-{% highlight html tabtitle="styles.css" %}
-{% include code-snippet/stepper/events/stepChanging/styles.css %}
-{% endhighlight %}
 {% endtabs %}
 
 {% previewsample "page.domainurl/code-snippet/stepper/events/stepChanging" %}
@@ -78,9 +69,6 @@ The [stepClick](https://ej2.syncfusion.com/javascript/documentation/api/stepper#
 {% highlight html tabtitle="index.html" %}
 {% include code-snippet/stepper/events/stepClick/index.html %}
 {% endhighlight %}
-{% highlight html tabtitle="styles.css" %}
-{% include code-snippet/stepper/events/stepClick/styles.css %}
-{% endhighlight %}
 {% endtabs %}
 
 {% previewsample "page.domainurl/code-snippet/stepper/events/stepClick" %}
@@ -95,9 +83,6 @@ The [beforeStepRender](https://ej2.syncfusion.com/javascript/documentation/api/s
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
 {% include code-snippet/stepper/events/beforeStepRender/index.html %}
-{% endhighlight %}
-{% highlight html tabtitle="styles.css" %}
-{% include code-snippet/stepper/events/beforeStepRender/styles.css %}
 {% endhighlight %}
 {% endtabs %}
 

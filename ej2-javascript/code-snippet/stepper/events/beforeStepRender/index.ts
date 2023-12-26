@@ -1,14 +1,7 @@
-import { Stepper, StepModel, StepperRenderingEventArgs } from '@syncfusion/ej2-navigations';
-
-let icon: StepModel[] = [
-  {  iconCss: 'sf-icon-cart' },
-  {  iconCss: 'sf-icon-transport' },
-  {  iconCss: 'sf-icon-payment'},
-  {  iconCss: 'sf-icon-success' }
-];
+import { Stepper, StepperRenderingEventArgs } from '@syncfusion/ej2-navigations';
 
 let stepper: Stepper = new Stepper({
-  steps: icon,
+  steps: [{}, {}, {}, {}],
   beforeStepRender: (args: StepperRenderingEventArgs) => {
     //Your required action here
   }
