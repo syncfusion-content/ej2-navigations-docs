@@ -8,8 +8,7 @@ let stepperIcon: StepModel[] = [
 ];
 
 let stepper: Stepper = new Stepper({
-  steps: stepperIcon,
-  cssClass: 'stepper-customize'
+  steps: stepperIcon
 });
 
 stepper.appendTo('#stepper');
