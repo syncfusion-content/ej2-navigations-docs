@@ -101,7 +101,7 @@ You can use the `disabled` property to in-active any step. By default the `disab
 
 You can toggle the `isValid` property based on the application logic to success or error states. If the current step is invalid, it prevents the user from moving on to the next one. The default value is `null`.
 
-> Based on the stepper `stepType` the validation icons will be displayed either in the step indicator or as part of the step label/text.
+> Based on the stepper `stepType`, the validation icons will be displayed either in the step indicator or as part of the step label/text.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -123,7 +123,7 @@ You can use the `status` property to represent the progress states of each activ
 
 ## CssClass
 
-You can use the [cssClass](https://ej2.syncfusion.com/documentation/api/stepper#cssclass) property to customize the appearance of the step.
+You can use the `cssClass` property to customize the appearance of the step.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
