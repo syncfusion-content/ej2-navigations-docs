@@ -119,7 +119,7 @@ You can toggle the `isValid` property based on the application logic to success 
 
 ## Status
 
-You can use the`status` property to represent the progress states of each activeStep. The possible values are `NotStarted`, `InProgress` and `Completed`. By default, the value is `NotStarted.`
+You can use the `status` property to represent the progress states of each activeStep. The possible values are `NotStarted`, `InProgress` and `Completed`. By default, the value is `NotStarted.`
 
 ## CssClass
 
