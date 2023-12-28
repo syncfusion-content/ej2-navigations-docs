@@ -9,13 +9,13 @@ documentation: ug
 domainurl: ##DomainURL##
 ---
 
-# Events
+# Events in ##Platform_Name## Stepper control
 
-This section describes the stepper events that will be triggered when an appropriate actions are performed. The following events are available in the stepper control.
+This section describes the Stepper events that will be triggered when an appropriate actions are performed. The following events are available in the Stepper control.
 
 ## created
 
-The [created](https://ej2.syncfusion.com/javascript/documentation/api/stepper#created) event is triggered when the Stepper control is initially created.
+The Stepper control triggers the [created](https://ej2.syncfusion.com/javascript/documentation/api/stepper#created) event when the control rendering is completed.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -30,7 +30,7 @@ The [created](https://ej2.syncfusion.com/javascript/documentation/api/stepper#cr
 
 ## stepChanged
 
-The [stepChanged](https://ej2.syncfusion.com/javascript/documentation/api/stepper#stepchanged) event occurs when the active step in the Stepper changes. The [StepperChangedEventArgs](https://ej2.syncfusion.com/javascript/documentation/api/stepper/stepperChangedEventArgs/) passed as an event argument provides the information about stepChanged event callback.
+The Stepper control triggers the [stepChanged](https://ej2.syncfusion.com/javascript/documentation/api/stepper#stepchanged) event after the active step is changed.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -45,7 +45,7 @@ The [stepChanged](https://ej2.syncfusion.com/javascript/documentation/api/steppe
 
 ## stepChanging
 
-The [stepChanging](https://ej2.syncfusion.com/javascript/documentation/api/stepper#stepchanging) event is triggered before the active step changes in the Stepper. The [StepperChangingEventArgs](https://ej2.syncfusion.com/javascript/documentation/api/stepper/stepperChangingEventArgs/) passed as an event argument provides the information about stepChanging event callback.
+The Stepper control triggers the [stepChanging](https://ej2.syncfusion.com/javascript/documentation/api/stepper#stepchanging) event before the active step change.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -60,7 +60,7 @@ The [stepChanging](https://ej2.syncfusion.com/javascript/documentation/api/stepp
 
 ## stepClick
 
-The [stepClick](https://ej2.syncfusion.com/javascript/documentation/api/stepper#stepclick) event is triggered when a step in the Stepper is clicked. The [StepperClickEventArgs](https://ej2.syncfusion.com/javascript/documentation/api/stepper/stepperClickEventArgs/) passed as an event argument provides the information about stepClick event callback.
+The Stepper control triggers the [stepClick](https://ej2.syncfusion.com/javascript/documentation/api/stepper#stepclick) event when the step is clicked.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -75,7 +75,7 @@ The [stepClick](https://ej2.syncfusion.com/javascript/documentation/api/stepper#
 
 ## beforeStepRender
 
-The [beforeStepRender](https://ej2.syncfusion.com/javascript/documentation/api/stepper#beforesteprender) event occurs before a step is rendered in the Stepper. The [StepperRenderingEventArgs](https://ej2.syncfusion.com/javascript/documentation/api/stepper/stepperRenderingEventArgs/) passed as an event argument provides the information about beforeStepRender event callback.
+The Stepper control triggers the [beforeStepRender](https://ej2.syncfusion.com/javascript/documentation/api/stepper#beforesteprender) event before rendering each step.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

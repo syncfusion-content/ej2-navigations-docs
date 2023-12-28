@@ -9,13 +9,17 @@ documentation: ug
 domainurl: ##DomainURL##
 ---
 
-# Adding Stepper steps
+# Steps in ##Platform_Name## Stepper control
 
-You can use the [steps](https://ej2.syncfusion.com/javascript/documentation/api/stepper/#steps) property to add the Stepper steps. The steps collections represent the options for each step within the stepper.
+You can define the Stepper steps by using the [steps](https://ej2.syncfusion.com/javascript/documentation/api/stepper/#steps) property. You can configure each step which provides options such as `IconCss`, `Text`, `Label` and more.
 
-## Icon
+## Steps
 
-You can use the `iconCss` property to specify and customize an icon for each step.
+You can customize the icon, text and label of the steps by using the`iconCss`, `text` and `label` properties.
+
+### Defining step icons
+
+You can display only icons for each step by using the `iconCss` property.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -31,9 +35,13 @@ You can use the `iconCss` property to specify and customize an icon for each ste
 
 {% previewsample "page.domainurl/code-snippet/stepper/steps/icon" %}
 
-## Text
+### Defining step content
 
-You can use the `text` property to specify the text content for each step.
+You can display only text for each step by setting the `text` property. You can show only label for each step by setting the `label` property.
+
+> Depending on the `stepType`, if both label and text are defined the label takes priority to diplay the content.
+
+In the below sample, the Stepper is rendered with texts.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -46,9 +54,7 @@ You can use the `text` property to specify the text content for each step.
 
 {% previewsample "page.domainurl/code-snippet/stepper/steps/text" %}
 
-## Label
-
-You can use the `label` property to provide additional information for each step.
+In the below sample, the Stepper is rendered with labels.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -61,9 +67,9 @@ You can use the `label` property to provide additional information for each step
 
 {% previewsample "page.domainurl/code-snippet/stepper/steps/label" %}
 
-## Optional
+## Optional steps
 
-You can use the `optional` property to determine whether the step can be skipped or not. By default the `optional` property is false.
+You can determine whether the step can be skipped or not by setting the `optional` property. By default the `optional` property is false.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -79,9 +85,9 @@ You can use the `optional` property to determine whether the step can be skipped
 
 {% previewsample "page.domainurl/code-snippet/stepper/steps/optional" %}
 
-## Disabled
+## Enable or disable steps
 
-You can use the `disabled` property to in-active any step. By default the `disabled` property is false.
+You can make any step active or in-active by setting the `disabled` property. By default the `disabled` property is false.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -97,33 +103,33 @@ You can use the `disabled` property to in-active any step. By default the `disab
 
 {% previewsample "page.domainurl/code-snippet/stepper/steps/disabled" %}
 
-## Validation
+## Defining active step
 
-You can toggle the `isValid` property based on the application logic to success or error states. If the current step is invalid, it prevents the user from moving on to the next one. The default value is `null`.
+The [activeStep](https://ej2.syncfusion.com/javascript/documentation/api/stepper#activestep) in the Stepper represents the step currently in the focus or selected by the user. You can set the active step of the Stepper by assigning a value to the activeStep property. By default the activeStep is `0`.
 
-> Based on the stepper `stepType`, the validation icons will be displayed either in the step indicator or as part of the step label/text.
+The following example showcases how to utilize the active step property.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/stepper/steps/validation/index.js %}
+{% include code-snippet/stepper/linearStep/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/stepper/steps/validation/index.html %}
+{% include code-snippet/stepper/linearStep/index.html %}
 {% endhighlight %}
 {% highlight html tabtitle="styles.css" %}
-{% include code-snippet/stepper/steps/validation/styles.css %}
+{% include code-snippet/stepper/linearStep/styles.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/stepper/steps/validation" %}
+{% previewsample "page.domainurl/code-snippet/stepper/linearStep" %}
 
-## Status
+## Steps status
 
-You can use the `status` property to represent the progress states of each activeStep. The possible values are `NotStarted`, `InProgress` and `Completed`. By default, the value is `NotStarted.`
+The progress states of each activeStep can be updated by using the `status` property. The possible values are `NotStarted`, `InProgress` and `Completed`. By default, the value is `NotStarted.`
 
-## CssClass
+## Customization
 
-You can use the `cssClass` property to customize the appearance of the step.
+You can use the `cssClass` property to customize the appearance of the each step.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -138,3 +144,23 @@ You can use the `cssClass` property to customize the appearance of the step.
 {% endtabs %}
 
 {% previewsample "page.domainurl/code-snippet/stepper/steps/cssClass" %}
+
+## Steps validation
+
+Specifes whether the step is valid or not. By default the `isValid` property is `null`.
+
+> To know more about Stepper validation, refer the [Validation](./stepper-validation#validating-steps) section.
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/stepper/steps/validation/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/stepper/steps/validation/index.html %}
+{% endhighlight %}
+{% highlight html tabtitle="styles.css" %}
+{% include code-snippet/stepper/steps/validation/styles.css %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/stepper/steps/validation" %}

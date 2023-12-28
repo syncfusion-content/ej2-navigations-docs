@@ -13,7 +13,7 @@ domainurl: ##DomainURL##
 
 ## Localization
 
-The Localization library allows you to localize `optional` property of the Stepper. Optional property of the stepper control can be changed to other cultures (Arabic, Deutsch, French, etc.) by defining the `locale` value and translation object. In the below sample, `French` culture is set to Stepper and changed the optional property text.
+The Localization library allows you to localize `optional` property of the Stepper. Optional property of the Stepper control can be changed to other cultures (Arabic, Deutsch, French, etc.) by defining the `locale` value and translation object. In the below sample, `French` culture is set to Stepper and changed the optional property text.
 
 Locale key |en-US (default)
 -----|-----
@@ -35,7 +35,7 @@ optional | Optional
 
 ## RTL
 
-RTL provides an option to switch the text direction and layout of the Stepper control from right to left. To enable RTL, set the [enableRtl](https://ej2.syncfusion.com/documentation/api/stepper#enablertl) to true. It enhances accessibility and user experiences for users of right-to-left languages.
+RTL provides an option to switch the text direction and layout of the Stepper control from right to left by setting the [enableRtl](https://ej2.syncfusion.com/documentation/api/stepper#enablertl) property to `true`.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

@@ -11,19 +11,23 @@ domainurl: ##DomainURL##
 
 # Animation in ##Platform_Name## Stepper control
 
-The Stepper progressbar can be animated for each step transition. You can also customize the animation's [enable](https://ej2.syncfusion.com/documentation/api/stepper/animationModel/#enable), [duration](https://ej2.syncfusion.com/documentation/api/stepper/animationModel/#duration) & [delay](https://ej2.syncfusion.com/documentation/api/stepper/animationModel/#delay), by using the [animation](https://ej2.syncfusion.com/documentation/api/stepper#animation) property.
+The Stepper progressbar can be animated for each step transition. You can enable/disable the animation by setting the [enable](https://ej2.syncfusion.com/documentation/api/stepper/animationModel/#enable) property. By default, the property value is `true`.
 
-## Enabling animation
+You can also customize the animation's [duration](https://ej2.syncfusion.com/documentation/api/stepper/animationModel/#duration) & [delay](https://ej2.syncfusion.com/documentation/api/stepper/animationModel/#delay), by using the [animation](https://ej2.syncfusion.com/documentation/api/stepper#animation) property.
 
-You can use the [enable](https://ej2.syncfusion.com/documentation/api/stepper/animationModel/#enable) property to activate/deactivate the animation. By default, the enable property value is `true`.
+<!-- markdownlint-disable MD033 -->
+<table>
+<tr>
+<td>
+delay</td><td>
+The Dialog animation will start with the mentioned delay</td></tr>
+<tr>
+<td>
+duration</td><td>
+Specifies the animation duration to complete with one animation cycle. By default, the value is `1000` milliseconds.</td></tr>
+</table>
 
-## Animation duration
-
-To specify the duration of the animation you can use the [duration](https://ej2.syncfusion.com/documentation/api/stepper/animationModel/#duration) property. The default value is set to `1000` milliseconds.
-
-## Animation delay
-
-You can use the [delay](https://ej2.syncfusion.com/documentation/api/stepper/animationModel/#delay) property to set the animation delay. The default value is `0` milliseconds.
+In the below sample, animation is enabled and the `duration`, `delay` are configured for the Stepper.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

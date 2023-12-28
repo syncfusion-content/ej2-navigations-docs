@@ -11,7 +11,7 @@ domainurl: ##DomainURL##
 
 # Tooltip in ##Platform_Name## Stepper control
 
-The stepper control supports tooltip to show additional information in stepper steps by setting the `showTooltip` property. If enabled, the tooltip appears when the user hovers over the step. By default, the `showTooltip` property is false.
+The Stepper control supports tooltip to show additional information in the steps by setting the [showTooltip](https://ej2.syncfusion.com/documentation/api/stepper/#showtooltip) property. If enabled, the tooltip appears when the user hovers over the step such as the label or text. By default, the `showTooltip` property is `false`.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -29,4 +29,4 @@ The stepper control supports tooltip to show additional information in stepper s
 
 ## Tooltip template
 
-You can use the [tooltipTemplate](https://ej2.syncfusion.com/documentation/api/stepper#tooltiptemplate) property to customize the content and appearance of tooltips. This enables you to add dynamic step information to the template.
+You can use the [tooltipTemplate](https://ej2.syncfusion.com/documentation/api/stepper#tooltiptemplate) property to customize the content and appearance of tooltips for providing a detailed information about the steps.

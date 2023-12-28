@@ -11,26 +11,26 @@ domainurl: ##DomainURL##
 
 # Step types in ##Platform_Name## Stepper control
 
-The Stepper control enables you to specify its display mode by using the [stepType](https://ej2.syncfusion.com/documentation/api/stepper#steptype) property which can be set to indicator only, only labels or the combination of both. The valid values for this property are `Default`, `Label`, and `Indicator`. By default, the stepType is `Default`.
+The Stepper control can be displayed in `Default`, `Label`, and `Indicator` types by using the [stepType](https://ej2.syncfusion.com/documentation/api/stepper#steptype) property. By default, the property value is `Default`.
 
 ## Default
 
-The display mode `Default` in the Stepper will display both the indicators and the labels when defined in the `stepModel`.
+In `Default` display mode, the Stepper will display both the indicators and the labels when defined in the `stepModel`.
 
-## Label
+## Defining label
 
-The display mode `Label` in the Stepper will display only the labels irrespective of the `stepModel` defined.
+In `Label` display mode, the Stepper will display only the labels regardless of the configured `stepModel` options such as text and iconCss.
 
-### Label positions
+### Defining label positions
 
-The Stepper control allows you to place the label on the top, bottom, left, or right side of the stepper using the [labelPosition](https://ej2.syncfusion.com/documentation/api/stepper#labelposition) property.
+The Stepper control allows you to place the label on the top, bottom, left, or right side of the Stepper using the [labelPosition](https://ej2.syncfusion.com/documentation/api/stepper#labelposition) property.
 
-The following label positions are supported in stepper:
+The following label positions are supported in Stepper:
 
-* Top: Positions the label at the top of the stepper.
-* Bottom: Positions the label at the bottom of the stepper.
-* Start: Positions the label to the left side of the stepper.
-* End: Positions the label to the right side of the stepper.
+* Top: Positions the label at the top of the Stepper.
+* Bottom: Positions the label at the bottom of the Stepper.
+* Start: Positions the label to the left side of the Stepper.
+* End: Positions the label to the right side of the Stepper.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -46,11 +46,11 @@ The following label positions are supported in stepper:
 
 {% previewsample "page.domainurl/code-snippet/stepper/labelPosition" %}
 
-## Indicator
+## Defining indicator
 
-The display mode `Indicator` in the Stepper will display only the indicators irrespective of the `stepModel` defined.
+The display mode `Indicator` in the Stepper will display only the indicators irrespective of the `stepModel` options such as text and label.
 
-The below example, showcases the various `stepType` available in the stepper.
+The below example, showcases the various `stepType` available in the Stepper.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

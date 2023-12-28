@@ -9,11 +9,11 @@ documentation: ug
 domainurl: ##DomainURL##
 ---
 
-# Customizing Stepper steps with templates
+# Customizing Stepper steps with templates in ##Platform_Name## Stepper control
 
-The Stepper control allows you to customize the appearance of the stepper steps using [template](https://ej2.syncfusion.com/javascript/documentation/api/stepper#template) property. You can use template to define a unique layout for the stepper. This allows you to create a more customized and interactive experience for the user. 
+The Stepper control allows you to customize the appearance of the Stepper steps by using the [template](https://ej2.syncfusion.com/javascript/documentation/api/stepper#template) property to define a unique layout for the Stepper. This allows you to create a personalized experience for the user. 
 
-The following example shows the customization of stepper with `icon` and `label` using [template](https://ej2.syncfusion.com/javascript/documentation/api/stepper#template) property.
+The following example shows the customization of Stepper with `icon` and `label` using [template](https://ej2.syncfusion.com/javascript/documentation/api/stepper#template) property.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

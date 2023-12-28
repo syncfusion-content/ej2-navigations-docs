@@ -9,9 +9,9 @@ documentation: ug
 domainurl: ##DomainURL##
 ---
 
-# Validating steps 
+# Steps validation in ##Platform_Name## Stepper control
 
-The validation state of the particular step is indicated by using the the `isValid` property. You can toggle the `isValid` property to `null`, `true` & `false` based on the application logic to default, success & error states. If the current step is invalid, the step needs attention before proceeding to the next step.
+You can define the validation state of each step by setting the `isValid` property. If the `isValid` is set as `true`, it shows the success state if `false` it displays the error state of the steps. The default value is `null`.
 
 > Based on the Stepper `stepType`, the validation icons will be displayed either as an indicator or as part of the step label/text.
 

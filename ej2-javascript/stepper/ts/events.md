@@ -11,11 +11,11 @@ domainurl: ##DomainURL##
 
 # Events in ##Platform_Name## Stepper control
 
-This section describes the stepper events that will be triggered when an appropriate actions are performed. The following events are available in the stepper control.
+This section describes the Stepper events that will be triggered when an appropriate actions are performed. The following events are available in the Stepper control.
 
 ## created
 
-The [created](https://ej2.syncfusion.com/documentation/api/stepper#created) event is triggered when the Stepper control is created.
+The Stepper control triggers the [created](https://ej2.syncfusion.com/documentation/api/stepper#created) event when the control rendering is completed.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -30,7 +30,7 @@ The [created](https://ej2.syncfusion.com/documentation/api/stepper#created) even
 
 ## stepChanged
 
-The [stepChanged](https://ej2.syncfusion.com/documentation/api/stepper#stepchanged) event is triggered when the active step in the Stepper changes.
+The Stepper control triggers the [stepChanged](https://ej2.syncfusion.com/documentation/api/stepper#stepchanged) event after the active step is changed.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -45,7 +45,7 @@ The [stepChanged](https://ej2.syncfusion.com/documentation/api/stepper#stepchang
 
 ## stepChanging
 
-The [stepChanging](https://ej2.syncfusion.com/documentation/api/stepper#stepchanging) event is triggered before the active step changes in the Stepper.
+The Stepper control triggers the [stepChanging](https://ej2.syncfusion.com/documentation/api/stepper#stepchanging) event before the active step change.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -60,7 +60,7 @@ The [stepChanging](https://ej2.syncfusion.com/documentation/api/stepper#stepchan
 
 ## stepClick
 
-The [stepClick](https://ej2.syncfusion.com/documentation/api/stepper#stepclick) event is triggered when the Stepper step is clicked.
+The Stepper control triggers the [stepClick](https://ej2.syncfusion.com/documentation/api/stepper#stepclick) event when the step is clicked.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -75,7 +75,7 @@ The [stepClick](https://ej2.syncfusion.com/documentation/api/stepper#stepclick) 
 
 ## beforeStepRender
 
-The [beforeStepRender](https://ej2.syncfusion.com/documentation/api/stepper#beforesteprender) event is triggered before each step is rendered in the Stepper.
+The Stepper control triggers the [beforeStepRender](https://ej2.syncfusion.com/documentation/api/stepper#beforesteprender) event before rendering each step.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
