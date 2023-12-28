@@ -9,21 +9,21 @@ documentation: ug
 domainurl: ##DomainURL##
 ---
 
-# AnimationSettings
+# Animation in ##Platform_Name## Stepper control
 
-The Stepper progress bar can be animated during each step transition. You can use the [animation](https://ej2.syncfusion.com/documentation/api/stepper#animation) property in the Stepper by setting the [enable](https://ej2.syncfusion.com/documentation/api/stepper/animationModel/#enable) property to `true`. By default, it is `true`.
+The Stepper progressbar can be animated for each step transition. You can also customize the animation's [enable](https://ej2.syncfusion.com/documentation/api/stepper/animationModel/#enable), [duration](https://ej2.syncfusion.com/documentation/api/stepper/animationModel/#duration) & [delay](https://ej2.syncfusion.com/documentation/api/stepper/animationModel/#delay), by using the [animation](https://ej2.syncfusion.com/documentation/api/stepper#animation) property.
 
 ## Enabling animation
 
-Using the [enable](https://ej2.syncfusion.com/documentation/api/stepper/animationModel/#enable) property you can activate/deactivate an animation. The default value is true, indicating that animation is enabled.
+You can use the [enable](https://ej2.syncfusion.com/documentation/api/stepper/animationModel/#enable) property to activate/deactivate the animation. By default, the enable property value is `true`.
 
-## Duration
+## Animation duration
 
-The [duration](https://ej2.syncfusion.com/documentation/api/stepper/animationModel/#duration) property specifies the duration of the animation. The default value is set to `1000` milliseconds.
+To specify the duration of the animation you can use the [duration](https://ej2.syncfusion.com/documentation/api/stepper/animationModel/#duration) property. The default value is set to `1000` milliseconds.
 
-## Delay
+## Animation delay
 
-The [delay](https://ej2.syncfusion.com/documentation/api/stepper/animationModel/#delay) property sets the animation delay. The default value is `0` milliseconds.
+You can use the [delay](https://ej2.syncfusion.com/documentation/api/stepper/animationModel/#delay) property to set the animation delay. The default value is `0` milliseconds.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

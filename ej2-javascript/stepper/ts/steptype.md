@@ -9,17 +9,17 @@ documentation: ug
 domainurl: ##DomainURL##
 ---
 
-# StepType
+# Step types in ##Platform_Name## Stepper control
 
-The [stepType](https://ej2.syncfusion.com/documentation/api/stepper#steptype) property in the Stepper determines whether steps should be displayed using only with indicators, only labels, or a combination of both. The available values for this property are `default`, `label`, and `indicator`.
+The Stepper control enables you to specify its display mode by using the [stepType](https://ej2.syncfusion.com/documentation/api/stepper#steptype) property which can be set to indicator only, only labels or the combination of both. The valid values for this property are `Default`, `Label`, and `Indicator`. By default, the stepType is `Default`.
 
 ## Default
 
-Steps are displayed with icons and the labels when defined.
+The display mode `Default` in the Stepper will display both the indicators and the labels when defined in the `stepModel`.
 
 ## Label
 
-Steps are displayed with their defined labels only.
+The display mode `Label` in the Stepper will display only the labels irrespective of the `stepModel` defined.
 
 ### Label positions
 
@@ -48,9 +48,9 @@ The following label positions are supported in stepper:
 
 ## Indicator
 
-Steps are displayed with only indicators.
+The display mode `Indicator` in the Stepper will display only the indicators irrespective of the `stepModel` defined.
 
-The example below showcases the various types of steps available in the stepper.
+The below example, showcases the various `stepType` available in the stepper.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

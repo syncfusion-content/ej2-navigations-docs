@@ -9,13 +9,13 @@ documentation: ug
 domainurl: ##DomainURL##
 ---
 
-# Orientation
+# Orientation in ##Platform_Name## Stepper control
 
 You can use the [orientation](https://ej2.syncfusion.com/documentation/api/stepper#orientation) property to set `Horizontal` or `Vertical` orientations, which controls the sequence order of the steps displayed in the Stepper. By default, the orientation is set to `horizontal`.
 
 ## Horizontal
 
-The Stepper steps are arranged in a side-by-side manner, by setting the `Horizontal` in the [orientation](https://ej2.syncfusion.com/documentation/api/stepper#orientation) property.
+The Stepper steps are arranged in a side-by-side manner by setting the `Horizontal` in the [orientation](https://ej2.syncfusion.com/documentation/api/stepper#orientation) property.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

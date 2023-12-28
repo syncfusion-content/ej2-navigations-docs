@@ -9,23 +9,23 @@ documentation: ug
 domainurl: ##DomainURL##
 ---
 
-# Stepper Flow
+# Stepper sequence in ##Platform_Name## Stepper control
 
-The Stepper control provides control over the flow of steps through the utilization of the [linear](https://ej2.syncfusion.com/documentation/api/stepper#linear) property.
+The Stepper control allows you to manage the step flow by using the [linear](https://ej2.syncfusion.com/documentation/api/stepper#linear) property.
 
 ## Linear flow
 
-When the [linear](https://ej2.syncfusion.com/documentation/api/stepper#linear) property is set to `true`, it enables a linear progression. You can move through steps one after another. By default, the linear property value is `false`.
+In linear state, you can proceed through the steps sequentially in a linear manner, by setting the [linear](https://ej2.syncfusion.com/documentation/api/stepper#linear) property to `true`. By default, the linear property value is `false`.
 
 ## Non-Linear flow
 
-In non-liner flow, the users can skip or complete steps in any order they like.
+In non-linear state, you have the flexibility to choose any step by default.
 
-## Configure activeStep
+## Specify activeStep
 
-The [activeStep](https://ej2.syncfusion.com/documentation/api/stepper#activestep) in the Stepper represents the step currently in the focus or selected by the user. You can set the active step of the stepper by assigning a value to the activeStep property. By default the activeStep is `0`.
+You can specify the currently focused or user-selected step by using the [activeStep](https://ej2.syncfusion.com/documentation/api/stepper#activestep) property. By default the activeStep is `0`.
 
-The following example highlights the difference between linear and non-linear steppers, showcasing how to utilize the active step property.
+The following example highlights the difference between linear and non-linear steppers, showcasing how to utilize the activeStep property.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

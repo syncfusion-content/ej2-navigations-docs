@@ -9,7 +9,7 @@ documentation: ug
 domainurl: ##DomainURL##
 ---
 
-# Global local in ##Platform_Name## Stepper control
+# Globalization in ##Platform_Name## Stepper control
 
 ## Localization
 
@@ -35,7 +35,7 @@ optional | Optional
 
 ## RTL
 
-RTL provides an option to switch the text direction and layout of the Stepper control from right to left. It improves the user experiences and accessibility for users who use right-to-left languages. To enable RTL, set the [enableRtl](https://ej2.syncfusion.com/documentation/api/stepper#enablertl) to true.
+RTL provides an option to switch the text direction and layout of the Stepper control from right to left. To enable RTL, set the [enableRtl](https://ej2.syncfusion.com/documentation/api/stepper#enablertl) to true. It enhances accessibility and user experiences for users of right-to-left languages.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

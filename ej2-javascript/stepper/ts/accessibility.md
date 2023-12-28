@@ -11,7 +11,7 @@ domainurl: ##DomainURL##
 
 # Accessibility in ##Platform_Name## Stepper control
 
-Accessibility is achieved in the Stepper control through WAI-ARIA standard and keyboard navigations. The Stepper control can be effectively accessed through assistive technologies such as screen readers.
+Web accessibility improves the access of web content and applications for people with disabilities. Stepper ensures compliance with WAI-ARIA specifications, making it easy for individuals with disabilities to use assistive technology such as screen readers.
 
 ## ARIA attribute
 
@@ -19,7 +19,7 @@ The following ARIA attributes are used in Stepper control based on its state.
 
 | Properties | Functionality |
 | ------------ | ----------------------- |
-| `aria-label` | Attribute provides the text label with some default description for the Stepper. |
+| `aria-label` | Attribute provides a string value that labels an interactive element for accessibility. |
 | `aria-current` | Indicates the current activestep in the stepper. |
 | `aria-disabled`| Indicates when the stepper step is disabled and cannot be interacted. |
 

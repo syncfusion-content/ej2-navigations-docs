@@ -11,9 +11,9 @@ domainurl: ##DomainURL##
 
 # Validating steps 
 
-Use the `isValid` property in the Stepper to check the status of a specific step.
+The validation state of the particular step is indicated by using the the `isValid` property. You can toggle the `isValid` property to `null`, `true` & `false` based on the application logic to default, success & error states. If the current step is invalid, the step needs attention before proceeding to the next step.
 
-When `isValid` is set to true, the step meets the required criteria. If set to `false`, the step needs attention or completion. It provides clear feedback on the status of individual steps within the Stepper, enhancing the user interaction.
+> Based on the Stepper `stepType`, the validation icons will be displayed either as an indicator or as part of the step label/text.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
