@@ -7,8 +7,7 @@ var iconWithLabel = [
 
   var linearStepper = new ej.navigations.Stepper({
   steps: iconWithLabel,
-  linear: true,
-  activeStep: 1
+  linear: true
   });
   linearStepper.appendTo("#stepper");
 

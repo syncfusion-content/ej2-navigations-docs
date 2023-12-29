@@ -15,7 +15,7 @@ You can define the Stepper steps by using the [steps](https://ej2.syncfusion.com
 
 ## Steps
 
-You can customize the icon, text and label of the steps by using the`iconCss`, `text` and `label` properties.
+You can customize the icon, text and label of the steps by using the `iconCss`, `text` and `label` properties.
 
 ### Defining step icons
 
@@ -111,17 +111,17 @@ The following example showcases how to utilize the active step property.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/stepper/linearStep/index.js %}
+{% include code-snippet/stepper/steps/activeStep/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/stepper/linearStep/index.html %}
+{% include code-snippet/stepper/steps/activeStep/index.html %}
 {% endhighlight %}
 {% highlight html tabtitle="styles.css" %}
-{% include code-snippet/stepper/linearStep/styles.css %}
+{% include code-snippet/stepper/steps/activeStep/styles.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/stepper/linearStep" %}
+{% previewsample "page.domainurl/code-snippet/stepper/steps/activeStep" %}
 
 ## Steps status
 

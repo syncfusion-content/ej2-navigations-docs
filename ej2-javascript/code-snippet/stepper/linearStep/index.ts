@@ -9,8 +9,7 @@ let iconWithLabel: StepModel[] = [
 
 let linearStepper: Stepper = new Stepper({
   steps: iconWithLabel,
-  linear: true,
-  activeStep: 1
+  linear: true
 });
 
 linearStepper.appendTo('#stepper');
