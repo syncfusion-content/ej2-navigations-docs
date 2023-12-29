@@ -20,7 +20,7 @@ You can also customize the animation's [duration](https://ej2.syncfusion.com/jav
 <tr>
 <td>
 delay</td><td>
-The Dialog animation will start with the mentioned delay</td></tr>
+The Stepper animation will start with the mentioned delay. The default value is `0` milliseconds.</td></tr>
 <tr>
 <td>
 duration</td><td>
