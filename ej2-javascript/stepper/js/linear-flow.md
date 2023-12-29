@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Stepper Flow in  ##Platform_Name## Stepper control | Syncfusion
-description:  Checkout and learn about Stepper Flow with ##Platform_Name## Stepper control of Syncfusion Essential JS 2 and more details.
+title: Linear Flow in  ##Platform_Name## Stepper control | Syncfusion
+description:  Checkout and learn about Linear Flow with ##Platform_Name## Stepper control of Syncfusion Essential JS 2 and more details.
 platform: ej2-javascript
 control: Stepper
 publishingplatform: ##Platform_Name##
