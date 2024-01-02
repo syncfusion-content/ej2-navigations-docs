@@ -11,9 +11,9 @@ domainurl: ##DomainURL##
 
 # Linear flow in ##Platform_Name## Stepper control
 
-In linear state, you can progress through each steps sequentially by setting the [linear](https://ej2.syncfusion.com/documentation/api/stepper#linear) property to `true`. By default, the value is `false` allowing you the flexibility to choose any step.
+The Stepper control enables users to progress sequentially through each step, ensuring navigation from one step to the next in a linear way by setting the [linear](https://ej2.syncfusion.com/documentation/api/stepper#linear) property to `true`. The default value is `false` allowing navigation between any steps and vice versa.
 
-The following example highlights the difference between linear and non-linear Steppers.
+The example demonstrates the functionality of both linear and non-linear flow in the Stepper.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
