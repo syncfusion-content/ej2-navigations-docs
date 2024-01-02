@@ -11,7 +11,7 @@ domainurl: ##DomainURL##
 
 # Steps validation in ##Platform_Name## Stepper control
 
-You can define the validation state of each step by setting the `isValid` property. If the `isValid` is set as `true`, it shows the success state if `false` it displays the error state of the steps. The default value is `null`.
+You can define the validation state of each step by setting the `isValid` property. When `isValid` is set to `true`, it indicates the success state for the steps; when set to `false`, it signifies the error state. The default value is `null`.
 
 > Based on the Stepper `stepType`, the validation icons will be displayed either as an indicator or as part of the step label/text.
 

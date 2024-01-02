@@ -15,9 +15,9 @@ The Stepper control can be displayed in `Default`, `Label`, and `Indicator` type
 
 ## Default
 
-In `Default` display mode, the Stepper will display both the indicators and the labels when defined in the `stepModel`.
+In `Default` display mode, the Stepper will display both the icons and the labels when defined in the `stepModel`.
 
-## Defining label
+## Label
 
 In `Label` display mode, the Stepper will display only the labels regardless of the configured `stepModel` options such as text and iconCss.
 
@@ -46,9 +46,9 @@ The following label positions are supported in Stepper:
 
 {% previewsample "page.domainurl/code-snippet/stepper/labelPosition" %}
 
-## Defining indicator
+## Indicator
 
-The display mode `Indicator` in the Stepper will display only the indicators irrespective of the `stepModel` options such as text and label.
+In `Indicator` display mode, the Stepper will display only the icons irrespective of the `stepModel` options such as text and label.
 
 The below example, showcases the various `stepType` available in the Stepper.
 

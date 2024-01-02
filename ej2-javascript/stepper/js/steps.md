@@ -11,9 +11,9 @@ domainurl: ##DomainURL##
 
 # Steps in ##Platform_Name## Stepper control
 
-You can define the Stepper steps by using the [steps](https://ej2.syncfusion.com/javascript/documentation/api/stepper/#steps) property. You can configure each step which provides options such as `IconCss`, `Text`, `Label` and more.
+You can define the steps by using the [steps](https://ej2.syncfusion.com/javascript/documentation/api/stepper/#steps) property. You can configure each step which provides options such as `iconCss`, `text`, `label`, `cssClass` and more.
 
-## Steps
+## Steps in Stepper
 
 You can customize the icon, text and label of the steps by using the `iconCss`, `text` and `label` properties.
 
@@ -69,7 +69,7 @@ In the below sample, the Stepper is rendered with labels.
 
 ## Optional steps
 
-You can determine whether the step can be skipped or not by setting the `optional` property. By default the `optional` property is false.
+You can determine whether the step can be skipped or not by setting the `optional` property. By default, the `optional` property is false.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -87,7 +87,7 @@ You can determine whether the step can be skipped or not by setting the `optiona
 
 ## Enable or disable steps
 
-You can make any step active or in-active by setting the `disabled` property. By default the `disabled` property is false.
+You can disable any step by setting the `disabled` property as `true`. By default, the `disabled` property is false.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -105,7 +105,7 @@ You can make any step active or in-active by setting the `disabled` property. By
 
 ## Defining active step
 
-The [activeStep](https://ej2.syncfusion.com/javascript/documentation/api/stepper#activestep) in the Stepper represents the step currently in the focus or selected by the user. You can set the active step of the Stepper by assigning a value to the activeStep property. By default the activeStep is `0`.
+You can specify the current selected step by using the [activeStep](https://ej2.syncfusion.com/javascript/documentation/api/stepper#activestep) property. The value gets updated for each interaction with the step. By default, the activeStep is `0`.
 
 The following example showcases how to utilize the active step property.
 
@@ -125,11 +125,11 @@ The following example showcases how to utilize the active step property.
 
 ## Steps status
 
-The progress states of each activeStep can be updated by using the `status` property. The possible values are `NotStarted`, `InProgress` and `Completed`. By default, the value is `NotStarted.`
+The progress state of each activeStep can be updated by using the `status` property. The possible values are `NotStarted`, `InProgress` and `Completed`. By default, the value is `NotStarted.`
 
 ## Customization
 
-You can use the `cssClass` property to customize the appearance of the each step.
+You can use the `cssClass` property to customize the appearance of each step.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -147,20 +147,6 @@ You can use the `cssClass` property to customize the appearance of the each step
 
 ## Steps validation
 
-Specifes whether the step is valid or not. By default the `isValid` property is `null`.
+Specifies the validation state of each step in the Stepper.
 
 > To know more about Stepper validation, refer the [Validation](./stepper-validation#validating-steps) section.
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/stepper/steps/validation/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/stepper/steps/validation/index.html %}
-{% endhighlight %}
-{% highlight html tabtitle="styles.css" %}
-{% include code-snippet/stepper/steps/validation/styles.css %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "page.domainurl/code-snippet/stepper/steps/validation" %}
