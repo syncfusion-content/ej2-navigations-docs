@@ -34,5 +34,5 @@ The following ARIA attributes are used in Stepper control based on its state.
 | Properties | Functionality |
 | ------------ | ----------------------- |
 | `aria-label` | Attribute provides a string value that labels an interactive element for accessibility. |
-| `aria-current` | Indicates the current activestep in the stepper. |
+| `aria-current` | Indicates the current activestep in the Stepper. |
 | `aria-disabled`| Indicates when the step is disabled and cannot be interacted. |
