@@ -41,6 +41,17 @@ You can define text instead of an icon by setting the `text` property and displa
 
 > When both label and text are defined, the label takes priority for display based on the `stepType`.
 
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/stepper/steps/text/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/stepper/steps/text/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/stepper/steps/text" %}
+
 ## Optional steps
 
 You can show whether the step is optional or not by using `optional` property. By default, the `optional` property is false.

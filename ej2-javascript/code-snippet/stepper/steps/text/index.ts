@@ -1,14 +1,28 @@
 import { Stepper, StepModel } from '@syncfusion/ej2-navigations';
 
-let iconWithLabel: StepModel[] = [
-  { text: 'Cart' },
-  { text: 'Delivery Address' },
-  { text: 'Payment' },
-  { text: 'Ordered' }
+let textOnly: StepModel[] = [
+  { text: 'A' },
+  { text: 'B' },
+  { text: 'C' },
+  { text: 'D' }
 ];
 
-let iconLabelStepper: Stepper = new Stepper({
-  steps: iconWithLabel
+let labelOnly: StepModel[] = [
+  { label: 'Cart' },
+  { label: 'Delivery Address' },
+  { label: 'Payment' },
+  { label: 'Ordered' }
+];
+
+let textStepper: Stepper = new Stepper({
+  steps: textOnly,
+  stepType: 'indicator'
 });
 
-iconLabelStepper.appendTo('#stepper');
+textStepper.appendTo('#stepper');
+
+let labelsStepper: Stepper = new Stepper({
+  steps: labelOnly
+});
+
+labelsStepper.appendTo('#labelStepper');
