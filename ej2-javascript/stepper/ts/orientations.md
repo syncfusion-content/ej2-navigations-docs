@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Orientation in  ##Platform_Name## Stepper control | Syncfusion
-description:  Checkout and learn about Orientation with ##Platform_Name## Stepper control of Syncfusion Essential JS 2 and more details.
+title: Orientations in  ##Platform_Name## Stepper control | Syncfusion
+description:  Checkout and learn about Orientations with ##Platform_Name## Stepper control of Syncfusion Essential JS 2 and more details.
 platform: ej2-javascript
 control: Stepper
 publishingplatform: ##Platform_Name##

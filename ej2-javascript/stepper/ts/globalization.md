@@ -15,9 +15,9 @@ domainurl: ##DomainURL##
 
 The Localization library allows you to localize the default text content of the Stepper. You can change the static text content used for the `optional` property to other cultures (Arabic, Deutsch, French, etc.) by defining the `locale` value and its translation object.
 
-Locale key |en-US (default)
------|-----
-optional | Optional
+| Locale key | en-US (default) |
+|-----|-----|
+| optional | Optional |
 
 In this example, the `French` culture is set to Stepper and the default text is updated with the content defined by the locale key.
 
