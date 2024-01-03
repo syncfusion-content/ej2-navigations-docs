@@ -27,7 +27,3 @@
 .sf-icon-transport:before { content: "\e702"; }
 .sf-icon-payment:before { content: "\e706"; }
 .sf-icon-success:before { content: "\e715"; }
-
-.stepper-section {
-    margin: 50px 100px;
-}

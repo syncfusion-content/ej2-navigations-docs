@@ -8,11 +8,8 @@ let iconWithLabel: StepModel[] = [
 ];
 
 let stepper: Stepper = new Stepper({
-  steps: iconWithLabel
+  steps: iconWithLabel,
+  stepType: 'default'
 });
 
 stepper.appendTo('#stepper');
-
-(window as any).updateType = (args: any) => {
-  stepper.stepType = args.value;
-};
