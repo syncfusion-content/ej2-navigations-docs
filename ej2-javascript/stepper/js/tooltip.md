@@ -30,3 +30,17 @@ The Stepper control supports tooltip to show additional information in the steps
 ## Tooltip template
 
 You can use the [tooltipTemplate](https://ej2.syncfusion.com/javascript/documentation/api/stepper#tooltiptemplate) property to customize the content and appearance of tooltips for providing a detailed information about the steps.
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/stepper/tooltipTemplate/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/stepper/tooltipTemplate/index.html %}
+{% endhighlight %}
+{% highlight html tabtitle="styles.css" %}
+{% include code-snippet/stepper/tooltipTemplate/styles.css %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/stepper/tooltipTemplate" %}

@@ -34,3 +34,17 @@ The tooltip appears when the user hovers over the step, providing the informatio
 You can use the [tooltipTemplate](https://ej2.syncfusion.com/documentation/api/stepper#tooltiptemplate) property to specify a custom template for the tooltips, providing detailed information about the steps.
 
 When hovering over the step, the current step model is passed in the template context, allowing you to include dynamic information about the step.
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/stepper/tooltipTemplate/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/stepper/tooltipTemplate/index.html %}
+{% endhighlight %}
+{% highlight html tabtitle="styles.css" %}
+{% include code-snippet/stepper/tooltipTemplate/styles.css %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/stepper/tooltipTemplate" %}

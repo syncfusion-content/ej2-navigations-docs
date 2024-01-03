@@ -110,6 +110,20 @@ You can set the active step by specifying its index using the [activeStep](https
 
 Each step's progress state can be specified using the `status` property. The possible values are `NotStarted`, `InProgress` and `Completed`. By default, the value is `NotStarted.`
 
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/stepper/steps/status/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/stepper/steps/status/index.html %}
+{% endhighlight %}
+{% highlight html tabtitle="styles.css" %}
+{% include code-snippet/stepper/steps/status/styles.css %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/stepper/steps/status" %}
+
 ## Step styling
 
 You can use the `cssClass` property to customize the appearance of each step.

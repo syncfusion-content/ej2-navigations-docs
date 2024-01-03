@@ -127,6 +127,20 @@ The following example showcases how to utilize the active step property.
 
 The progress state of each activeStep can be updated by using the `status` property. The possible values are `NotStarted`, `InProgress` and `Completed`. By default, the value is `NotStarted.`
 
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/stepper/steps/status/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/stepper/steps/status/index.html %}
+{% endhighlight %}
+{% highlight html tabtitle="styles.css" %}
+{% include code-snippet/stepper/steps/status/styles.css %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/stepper/steps/status" %}
+
 ## Customization
 
 You can use the `cssClass` property to customize the appearance of each step.
