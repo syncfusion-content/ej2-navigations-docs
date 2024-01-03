@@ -25,7 +25,7 @@ In label type, the Stepper displays the steps with only the step labels by setti
 
 ### Label positions
 
-The Stepper control allows you to place the label on the top, bottom, left, or right side of the Stepper using the [labelPosition](https://ej2.syncfusion.com/documentation/api/stepper#labelposition) property. 
+You can display the label on the top, bottom, left, or right side of the steps using the [labelPosition](https://ej2.syncfusion.com/documentation/api/stepper#labelposition) property. 
 
 The following label positions are supported in Stepper:
 
