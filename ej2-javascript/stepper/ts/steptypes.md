@@ -29,10 +29,12 @@ The Stepper control allows you to place the label on the top, bottom, left, or r
 
 The following label positions are supported in Stepper:
 
-* `Top`: Positions the label at the top of the Stepper.
-* `Bottom`: Positions the label at the bottom of the Stepper.
-* `Start`: Positions the label to the left side of the Stepper.
-* `End`: Positions the label to the right side of the Stepper.
+| Value | Description |
+|-----|-----|
+| `Top` | Positions the label at the top of each step. |
+| `Bottom` | Positions the label at the bottom of each step. |
+| `Start` | Positions the label to the left side of each step. |
+| `End` | Positions the label to the right side of each step. |
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
