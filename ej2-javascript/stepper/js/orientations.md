@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Orientation in  ##Platform_Name## Stepper control | Syncfusion
-description:  Checkout and learn about Orientation with ##Platform_Name## Stepper control of Syncfusion Essential JS 2 and more details.
+title: Orientations in  ##Platform_Name## Stepper control | Syncfusion
+description:  Checkout and learn about Orientations with ##Platform_Name## Stepper control of Syncfusion Essential JS 2 and more details.
 platform: ej2-javascript
 control: Stepper
 publishingplatform: ##Platform_Name##
@@ -9,13 +9,13 @@ documentation: ug
 domainurl: ##DomainURL##
 ---
 
-# Orientation in ##Platform_Name## Stepper control
+# Orientations in ##Platform_Name## Stepper control
 
-The Stepper layouts can be displayed either in a `Horizontal` or `Vertical` orientations by setting the [orientation](https://ej2.syncfusion.com/javascript/documentation/api/stepper#orientation) property. The default orientation is `Horizontal`.
+The Stepper control supports the display of steps in both horizontal and vertical orientations by using the [orientation](https://ej2.syncfusion.com/javascript/documentation/api/stepper#orientation) property.
 
 ## Horizontal
 
-The steps are arranged in a side-by-side manner by setting the  [orientation](https://ej2.syncfusion.com/javascript/documentation/api/stepper#orientation) property to `Horizontal`.
+In horizontal orientation, the steps are displayed in a side-by-side manner by setting the [orientation](https://ej2.syncfusion.com/javascript/documentation/api/stepper#orientation) property to `Horizontal`. By default, the steps are displayed in the horizontal orientation.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -33,7 +33,7 @@ The steps are arranged in a side-by-side manner by setting the  [orientation](ht
 
 ## Vertical
 
-You can arrange the steps one below the other vertically, by setting the [orientation](https://ej2.syncfusion.com/javascript/documentation/api/stepper#orientation) property to `Vertical`.
+You can display the steps one below the other vertically by setting the [orientation](https://ej2.syncfusion.com/javascript/documentation/api/stepper#orientation) property to `Vertical`.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

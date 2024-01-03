@@ -72,7 +72,7 @@ You can show whether the step is optional or not by using `optional` property. B
 
 ## Disabling steps
 
-You can use the `disabled` property to disable a step, preventing user interaction when set to true. By default, the value is false.
+You can use the `disabled` property to disable a step, preventing user interaction when set to `true`. By default, the value is `false`.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -146,4 +146,4 @@ You can use the `cssClass` property to customize the appearance of each step.
 
 You can set the validation state for each step to displaying a success or error icon by using `isValid` property.
 
-> To know more about Stepper validation, please refer to the [Validation](./stepper-validation#validating-steps) section.
+> To know more about Stepper validation, please refer to the [Validation](./steps-validation#validating-steps) section.

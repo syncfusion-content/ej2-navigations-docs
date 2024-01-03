@@ -15,7 +15,7 @@ The Stepper control supports the display of steps in both horizontal and vertica
 
 ## Horizontal
 
-In horizontal orientation, the steps are displayed in a side-by-side manner by setting the [orientation](https://ej2.syncfusion.com/documentation/api/stepper#orientation) property to `Horizontal`. By default, the steps are display in the horizontal orientation.
+In horizontal orientation, the steps are displayed in a side-by-side manner by setting the [orientation](https://ej2.syncfusion.com/documentation/api/stepper#orientation) property to `Horizontal`. By default, the steps are displayed in the horizontal orientation.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
