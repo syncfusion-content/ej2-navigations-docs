@@ -1,4 +1,4 @@
-var iconWithLabel = [
+var stepperSteps = [
   { label: 'PowerPoint', iconCss: 'sf-icon-powerpoint' },
   { label: 'Presentation', iconCss: 'sf-icon-projector' },
   { label: 'Backup', iconCss: 'sf-icon-onedrive' }
@@ -6,7 +6,7 @@ var iconWithLabel = [
 
 var stepper = new ej.navigations.Stepper({
   activeStep: 1,
-  steps: iconWithLabel,
+  steps: stepperSteps,
   template: '<div class="template-content"><span class="${step.iconCss}"></span><br><span class="e-label">${step.label}</span></div>'
 });
 stepper.appendTo('#stepperTemplate');

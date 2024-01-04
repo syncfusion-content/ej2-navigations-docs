@@ -1,4 +1,4 @@
-var iconWithLabel = [
+var stepperSteps = [
   { label: 'Cart', iconCss: 'sf-icon-cart' },
   { label: 'Delivery Address', iconCss: 'sf-icon-transport' },
   { label: 'Payment', iconCss: 'sf-icon-payment'},
@@ -6,7 +6,7 @@ var iconWithLabel = [
   ];
 
   var linearStepper = new ej.navigations.Stepper({
-  steps: iconWithLabel,
+  steps: stepperSteps,
   linear: true
   });
   linearStepper.appendTo("#stepper");

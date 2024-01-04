@@ -1,6 +1,6 @@
 import { Stepper, StepModel } from '@syncfusion/ej2-navigations';
 
-let iconWithLabel: StepModel[] = [
+let stepperSteps: StepModel[] = [
   { label: 'Cart', iconCss: 'sf-icon-cart' },
   { label: 'Delivery Address', iconCss: 'sf-icon-transport' },
   { label: 'Payment', iconCss: 'sf-icon-payment'},
@@ -8,7 +8,7 @@ let iconWithLabel: StepModel[] = [
 ];
 
 let linearStepper: Stepper = new Stepper({
-  steps: iconWithLabel,
+  steps: stepperSteps,
   linear: true
 });
 

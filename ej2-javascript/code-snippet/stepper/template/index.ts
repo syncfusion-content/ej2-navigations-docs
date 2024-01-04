@@ -2,7 +2,7 @@
 import { Stepper, StepModel } from '@syncfusion/ej2-navigations';
 
 
-let iconWithLabel: StepModel[] = [
+let stepperSteps: StepModel[] = [
     { label: 'PowerPoint', iconCss: 'sf-icon-powerpoint' },
     { label: 'Presentation', iconCss: 'sf-icon-projector' },
     { label: 'Backup', iconCss: 'sf-icon-onedrive' }
@@ -10,7 +10,7 @@ let iconWithLabel: StepModel[] = [
 
 let stepper: Stepper = new Stepper({
     activeStep: 1,
-    steps: iconWithLabel,
+    steps: stepperSteps,
     template: '<div class="template-content"><span class="${step.iconCss}"></span><br><span class="e-label">${step.label}</span></div>'
 });
 stepper.appendTo('#stepperTemplate');

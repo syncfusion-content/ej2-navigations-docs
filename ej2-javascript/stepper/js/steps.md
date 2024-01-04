@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Steps in  ##Platform_Name## Stepper control | Syncfusion
-description:  Checkout and learn about Steps with ##Platform_Name## Stepper control of Syncfusion Essential JS 2 and more details.
+description:  Checkout and learn about Steps with ##Platform_Name## Stepper control of Syncfusion Essential JS 2 and more.
 platform: ej2-javascript
 control: Stepper
 publishingplatform: ##Platform_Name##
@@ -54,7 +54,7 @@ You can define text instead of an icon by setting the `text` property and displa
 
 ## Optional steps
 
-You can show whether the step is optional or not by using `optional` property. By default, the `optional` property is false.
+You can show whether the step is optional or not by using `optional` property. By default, the `optional` property is `false`.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

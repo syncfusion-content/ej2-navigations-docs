@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tooltip in  ##Platform_Name## Stepper control | Syncfusion
-description:  Checkout and learn about Tooltip with ##Platform_Name## Stepper control of Syncfusion Essential JS 2 and more details.
+description:  Checkout and learn about Tooltip with ##Platform_Name## Stepper control of Syncfusion Essential JS 2 and more.
 platform: ej2-javascript
 control: Stepper
 publishingplatform: ##Platform_Name##

@@ -10,7 +10,7 @@ L10n.load({
 });
 
 
-let iconWithLabel: StepModel[] = [
+let stepperSteps: StepModel[] = [
   { label: 'Cart', iconCss: 'sf-icon-cart' },
   { label: 'Delivery Address', iconCss: 'sf-icon-transport' },
   { label: 'Payment', iconCss: 'sf-icon-payment', optional: true },
@@ -18,9 +18,9 @@ let iconWithLabel: StepModel[] = [
 ];
 
 
-let iconLabelStepper: Stepper = new Stepper({
-  steps: iconWithLabel,
+let stepper: Stepper = new Stepper({
+  steps: stepperSteps,
   locale: 'fr-BE'
 });
 
-iconLabelStepper.appendTo('#stepper');
+stepper.appendTo('#stepper');

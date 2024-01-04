@@ -1,8 +1,8 @@
 var stepperIcon = [
-  { iconCss: 'sf-icon-cart', cssClass: 'stepper-customize' },
-  { iconCss: 'sf-icon-transport' },
-  { iconCss: 'sf-icon-payment'},
-  { iconCss: 'sf-icon-success' }
+  { iconCss: 'sf-icon-cart', cssClass: 'step-customize' },
+  { iconCss: 'sf-icon-transport', cssClass: 'step-customize' },
+  { iconCss: 'sf-icon-payment', cssClass: 'step-customize' },
+  { iconCss: 'sf-icon-success', cssClass: 'step-customize' }
 ];
 
   var stepper = new ej.navigations.Stepper({

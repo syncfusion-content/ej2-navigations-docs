@@ -27,7 +27,7 @@
 .sf-icon-payment:before { content: "\e706"; }
 .sf-icon-success:before { content: "\e715"; }
 
-#stepper.e-stepper .e-step-container.stepper-customize .e-step {
+#stepper.e-stepper .e-step-container.step-customize .e-step {
     border-radius: 20%;
     font-size: 20px;
 }
