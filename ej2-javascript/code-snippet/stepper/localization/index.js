@@ -6,7 +6,7 @@ ej.base.L10n.load({
    }
 });
 
-var stepperSteps = [
+var iconWithLabel = [
   { label: 'Cart', iconCss: 'sf-icon-cart' },
   { label: 'Delivery  Address', iconCss: 'sf-icon-transport' },
   { label: 'Payment', iconCss: 'sf-icon-payment', optional: true },
@@ -14,7 +14,7 @@ var stepperSteps = [
   ];
 
   var stepper = new ej.navigations.Stepper({
-  steps: stepperSteps,
+  steps: iconWithLabel,
   locale: 'fr-BE'
   });
   stepper.appendTo("#stepper");

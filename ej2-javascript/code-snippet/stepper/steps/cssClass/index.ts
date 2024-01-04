@@ -1,10 +1,10 @@
 import { Stepper, StepModel } from '@syncfusion/ej2-navigations';
 
 let stepperIcon: StepModel[] = [
-  { iconCss: 'sf-icon-cart', cssClass: 'step-customize' },
-  { iconCss: 'sf-icon-transport', cssClass: 'step-customize' },
-  { iconCss: 'sf-icon-payment', cssClass: 'step-customize' },
-  { iconCss: 'sf-icon-success', cssClass: 'step-customize' }
+  { iconCss: 'sf-icon-cart' },
+  { iconCss: 'sf-icon-transport' },
+  { iconCss: 'sf-icon-payment', cssClass: 'custom-step', optional: true},
+  { iconCss: 'sf-icon-success' }
 ];
 
 let stepper: Stepper = new Stepper({

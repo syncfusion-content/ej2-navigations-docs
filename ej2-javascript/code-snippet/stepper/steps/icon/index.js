@@ -1,4 +1,4 @@
-var icon = [
+var iconOnly = [
   { iconCss: 'sf-icon-cart' },
   { iconCss: 'sf-icon-transport' },
   { iconCss: 'sf-icon-payment' },
@@ -6,6 +6,6 @@ var icon = [
 ];
 
 var stepperWithIcon = new ej.navigations.Stepper({
-  steps: icon
+  steps: iconOnly
 });
   stepperWithIcon.appendTo("#stepper");

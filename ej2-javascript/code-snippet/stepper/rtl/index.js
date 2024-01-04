@@ -1,5 +1,5 @@
 
-var stepperSteps = [
+var iconWithText = [
   { text: 'Cart', iconCss: 'sf-icon-cart' },
   { text: 'Delivery Address', iconCss: 'sf-icon-transport' },
   { text: 'Payment', iconCss: 'sf-icon-payment'},
@@ -7,7 +7,7 @@ var stepperSteps = [
 ];
 
 var stepper = new ej.navigations.Stepper({
-steps: stepperSteps,
+steps: iconWithText,
 enableRtl: true
 });
 stepper.appendTo("#stepper");

@@ -45,7 +45,7 @@ text-transform: none;
 -moz-osx-font-smoothing: grayscale;
 }
 
-.sf-icon-projector:before { content: "\e703"; }
+.sf-icon-projector:before { content: "\e700"; }
 .sf-icon-powerpoint:before { content: "\e701"; }
 .sf-icon-onedrive:before { content: "\e702"; }
 

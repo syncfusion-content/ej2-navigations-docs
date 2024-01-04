@@ -11,7 +11,7 @@ domainurl: ##DomainURL##
 
 # Steps in ##Platform_Name## Stepper control
 
-The JavaScript Stepper allows you to add steps using the [steps](https://ej2.syncfusion.com/documentation/api/stepper/#steps) property. Each step can be configured with options such as `iconCss`, `text`, `label`, `cssClass` and more.
+The TypeScript Stepper allows you to add steps using the [steps](https://ej2.syncfusion.com/documentation/api/stepper/#steps) property. Each step can be configured with options such as `iconCss`, `text`, `label`, `cssClass` and more.
 
 ## Adding steps
 

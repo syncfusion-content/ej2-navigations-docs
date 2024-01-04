@@ -10,7 +10,7 @@ L10n.load({
 });
 
 
-let stepperSteps: StepModel[] = [
+let iconWithLabel: StepModel[] = [
   { label: 'Cart', iconCss: 'sf-icon-cart' },
   { label: 'Delivery Address', iconCss: 'sf-icon-transport' },
   { label: 'Payment', iconCss: 'sf-icon-payment', optional: true },
@@ -19,7 +19,7 @@ let stepperSteps: StepModel[] = [
 
 
 let stepper: Stepper = new Stepper({
-  steps: stepperSteps,
+  steps: iconWithLabel,
   locale: 'fr-BE'
 });
 

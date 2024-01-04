@@ -2,7 +2,7 @@
 
 import { Stepper, StepModel } from '@syncfusion/ej2-navigations';
 
-let icon: StepModel[] = [
+let iconOnly: StepModel[] = [
   { iconCss: 'sf-icon-cart' },
   { iconCss: 'sf-icon-transport' },
   { iconCss: 'sf-icon-payment' },
@@ -10,7 +10,7 @@ let icon: StepModel[] = [
 ];
 
 let stepperWithIcon: Stepper = new Stepper({
-  steps: icon
+  steps: iconOnly
 });
 
 stepperWithIcon.appendTo('#stepper');

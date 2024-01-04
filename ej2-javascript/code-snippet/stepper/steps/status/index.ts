@@ -1,13 +1,13 @@
 import { Stepper, StepModel } from '@syncfusion/ej2-navigations';
 
-let stepperSteps: StepModel[] = [
+let iconWithLabel: StepModel[] = [
     { label: 'Cart', iconCss: 'sf-icon-cart' },
     { label: 'Payment', iconCss: 'sf-icon-payment' },
     { label: 'Ordered', iconCss: 'sf-icon-success' }
 ];
 
 let stepper: Stepper = new Stepper({
-    steps: stepperSteps,
+    steps: iconWithLabel,
     stepChanged: () => {
       var status = stepper.steps[1].status
       updateStatus(status)

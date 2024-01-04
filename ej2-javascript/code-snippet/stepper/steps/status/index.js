@@ -1,11 +1,11 @@
-var stepperSteps = [
+var iconWithLabel = [
   { label: 'Cart', iconCss: 'sf-icon-cart' },
   { label: 'Payment', iconCss: 'sf-icon-payment' },
   { label: 'Ordered', iconCss: 'sf-icon-success' }
 ];
 
 var stepper = new ej.navigations.Stepper({
-  steps: stepperSteps,
+  steps: iconWithLabel,
   stepChanged: () => {
     var status = stepper.steps[1].status
     updateStatus(status)
