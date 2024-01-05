@@ -65,7 +65,7 @@ The Breadcrumb component's accessibility levels are ensured through an [accessib
 
 The accessibility compliance of the Breadcrumb component is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/breadcrumb.html) in a new window to evaluate the accessibility of the Breadcrumb component with accessibility tools.
 
-{% previewsample "https://ej2.syncfusion.com/accessibility/breadcrumb.html" %}
+{% previewsample "page.domainurl/code-snippet/breadcrumb/accessibility-cs1" %}
 
 ## See also
 

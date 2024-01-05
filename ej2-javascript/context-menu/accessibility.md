@@ -69,7 +69,7 @@ The Context menu component's accessibility levels are ensured through an [access
 
 The accessibility compliance of the Context menu component is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/context-menu.html) in a new window to evaluate the accessibility of the Context menu component with accessibility tools.
 
-{% previewsample "https://ej2.syncfusion.com/accessibility/context-menu.html" %}
+{% previewsample "page.domainurl/code-snippet/context-menu/accessibility-cs1" %}
 
 ## See also
 
