@@ -52,4 +52,4 @@ The accessibility compliance of the Appbar component is shown in the following s
 
 ## See also
 
-- [Accessibility in Syncfusion React components](../common/accessibility)
+- [Accessibility in Syncfusion components](../common/accessibility)
