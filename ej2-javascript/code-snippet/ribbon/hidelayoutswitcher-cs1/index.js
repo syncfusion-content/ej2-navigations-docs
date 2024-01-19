@@ -66,7 +66,7 @@ var ribbon = new ej.ribbon.Ribbon({
 });
 ribbon.appendTo("#ribbon");
 
-var updateLayoutSwitcher = new ej.buttons.CheckBox({ label: 'Show/Hide', checked: true, change: onChangeSwitcher });
+var updateLayoutSwitcher = new ej.buttons.CheckBox({ label: 'Show/Hide Layout Switcher', checked: true, change: onChangeSwitcher });
 updateLayoutSwitcher.appendTo('#checkbox1');
 
 function onChangeSwitcher(args) {

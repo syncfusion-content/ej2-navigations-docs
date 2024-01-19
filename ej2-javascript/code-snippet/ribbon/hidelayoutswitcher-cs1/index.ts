@@ -70,7 +70,7 @@ let ribbon: Ribbon = new Ribbon({
 });
 ribbon.appendTo("#ribbon");
 
-let updateLayoutSwitcher: CheckBox = new CheckBox({ label: 'Show Layout Switcher', checked: true, change: onChangeSwitcher });
+let updateLayoutSwitcher: CheckBox = new CheckBox({ label: 'Show/Hide Layout Switcher', checked: true, change: onChangeSwitcher });
 updateLayoutSwitcher.appendTo('#checkbox1');
 
 function onChangeSwitcher(args: ChangeEventArgs): void {
