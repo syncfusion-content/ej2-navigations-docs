@@ -147,7 +147,7 @@ The [target](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonDropDownS
 
 #### Customize Dropdown button item
 
-You can customize the dropdown button item by specifying a custom class through the [beforeItemRender](https://ej2.syncfusion.com/documentation/ribbon/events#beforeitemrender) event.
+You can customize the dropdown button item by specifying a custom class through the [beforeItemRender](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonDropDownSettings/#beforeitemrender) event.
 
 The following sample showcases how to customize a specific item in the dropdown.
 
