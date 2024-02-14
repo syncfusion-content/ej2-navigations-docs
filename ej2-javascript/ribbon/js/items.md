@@ -137,6 +137,26 @@ The [target](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribb
           
 {% previewsample "page.domainurl/code-snippet/ribbon/dropdownTarget" %}
 
+#### Customize Dropdown button item
+
+You can customize the dropdown button item by specifying a custom cssClass using the [beforeItemRender](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonDropDownSettings/#beforeitemrender) event.
+
+The following sample showcases how to customize a specific dropdown item.
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/ribbon/dropdownCustomization/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/ribbon/dropdownCustomization/index.html %}
+{% endhighlight %}
+{% highlight css tabtitle="styles.css" %}
+{% include code-snippet/ribbon/dropdownCustomization/styles.css %}
+{% endhighlight %}
+{% endtabs %}
+          
+{% previewsample "page.domainurl/code-snippet/ribbon/dropdownCustomization" %}
+
 #### Create Dropdown Popup on Demand
 
 The [createPopupOnClick](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonDropDownSettings/#createpopuponclick) property allows you to have control over popup creation. When you set it to `true`, the popup is created only when you open it. By default, it's set to `false`.
