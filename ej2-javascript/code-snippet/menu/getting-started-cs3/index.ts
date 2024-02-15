@@ -1,12 +1,12 @@
 
 
 import { Menu, FieldSettingsModel } from '@syncfusion/ej2-navigations';
-import { DataManager, Query, ODataAdaptor, ReturnOption } from '@syncfusion/ej2-data';
+import { DataManager, Query, ODataV4Adaptor, ReturnOption } from '@syncfusion/ej2-data';
 import { enableRipple } from '@syncfusion/ej2-base';
 
 enableRipple(true);
 
-const SERVICE_URI: string = 'https://js.syncfusion.com/demos/ejServices/Wcf/Northwind.svc/';
+const SERVICE_URI: string = 'https://services.odata.org/V4/Northwind/Northwind.svc/';
 
 // Menu fields definition.
 let menuFields: FieldSettingsModel = {
@@ -15,7 +15,7 @@ let menuFields: FieldSettingsModel = {
 };
 
 // Getting remote data using DataManager.
-new DataManager({ url: SERVICE_URI, adaptor: new ODataAdaptor, crossDomain: true })
+new DataManager({ url: SERVICE_URI, adaptor: new ODataV4Adaptor(), crossDomain: true })
 .executeQuery(
 new Query().from('Employees').take(5).hierarchy(
     new Query()

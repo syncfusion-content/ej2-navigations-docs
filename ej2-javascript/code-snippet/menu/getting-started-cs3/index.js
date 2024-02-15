@@ -1,13 +1,13 @@
 ej.base.enableRipple(true);
 
-var SERVICE_URI = 'https://js.syncfusion.com/demos/ejServices/Wcf/Northwind.svc/';
+var SERVICE_URI = 'https://services.odata.org/V4/Northwind/Northwind.svc/';
 
 var menuFields = {
     text: ['FirstName','ShipName'],
     children: ['Orders']
 };
 
-new ej.data.DataManager({ url: SERVICE_URI, adaptor: new ej.data.ODataAdaptor, crossDomain: true })
+new ej.data.DataManager({ url: SERVICE_URI, adaptor: new ej.data.ODataV4Adaptor(), crossDomain: true })
 .executeQuery(
 new ej.data.Query().from('Employees').take(5).hierarchy(
     new ej.data.Query()
