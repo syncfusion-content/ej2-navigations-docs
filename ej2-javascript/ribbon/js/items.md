@@ -157,6 +157,21 @@ The following sample showcases how to customize a specific dropdown item.
           
 {% previewsample "page.domainurl/code-snippet/ribbon/dropdownCustomization" %}
 
+#### Create Dropdown Popup on Demand
+
+The [createPopupOnClick](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonDropDownSettings/#createpopuponclick) property allows you to have control over popup creation. When you set it to `true`, the popup is created only when you open it. By default, it's set to `false`.
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/ribbon/dropdownPopup/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/ribbon/dropdownPopup/index.html %}
+{% endhighlight %}
+{% endtabs %}
+          
+{% previewsample "page.domainurl/code-snippet/ribbon/dropdownPopup" %}
+
 ### Split button items
 
 You can render the built-in splitButton Ribbon item by setting the [type](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonItem/#type) property to `SplitButton`. You can also customize the splitButton item through [RibbonSplitButtonSettingsModel](https://ej2.syncfusion.com/javascript/documentation/api/ribbon/ribbonSplitButtonSettingsModel/), which provides options such as `iconCss`, `items`, `target` and more.
