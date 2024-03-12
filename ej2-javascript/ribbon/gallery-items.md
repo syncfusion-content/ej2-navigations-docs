@@ -29,7 +29,7 @@ You can use the `content` property to define the text content for the gallery it
 
 #### IconCss
 
-You can use the `iconCss` property to customize the gallery icon.
+You can use the `iconCss` property to define the icons for the gallery item.
 
 #### Html Attributes
 
