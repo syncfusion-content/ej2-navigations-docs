@@ -11,7 +11,7 @@ domainurl: ##DomainURL##
 
 # Gallery Items in ##Platform_Name## Ribbon Control
 
-Gallery items in the ribbon component are visual representations of commands or options, providing a quick way for users to access and execute specific functions. Galleries display related items visually, giving users a fast and easy way to choose or move through different options, making things simple and quick for everyone.
+Gallery items in the ribbon control are visual representations of commands or options, providing a quick way for users to access and execute specific functions. Galleries display related items visually, giving users a fast and easy way to choose or move through different options, making things simple and quick for everyone.
 
 You can render the gallery Ribbon item by setting the `type` property to `Gallery`. You can also customize the gallery item using the `RibbonGallerySettingsModel`, which provides options such as `groups`, `itemCount`, `popupHeight`, `popupWidth` and more.
 
