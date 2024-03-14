@@ -89,27 +89,27 @@ You can use the `iconCss` property to define the icons for the gallery item.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/ribbon/gallery/galleryItems/index.ts %}
+{% include code-snippet/ribbon/gallery/galleryIcon/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/ribbon/gallery/galleryItems/index.html %}
+{% include code-snippet/ribbon/gallery/galleryIcon/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "page.domainurl/code-snippet/ribbon/gallery/galleryItems" %}
+{% previewsample "page.domainurl/code-snippet/ribbon/gallery/galleryIcon" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/ribbon/gallery/galleryItems/index.js %}
+{% include code-snippet/ribbon/gallery/galleryIcon/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/ribbon/gallery/galleryItems/index.html %}
+{% include code-snippet/ribbon/gallery/galleryIcon/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/ribbon/gallery/galleryItems" %}
+{% previewsample "page.domainurl/code-snippet/ribbon/gallery/galleryIcon" %}
 {% endif %}
 
 #### Html Attributes
@@ -513,3 +513,5 @@ The `select` event is triggered while selecting an item in the Ribbon Gallery.
 
 {% previewsample "page.domainurl/code-snippet/ribbon/gallery/select" %}
 {% endif %}
+
+> To know more about the built-in Ribbon items, please refer to the [Ribbon Items](./items) section.

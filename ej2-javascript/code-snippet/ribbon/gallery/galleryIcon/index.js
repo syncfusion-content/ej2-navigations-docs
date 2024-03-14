@@ -13,13 +13,17 @@ var tabs = [
                   groups: [{
                     header: 'Clipboard',
                     items: [{
-                            content: 'Cut'
+                            content: 'Cut',
+                            iconCss: 'e-icons e-cut'
                         }, {
-                            content: 'Copy'
+                            content: 'Copy',
+                            iconCss: 'e-icons e-copy'
                         }, {
-                            content: 'Paste'
+                            content: 'Paste',
+                            iconCss: 'e-icons e-paste'
                         }, {
-                            content: 'Format Painter'
+                            content: 'Format Painter',
+                            iconCss: 'e-icons e-format-painter'
                         }]
                   }]
                 }
