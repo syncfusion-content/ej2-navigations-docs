@@ -9,15 +9,15 @@ documentation: ug
 domainurl: ##DomainURL##
 ---
 
-# Ribbon Keytip
+# Ribbon Keytips
 
-The Ribbon supports keytips, which enhance user accessibility and efficiency by providing keyboard shortcuts for navigating through the ribbon interface without the need for a mouse. The keytip can be enabled by setting the `enableKeyTips` property.
+The Ribbon supports keyboard navigations to interact the ribbon items using the keytips which can be enabled by setting the `enableKeyTips` property.
 
-The keytips will be displayed when the Alt + Windows/Command key is pressed.
+The keytips will be shown when the `Alt + Windows/Command` keys are pressed.
 
 ## Ribbon items keytip
 
-You can add keytip to all the ribbon items by using the `keyTip` property.
+You can add keytips to all the ribbon items by using the `keyTip` property.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -30,9 +30,9 @@ You can add keytip to all the ribbon items by using the `keyTip` property.
           
 {% previewsample "page.domainurl/code-snippet/ribbon/item-keytip" %}
 
-## Ribbon file menu keytip
+## File menu keytip
 
-You can add keytip to file menu by using the `keyTip` property.
+You can add keytips to the file menu by using the `keyTip` property.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -45,9 +45,9 @@ You can add keytip to file menu by using the `keyTip` property.
           
 {% previewsample "page.domainurl/code-snippet/ribbon/filemenu-keytip" %}
 
-## Ribbon backstage menu keytip
+## Backstage menu keytip
 
-You can add keytip to backstage menu by using the `keyTip` property.
+You can add keytips to backstage menu items by using the `keyTip` property.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -62,7 +62,7 @@ You can add keytip to backstage menu by using the `keyTip` property.
 
 ## Ribbon layout switcher keytip
 
-You can add keytip to layout switcher by using the `layoutSwitcherKeyTip` property.
+You can add keytip to the layout switcher by using the `layoutSwitcherKeyTip` property.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -77,7 +77,7 @@ You can add keytip to layout switcher by using the `layoutSwitcherKeyTip` proper
 
 ## Ribbon launcher icon keytip
 
-You can add keytip to launcher icon by using the `launcherIconKeyTip` property.
+You can add keytip to the launcher icon by using the `launcherIconKeyTip` property.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -92,8 +92,12 @@ You can add keytip to launcher icon by using the `launcherIconKeyTip` property.
 
 ## Guidelines for adding keytips
 
-* The keytip to the ribbon elements can have a maximum of three letters. A deviation from the text count (>3) results in an exception.
+* The keytip to the ribbon items can have a maximum of three letters. The text count greater than (>3) results in an exception.
 
-* Avoid using the same keytip setting on multiple elements.
+* Avoid using the same keytip setting on multiple items.
 
-* Do not use the same first letter for the single and double keytip elements.
+> For example: When you add the keytip text "H" or "HF" for the same items, it activates the first item occurrence of "H", while any subsequent instances of "H" or "HF" are ignored.
+
+* Do not use the same first letter for the single and double keytip items.
+
+> For example: When accessing keytip text F, FP and FPF added for the different ribbon items and pressing F key, only the F key tip associated item will be activated while the FP, FPF associated ribbon items will be ignored.
