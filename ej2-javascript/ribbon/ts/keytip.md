@@ -92,12 +92,12 @@ You can add keytip to the launcher icon by using the `launcherIconKeyTip` proper
 
 ## Guidelines for adding keytips
 
-* The keytip to the ribbon items can have a maximum of three letters. The text count greater than (>3) results in an exception.
+Before adding keytips to the ribbon items consider the following:
 
 * Avoid using the same keytip setting on multiple items.
 
-> For example: When you add the keytip text "H" or "HF" for the same items, it activates the first item occurrence of "H", while any subsequent instances of "H" or "HF" are ignored.
+> For example: When you add the keytip text `H` or `HF` for the same items, it activates the first item occurrence of `H`, while any subsequent instances of `H` or `HF` are ignored.
 
 * Do not use the same first letter for the single and double keytip items.
 
-> For example: When accessing keytip text F, FP and FPF added for the different ribbon items and pressing F key, only the F key tip associated item will be activated while the FP, FPF associated ribbon items will be ignored.
+> For example: When accessing keytip text `F`, `FP` and `FPF` added for the different ribbon items and pressing `F` key, only the `F` key tip associated item will be activated while the `FP`, `FPF` configured ribbon items will be ignored.
