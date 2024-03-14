@@ -1,6 +1,6 @@
 
 
-import { Ribbon, RibbonTabModel, RibbonItemType, RibbonFileMenu, RibbonKeyTip } from "@syncfusion/ej2-ribbon";
+import { Ribbon, RibbonTabModel, RibbonItemType, RibbonItemSize, RibbonFileMenu, RibbonKeyTip } from "@syncfusion/ej2-ribbon";
 import { MenuItemModel } from "@syncfusion/ej2-navigations";
 
 Ribbon.Inject(RibbonFileMenu, RibbonKeyTip);
@@ -15,10 +15,12 @@ let tabs: RibbonTabModel[] = [
           {
             items: [
               {
-                type: RibbonItemType.Button,
-                buttonSettings: {
-                  content: "Paste",
-                  iconCss: "e-icons e-paste",
+                type: RibbonItemType.SplitButton,
+                allowedSizes: RibbonItemSize.Large,
+                splitButtonSettings: {
+                    content: 'Paste',
+                    iconCss: 'e-icons e-paste',
+                    items: [{ text: 'Keep Source Format' }, { text: 'Merge format' }, { text: 'Keep text only' }]
                 }
               },
             ],

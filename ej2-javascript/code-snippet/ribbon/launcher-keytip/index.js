@@ -11,10 +11,12 @@ var tabs = [
           {
             items: [
               {
-                type: "Button",
-                buttonSettings: {
-                  content: "Paste",
-                  iconCss: "e-icons e-paste",
+                type: 'SplitButton',
+                allowedSizes: ej.ribbon.RibbonItemSize.Large,
+                splitButtonSettings: {
+                  content: 'Paste',
+                  iconCss: 'e-icons e-paste',
+                  items: [{ text: 'Keep Source Format' }, { text: 'Merge format' }, { text: 'Keep text only' }]
                 }
               },
             ],

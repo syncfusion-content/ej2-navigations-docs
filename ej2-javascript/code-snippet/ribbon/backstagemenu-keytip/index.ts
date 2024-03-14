@@ -1,6 +1,6 @@
 
 
-import { Ribbon, RibbonTabModel, RibbonItemType, RibbonBackstage, RibbonKeyTip } from "@syncfusion/ej2-ribbon";
+import { Ribbon, RibbonTabModel, RibbonItemType, RibbonItemSize, RibbonBackstage, RibbonKeyTip } from "@syncfusion/ej2-ribbon";
 
 Ribbon.Inject(RibbonBackstage, RibbonKeyTip);
 
@@ -14,10 +14,12 @@ let tabs: RibbonTabModel[] = [
           {
             items: [
               {
-                type: RibbonItemType.Button,
-                buttonSettings: {
-                  content: "Paste",
-                  iconCss: "e-icons e-paste",
+                type: RibbonItemType.SplitButton,
+                allowedSizes: RibbonItemSize.Large,
+                splitButtonSettings: {
+                    content: 'Paste',
+                    iconCss: 'e-icons e-paste',
+                    items: [{ text: 'Keep Source Format' }, { text: 'Merge format' }, { text: 'Keep text only' }]
                 }
               },
             ],
@@ -61,5 +63,4 @@ let ribbon: Ribbon = new Ribbon({
     enableKeyTips: true
 });
 ribbon.appendTo("#ribbon");
-
-
+ribbon.ribbonKeyTipModule.showKeyTips('F');
