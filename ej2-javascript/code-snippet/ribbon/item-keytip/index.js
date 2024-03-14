@@ -116,7 +116,7 @@ var tabs = [{
     collections: [{
       items: [{
         type: 'Gallery',
-        keyTip: 'G',
+        keyTip: 'GY',
         gallerySettings: {
           itemCount: 3,
           groups: [{

@@ -126,7 +126,7 @@ let tabs: RibbonTabModel[] = [{
     collections: [{
       items: [{
         type: RibbonItemType.Gallery,
-        keyTip: 'G',
+        keyTip: 'GY',
         gallerySettings: {
           itemCount: 3,
           groups: [{
