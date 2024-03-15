@@ -15,15 +15,18 @@ var ribbonTabs = [{
   }]
 }];
 
-var tableContextualTab = {
+var contextualTabs = {
   tabs: [{
-    id: "TableDesign",
-    header: "Table Design",
+    id: "ArrangeView",
+    header: "Arrange & View",
     groups: [{
-      header: "Table Style",
+      showLauncherIcon: true,
+      header: "Arrange",
       collections: [{
         items: [
-          { type: "Button", allowedSizes: ej.ribbon.RibbonItemSize.Large, buttonSettings: { iconCss: "e-icons e-edit", content: "Editor" } },
+          { type: "Button", buttonSettings: { iconCss: "e-icons e-bring-forward", content: "Bring Forward" } },
+          { type: "Button", buttonSettings: { iconCss: "e-icons e-send-backward", content: "Send Backward" } },
+          { type: "Button", buttonSettings: { iconCss: "e-icons e-show-hide-panel", content: "Selection Pane" } },
         ]
       }]
     }]
@@ -32,15 +35,15 @@ var tableContextualTab = {
 
 var ribbon = new ej.ribbon.Ribbon({
   tabs: ribbonTabs,
-  contextualTabs: [tableContextualTab]
+  contextualTabs: [contextualTabs]
 });
 
 ribbon.appendTo("#ribbon");
 
 document.getElementById('show-contextual').onclick = function() {
-  ribbon.showTab('TableDesign', true);
+  ribbon.showTab('ArrangeView', true);
 }
 
 document.getElementById('hide-contextual').onclick = function() {
-  ribbon.hideTab('TableDesign', true);
+  ribbon.hideTab('ArrangeView', true);
 }

@@ -14,16 +14,36 @@ var ribbonTabs = [{
     }]
   }]
 }];
-var tableContextualTab = {
+var contextualTabs = {
   visible: true,
   tabs: [{
-    id: "TableDesign",
-    header: "Table Design",
+    id: "ShapeFormat",
+    header: "Shape Format",
     groups: [{
-      header: "Table Style",
+      showLauncherIcon: true,
+      header: "Text decoration",
       collections: [{
         items: [
-          { type: "Button", allowedSizes: ej.ribbon.RibbonItemSize.Large, buttonSettings: { iconCss: "e-icons e-edit", content: "Editor" } },
+          { type: "Button", buttonSettings: { iconCss: "e-icons e-text-header", content: "Text Header" } },
+          { type: "Button", buttonSettings: { iconCss: "e-icons e-text-wrap", content: "Text Wrap" } },
+          { type: "Button", buttonSettings: { iconCss: "e-icons e-text-annotation", content: "Text Annotation" } },
+        ]
+      }]
+    },{
+      header: "Accessibility",
+      collections: [{
+        items: [
+          { type: "Button", allowedSizes: ej.ribbon.RibbonItemSize.Large, buttonSettings: { iconCss: "e-icons e-text-alternative", content: "Alt Text" } },
+        ]
+      }]
+    },{
+      showLauncherIcon: true,
+      header: "Arrange",
+      collections: [{
+        items: [
+          { type: "Button", buttonSettings: { iconCss: "e-icons e-bring-forward", content: "Bring Forward" } },
+          { type: "Button", buttonSettings: { iconCss: "e-icons e-send-backward", content: "Send Backward" } },
+          { type: "Button", buttonSettings: { iconCss: "e-icons e-show-hide-panel", content: "Selection Pane" } },
         ]
       }]
     }]
@@ -32,7 +52,7 @@ var tableContextualTab = {
 
 var ribbon = new ej.ribbon.Ribbon({
   tabs: ribbonTabs,
-  contextualTabs: [tableContextualTab]
+  contextualTabs: [contextualTabs]
 });
 
 ribbon.appendTo("#ribbon");

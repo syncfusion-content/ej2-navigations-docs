@@ -13,25 +13,27 @@ let ribbonTabs: RibbonTabModel[] = [{
     id: "clipboardGroup",
     collections: [{
       items: [
-        { type: "Button", buttonSettings: { iconCss: "e-icons e-cut", content: "Cut", } },
-        { type: "Button", buttonSettings: { iconCss: "e-icons e-copy", content: "Copy" } },
-        { type: "Button", buttonSettings: { iconCss: "e-icons e-format-painter", content: "Format Painter" } }
+        { type: RibbonItemType.Button, buttonSettings: { iconCss: "e-icons e-cut", content: "Cut", } },
+        { type: RibbonItemType.Button, buttonSettings: { iconCss: "e-icons e-copy", content: "Copy" } },
+        { type: RibbonItemType.Button, buttonSettings: { iconCss: "e-icons e-format-painter", content: "Format Painter" } }
       ]
     }]
   }]
 }];
 
-let tableContextualTab: RibbonContextualTabSettingsModel = {
+let contextualTabs: RibbonContextualTabSettingsModel = {
   visible: true,
   isSelected: true,
   tabs: [{
-    id: "TableDesign",
-    header: "Table Design",
+    header: "Styles",
     groups: [{
-      header: "Table Style",
+      showLauncherIcon: true,
+      header: "Style",
       collections: [{
         items: [
-          { type: "Button", allowedSizes: RibbonItemType.Large, buttonSettings: { iconCss: "e-icons e-edit", content: "Editor" } },
+          { type: RibbonItemType.Button, buttonSettings: { iconCss: "e-icons e-style", content: "Style" } },
+          { type: RibbonItemType.Button, buttonSettings: { iconCss: "e-icons e-font-name", content: "Text Box" } },
+          { type: RibbonItemType.Button, buttonSettings: { iconCss: "e-icons e-paint-bucket", content: "Paint" } },
         ]
       }]
     }]
@@ -40,7 +42,7 @@ let tableContextualTab: RibbonContextualTabSettingsModel = {
 
 let ribbon: Ribbon = new Ribbon({
     tabs: ribbonTabs,
-    contextualTabs: [tableContextualTab]
+    contextualTabs: [contextualTabs]
 });
 ribbon.appendTo("#ribbon");
 

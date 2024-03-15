@@ -14,17 +14,19 @@ var ribbonTabs = [{
     }]
   }]
 }];
-var tableContextualTab = {
+var contextualTabs = {
   visible: true,
   isSelected: true,
   tabs: [{
-    id: "TableDesign",
-    header: "Table Design",
+    header: "Styles",
     groups: [{
-      header: "Table Style",
+      showLauncherIcon: true,
+      header: "Style",
       collections: [{
         items: [
-          { type: "Button", allowedSizes: ej.ribbon.RibbonItemSize.Large, buttonSettings: { iconCss: "e-icons e-edit", content: "Editor" } },
+          { type: "Button", buttonSettings: { iconCss: "e-icons e-style", content: "Style" } },
+          { type: "Button", buttonSettings: { iconCss: "e-icons e-font-name", content: "Text Box" } },
+          { type: "Button", buttonSettings: { iconCss: "e-icons e-paint-bucket", content: "Paint" } },  
         ]
       }]
     }]
@@ -33,7 +35,7 @@ var tableContextualTab = {
 
 var ribbon = new ej.ribbon.Ribbon({
   tabs: ribbonTabs,
-  contextualTabs: [tableContextualTab]
+  contextualTabs: [contextualTabs]
 });
 
 ribbon.appendTo("#ribbon");
