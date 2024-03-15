@@ -215,7 +215,112 @@ You can use the `disabled` property to disable a Ribbon gallery item. It prevent
 {% previewsample "page.domainurl/code-snippet/ribbon/gallery/disabledItem" %}
 {% endif %}
 
-### Item Count
+### Custom Header
+
+You can use the `header` property to designate an appropriate header for the group items within the Ribbon Gallery popup.
+
+{% if page.publishingplatform == "typescript" %}
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/ribbon/gallery/galleryItems/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/ribbon/gallery/galleryItems/index.html %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "page.domainurl/code-snippet/ribbon/gallery/galleryItems" %}
+
+{% elsif page.publishingplatform == "javascript" %}
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/ribbon/gallery/galleryItems/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/ribbon/gallery/galleryItems/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/ribbon/gallery/galleryItems" %}
+{% endif %}
+
+### Item Width
+
+You can use the `itemWidth` property to specify the width of gallery items.
+
+### Item Height
+
+You can use the `itemHeight` property to set the height of the gallery items.
+
+The provided example demonstrates how to customize gallery items using the `itemWidth` and `itemHeight` properties.
+
+{% if page.publishingplatform == "typescript" %}
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/ribbon/gallery/itemHeightAndWidth/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/ribbon/gallery/itemHeightAndWidth/index.html %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "page.domainurl/code-snippet/ribbon/gallery/itemHeightAndWidth" %}
+
+{% elsif page.publishingplatform == "javascript" %}
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/ribbon/gallery/itemHeightAndWidth/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/ribbon/gallery/itemHeightAndWidth/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/ribbon/gallery/itemHeightAndWidth" %}
+{% endif %}
+
+### Group styling
+
+You can use the `cssClass` property to customize the appearance of gallery groups.
+
+{% if page.publishingplatform == "typescript" %}
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/ribbon/gallery/groupCustomization/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/ribbon/gallery/groupCustomization/index.html %}
+{% endhighlight %}
+{% highlight css tabtitle="styles.css" %}
+{% include code-snippet/ribbon/gallery/groupCustomization/styles.css %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "page.domainurl/code-snippet/ribbon/gallery/groupCustomization" %}
+
+{% elsif page.publishingplatform == "javascript" %}
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/ribbon/gallery/groupCustomization/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/ribbon/gallery/groupCustomization/index.html %}
+{% endhighlight %}
+{% highlight css tabtitle="styles.css" %}
+{% include code-snippet/ribbon/gallery/groupCustomization/styles.css %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/ribbon/gallery/groupCustomization" %}
+{% endif %}
+
+## Item Count
 
 You can customize the Ribbon Gallery display by utilizing the `itemCount` property, enabling you to specify the desired number of items. By default the `itemCount` will be `Three`.
 
@@ -248,7 +353,7 @@ The following example showcases the utilization of the `itemCount` property, dis
 {% previewsample "page.domainurl/code-snippet/ribbon/gallery/itemCount" %}
 {% endif %}
 
-### Selected Item Index
+## Selected Item Index
 
 The `selectedItemIndex` property defines the index of the currently selected item in the Ribbon Gallery, offering control over the default or dynamic selection for an interactive user experience.
 
@@ -279,11 +384,11 @@ The `selectedItemIndex` property defines the index of the currently selected ite
 {% previewsample "page.domainurl/code-snippet/ribbon/gallery/selectedItemIndex" %}
 {% endif %}
 
-### Popup Height
+## Popup Height
 
 You can specify the height of the popup that displays the Ribbon Gallery by using the `popupHeight` property, allowing you to control and customize the vertical dimensions for an optimized visual presentation.
 
-### Popup Width
+## Popup Width
 
 you can control the width of the popup in the Ribbon Gallery by using the `popupWidth` propery, providing control and customization for an optimized visual layout
 
@@ -316,19 +421,19 @@ The example demonstrates the customization of popup with `popupHeight` and `popu
 {% previewsample "page.domainurl/code-snippet/ribbon/gallery/popupHeightWidth" %}
 {% endif %}
 
-### Template
+## Template
 
 You can customize the default appearance and content of Ribbon Gallery items to create a personalized user experience. Utilize the `template` property to set custom content for the items.
 
-### Popup Template
+## Popup Template
 
 You can customize the appearance and content of Ribbon Gallery items within the popup for a personalized user experience. Utilize the `popupTemplate` property to set a custom template specifically designed for items displayed in the popup.
 
-### Events
+## Events
 
 This section describes the events that will be triggered when an appropriate actions are performed in ribbon gallery. The following events are available in the Ribbon gallery.
 
-#### popupOpen
+### popupOpen
 
 The `popupOpen` event is triggered when the gallery popup opens.
 
@@ -359,7 +464,7 @@ The `popupOpen` event is triggered when the gallery popup opens.
 {% previewsample "page.domainurl/code-snippet/ribbon/gallery/popupOpen" %}
 {% endif %}
 
-#### popupClose
+### popupClose
 
 The `popupClose` event is triggered when the gallery popup closes.
 
@@ -390,7 +495,7 @@ The `popupClose` event is triggered when the gallery popup closes.
 {% previewsample "page.domainurl/code-snippet/ribbon/gallery/popupClose" %}
 {% endif %}
 
-#### itemHover
+### itemHover
 
 The `itemHover` event is triggered when hovering over a gallery item.
 
@@ -421,7 +526,7 @@ The `itemHover` event is triggered when hovering over a gallery item.
 {% previewsample "page.domainurl/code-snippet/ribbon/gallery/itemHover" %}
 {% endif %}
 
-#### beforeItemRender
+### beforeItemRender
 
 The `beforeItemRender` event is triggered while rendering each gallery item.
 
@@ -452,7 +557,7 @@ The `beforeItemRender` event is triggered while rendering each gallery item.
 {% previewsample "page.domainurl/code-snippet/ribbon/gallery/beforeItemRender" %}
 {% endif %}
 
-#### beforeSelect
+### beforeSelect
 
 The `beforeSelect` event is triggered before item in the Ribbon Gallery is selected.
 
@@ -483,7 +588,7 @@ The `beforeSelect` event is triggered before item in the Ribbon Gallery is selec
 {% previewsample "page.domainurl/code-snippet/ribbon/gallery/beforeSelect" %}
 {% endif %}
 
-#### select
+### select
 
 The `select` event is triggered while selecting an item in the Ribbon Gallery.
 
