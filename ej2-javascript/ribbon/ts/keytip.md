@@ -11,13 +11,13 @@ domainurl: ##DomainURL##
 
 # Ribbon Keytips
 
-The Ribbon supports keyboard navigations to interact the ribbon items using the keytips which can be enabled by setting the `enableKeyTips` property.
+The Ribbon supports keyboard navigations to interact the ribbon items using the keytips which can be enabled by setting the [enableKeyTips](https://ej2.syncfusion.com/documentation/api/ribbon/#enablekeytips) property.
 
 The keytips will be shown when the `Alt + Windows/Command` keys are pressed.
 
 ## Ribbon items keytip
 
-You can add keytips to all the ribbon items by using the `keyTip` property.
+You can add keytips to all the ribbon items by using the [keyTip](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonItem/#keytip) property.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -32,7 +32,7 @@ You can add keytips to all the ribbon items by using the `keyTip` property.
 
 ## File menu keytip
 
-You can add keytips to the file menu by using the `keyTip` property.
+You can add keytips to the file menu by using the [keyTip](https://ej2.syncfusion.com/documentation/api/ribbon/fileMenuSettings/#keytip) property.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -47,7 +47,7 @@ You can add keytips to the file menu by using the `keyTip` property.
 
 ## Backstage menu keytip
 
-You can add keytips to backstage menu items by using the `keyTip` property.
+You can add keytips to backstage menu items by using the [keyTip](https://ej2.syncfusion.com/documentation/api/ribbon/backStageMenu/#keytip) property.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -62,7 +62,7 @@ You can add keytips to backstage menu items by using the `keyTip` property.
 
 ## Ribbon layout switcher keytip
 
-You can add keytip to the layout switcher by using the `layoutSwitcherKeyTip` property.
+You can add keytip to the layout switcher by using the [layoutSwitcherKeyTip](https://ej2.syncfusion.com/documentation/api/ribbon#layoutswitcherkeytip) property.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -77,7 +77,7 @@ You can add keytip to the layout switcher by using the `layoutSwitcherKeyTip` pr
 
 ## Ribbon launcher icon keytip
 
-You can add keytip to the launcher icon by using the `launcherIconKeyTip` property.
+You can add keytip to the launcher icon by using the [launcherIconKeyTip](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonGroup/#keytip) property.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -89,6 +89,18 @@ You can add keytip to the launcher icon by using the `launcherIconKeyTip` proper
 {% endtabs %}
           
 {% previewsample "page.domainurl/code-snippet/ribbon/launcher-keytip" %}
+
+## Methods
+
+### Show keytips
+
+You can use the [showKeyTips](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonKeyTip/#showkeytips) method to shown the keytips dynamically.
+
+In order to show specific keytips, pass the key string as an argument in the `showKeyTips` method.
+
+### Hide keytips
+
+You can remove the keytips dynamically using the [hideKeyTips](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonKeyTip/#hidekeytips) method in the Ribbon. This will remove all the visible keytips.
 
 ## Guidelines for adding keytips
 
