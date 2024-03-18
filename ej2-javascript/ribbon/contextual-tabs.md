@@ -11,15 +11,15 @@ domainurl: ##DomainURL##
 
 # Ribbon contextual tabs
 
-Contextual tabs are similar to Ribbon tabs that show up when you're working on something specific, such as an image or a table. Just select an image, table, or any other element, and the relevant tabs with configured options will appear at the Tab panel, allowing you to work faster and more efficiently.
+The Ribbon Contextual tabs are similar to the Ribbon tabs that are displayed on demand based on their needs, such as an image or a table tabs. It supports adding all built-in and custom ribbon items to perform specific actions.
 
 ## Visible tabs
 
-You can utilize the [visible](../api/ribbon/ribbonContextualTabSettingsModel/#visible) property within each tab to control the visibility of the contextual tab and its associated content.
+You can utilize the [visible](../api/ribbon/ribbonContextualTabSettingsModel/#visible) property to control the visibility of each contextual tab.
 
 ## Adding contextual tabs
 
-To add contextual tabs in Syncfusion Ribbon, you can utilize the [contextualTabs](../api/ribbon/#contextualTabs) property. This property accepts an array of Ribbon tabs where you can add multiple tabs as per needs.
+You can utilize the [contextualTabs](../api/ribbon/#contextualTabs) property to add contextual tabs in the Ribbon. This property accepts an array of Ribbon tabs, where you can add multiple tabs based on your needs.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -50,7 +50,7 @@ To add contextual tabs in Syncfusion Ribbon, you can utilize the [contextualTabs
 
 ## Selected tabs
 
-By using the [isSelected](../api/ribbon/ribbonContextualTabSettingsModel/#isselected) property within each tab object, you can control the selection state of each contextual tab and indicate which tab is currently active.
+By using the [isSelected](../api/ribbon/ribbonContextualTabSettingsModel/#isselected) property you can control the selected state of each contextual tab and indicates which tab is currently active.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -83,11 +83,11 @@ By using the [isSelected](../api/ribbon/ribbonContextualTabSettingsModel/#issele
 
 ### Show tab
 
-You can make the specific tab visible by using the [showTab](../api/ribbon/#showTab) method available in the Ribbon.
+You can use the [showTab](../api/ribbon/#showTab) method to make the specific Contextual tab visible in the Ribbon.
 
 ### Hide tab
 
-You can also hide specific tab by using the [hideTab](../api/ribbon/#hideTab) method available in the Ribbon.
+You can use the [hideTab](../api/ribbon/#hideTab) method to hide specific Contextual tab in the Ribbon.
 
 {% if page.publishingplatform == "typescript" %}
 
