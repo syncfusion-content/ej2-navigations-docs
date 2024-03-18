@@ -15,11 +15,11 @@ Contextual tabs are similar to Ribbon tabs that show up when you're working on s
 
 ## Visible tabs
 
-You can utilize the [visible](../api/ribbon#contextualTabs#visible) property within each tab to control the visibility of the contextual tab and its associated content.
+You can utilize the [visible](../api/ribbon/ribbonContextualTabSettingsModel/#visible) property within each tab to control the visibility of the contextual tab and its associated content.
 
 ## Adding contextual tabs
 
-To add contextual tabs in Syncfusion Ribbon, you can utilize the [contextualTabs](../api/ribbon#contextualTabs) property. This property accepts an array of Ribbon tabs where you can add multiple tabs as per needs.
+To add contextual tabs in Syncfusion Ribbon, you can utilize the [contextualTabs](../api/ribbon/#contextualTabs) property. This property accepts an array of Ribbon tabs where you can add multiple tabs as per needs.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -50,7 +50,7 @@ To add contextual tabs in Syncfusion Ribbon, you can utilize the [contextualTabs
 
 ## Selected tabs
 
-By using the [isSelected](../api/ribbon#contextualTabs#isSelected) property within each tab object, you can control the selection state of each contextual tab and indicate which tab is currently active.
+By using the [isSelected](../api/ribbon/ribbonContextualTabSettingsModel/#isselected) property within each tab object, you can control the selection state of each contextual tab and indicate which tab is currently active.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -83,11 +83,11 @@ By using the [isSelected](../api/ribbon#contextualTabs#isSelected) property with
 
 ### Show tab
 
-You can make the specific tab visible by using the [showTab](../api/ribbon#contextualTabs#showTab) method available in the Ribbon.
+You can make the specific tab visible by using the [showTab](../api/ribbon/#showTab) method available in the Ribbon.
 
 ### Hide tab
 
-You can also hide specific tab by using the [hideTab](../api/ribbon#contextualTabs#hideTab) method available in the Ribbon.
+You can also hide specific tab by using the [hideTab](../api/ribbon/#hideTab) method available in the Ribbon.
 
 {% if page.publishingplatform == "typescript" %}
 
