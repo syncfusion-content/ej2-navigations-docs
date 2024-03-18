@@ -7,7 +7,7 @@ let tabs: RibbonTabModel[] = [
     header: "Home",
     groups: [
       {
-        header: "Styles",
+        header: "Gallery",
         collections: [
           {
             items: [
@@ -15,17 +15,15 @@ let tabs: RibbonTabModel[] = [
                 type: RibbonItemType.Gallery,
                 gallerySettings: {
                   groups: [{
-                    header: 'Number Format',
+                    header: 'Clipboard',
                     items: [{
-                            content: 'Comma'
+                            content: 'Cut'
                         }, {
-                            content: 'Comma [0]'
+                            content: 'Copy'
                         }, {
-                            content: 'Currency'
+                            content: 'Paste'
                         }, {
-                            content: 'Currency [0]'
-                        }, {
-                            content: `Percent`
+                            content: 'Format Painter'
                         }]
                   }]
                 }
