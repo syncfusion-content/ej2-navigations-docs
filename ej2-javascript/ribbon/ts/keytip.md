@@ -96,11 +96,11 @@ You can add keytip to the launcher icon by using the [launcherIconKeyTip](https:
 
 You can use the [showKeyTips](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonKeyTip/#showkeytips) method to shown the keytips dynamically.
 
-In order to show specific keytips, pass the key string as an argument in the `showKeyTips` method.
+In order to show specific keytips, pass the key string as an argument in the `showKeyTips('H')` method.
 
 ### Hide keytips
 
-You can remove the keytips dynamically using the [hideKeyTips](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonKeyTip/#hidekeytips) method in the Ribbon. This will remove all the visible keytips.
+You can use the [hideKeyTips](https://ej2.syncfusion.com/documentation/api/ribbon/ribbonKeyTip/#hidekeytips) method in Ribbon to remove the keytips dynamically. This will remove all the visible keytips.
 
 ## Guidelines for adding keytips
 
