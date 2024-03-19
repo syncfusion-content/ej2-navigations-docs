@@ -63,12 +63,6 @@ let tabs: RibbonTabModel[] = [
                         }, {
                             content: 'Heading 2',
                             htmlAttributes: { title: "Heading 2" }
-                        }, {
-                          content: 'Title',
-                          htmlAttributes: { title: "Title" }
-                        }, {
-                          content: 'Subtitle',
-                          htmlAttributes: { title: "Subtitle" }
                         }
                       ]
                   }]

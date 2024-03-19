@@ -48,8 +48,8 @@ let tabs: RibbonTabModel[] = [
               {
                 type: RibbonItemType.Gallery,
                 gallerySettings: {
-                  popupHeight: '200',
-                  popupWidth: '400',
+                  popupHeight: '180',
+                  popupWidth: '350',
                   groups: [{
                     header: 'Styles',
                     items: [

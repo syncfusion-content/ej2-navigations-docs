@@ -59,10 +59,6 @@ let tabs: RibbonTabModel[] = [
                             content: 'Heading 1'
                         }, {
                             content: 'Heading 2'
-                        }, {
-                          content: 'Title'
-                        }, {
-                          content: 'Subtitle'
                         }
                       ]
                   }]
