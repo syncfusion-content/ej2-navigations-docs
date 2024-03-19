@@ -11,7 +11,7 @@ domainurl: ##DomainURL##
 
 # Gallery Items in ##Platform_Name## Ribbon Control
 
-The Ribbon supports Gallery view which allows users to perform specific actions by displaying a collection of related items, including icons, content, or images. You can render the gallery item by setting the [type](../api/ribbon/ribbonItemType/) property to `Gallery` and customize the it by using the [RibbonGallerySettingsModel](../api/ribbon/ribbonGallerySettingsModel/), which provides options such as `groups`, `itemCount`, `popupHeight`, `popupWidth` and more.
+The Ribbon supports Gallery view which allows users to perform specific actions by displaying a collection of related items, including icons, content, or images. You can render the gallery item by setting the [type](../api/ribbon/ribbonItemType/) property to `Gallery` and customize it by using the [RibbonGallerySettingsModel](../api/ribbon/ribbonGallerySettingsModel/), which provides options such as `groups`, `itemCount`, `popupHeight`, `popupWidth` and more.
 
 ## Groups 
 
