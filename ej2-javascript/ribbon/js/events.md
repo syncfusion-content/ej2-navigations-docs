@@ -1605,184 +1605,304 @@ ribbon.appendTo("#ribbon");
 
 The [popupOpen](../api/ribbon/ribbonGallerySettings/#popupopen) event is triggered when the gallery popup opens.
 
-{% if page.publishingplatform == "typescript" %}
+```js
+var tabs = [
+  {
+    header: "Home",
+    groups: [
+      {
+        header: "Gallery",
+        collections: [
+          {
+            items: [
+              {
+                type: "Gallery",
+                gallerySettings: {
+                  groups: [{
+                    header: 'Styles',
+                    items: [
+                        {
+                            content: 'Normal'
+                        }, {
+                            content: 'No Spacing'
+                        }, {
+                            content: 'Heading 1'
+                        }, {
+                            content: 'Heading 2'
+                        }
+                      ]
+                  }],
+                  popupOpen: (args) => {
+                    // Your required action here
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+];
 
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/ribbon/gallery/popupOpen/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/ribbon/gallery/popupOpen/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "page.domainurl/code-snippet/ribbon/gallery/popupOpen" %}
+var ribbon = new ej.ribbon.Ribbon({
+    tabs: tabs
+  });
+ribbon.appendTo("#ribbon");
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/ribbon/gallery/popupOpen/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/ribbon/gallery/popupOpen/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "page.domainurl/code-snippet/ribbon/gallery/popupOpen" %}
-{% endif %}
+```
 
 ### popupClose
 
 The [popupClose](../api/ribbon/ribbonGallerySettings/#popupclose) event is triggered when the gallery popup closes.
 
-{% if page.publishingplatform == "typescript" %}
+```js
+var tabs = [
+  {
+    header: "Home",
+    groups: [
+      {
+        header: "Gallery",
+        collections: [
+          {
+            items: [
+              {
+                type: "Gallery",
+                gallerySettings: {
+                  groups: [{
+                    header: 'Styles',
+                    items: [
+                        {
+                            content: 'Normal'
+                        }, {
+                            content: 'No Spacing'
+                        }, {
+                            content: 'Heading 1'
+                        }, {
+                            content: 'Heading 2'
+                        }
+                      ]
+                  }],
+                  popupClose: (args) => {
+                    // Your required action here
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+];
 
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/ribbon/gallery/popupClose/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/ribbon/gallery/popupClose/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "page.domainurl/code-snippet/ribbon/gallery/popupClose" %}
+var ribbon = new ej.ribbon.Ribbon({
+    tabs: tabs
+  });
+ribbon.appendTo("#ribbon");
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/ribbon/gallery/popupClose/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/ribbon/gallery/popupClose/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "page.domainurl/code-snippet/ribbon/gallery/popupClose" %}
-{% endif %}
+```
 
 ### itemHover
 
 The [itemHover](../api/ribbon/ribbonGallerySettings/#itemhover) event is triggered when hover over the gallery item.
 
-{% if page.publishingplatform == "typescript" %}
+```js
+var tabs = [
+  {
+    header: "Home",
+    groups: [
+      {
+        header: "Gallery",
+        collections: [
+          {
+            items: [
+              {
+                type: "Gallery",
+                gallerySettings: {
+                  groups: [{
+                    header: 'Styles',
+                    items: [
+                        {
+                            content: 'Normal'
+                        }, {
+                            content: 'No Spacing'
+                        }, {
+                            content: 'Heading 1'
+                        }, {
+                            content: 'Heading 2'
+                        }
+                      ]
+                  }],
+                  itemHover: (args) => {
+                    // Your required action here
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+];
 
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/ribbon/gallery/itemHover/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/ribbon/gallery/itemHover/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "page.domainurl/code-snippet/ribbon/gallery/itemHover" %}
+var ribbon = new ej.ribbon.Ribbon({
+    tabs: tabs
+  });
+ribbon.appendTo("#ribbon");
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/ribbon/gallery/itemHover/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/ribbon/gallery/itemHover/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "page.domainurl/code-snippet/ribbon/gallery/itemHover" %}
-{% endif %}
+```
 
 ### beforeItemRender
 
 The [beforeItemRender](../api/ribbon/ribbonGallerySettings/#beforeitemrender) event is triggered while rendering each gallery item.
 
-{% if page.publishingplatform == "typescript" %}
+```js
+var tabs = [
+  {
+    header: "Home",
+    groups: [
+      {
+        header: "Gallery",
+        collections: [
+          {
+            items: [
+              {
+                type: "Gallery",
+                gallerySettings: {
+                  groups: [{
+                    header: 'Styles',
+                    items: [
+                        {
+                            content: 'Normal'
+                        }, {
+                            content: 'No Spacing'
+                        }, {
+                            content: 'Heading 1'
+                        }, {
+                            content: 'Heading 2'
+                        }
+                      ]
+                  }],
+                  beforeItemRender: (args) => {
+                    // Your required action here
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+];
 
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/ribbon/gallery/beforeItemRender/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/ribbon/gallery/beforeItemRender/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "page.domainurl/code-snippet/ribbon/gallery/beforeItemRender" %}
+var ribbon = new ej.ribbon.Ribbon({
+    tabs: tabs
+  });
+ribbon.appendTo("#ribbon");
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/ribbon/gallery/beforeItemRender/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/ribbon/gallery/beforeItemRender/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "page.domainurl/code-snippet/ribbon/gallery/beforeItemRender" %}
-{% endif %}
+```
 
 ### beforeSelect
 
 The [beforeSelect](../api/ribbon/ribbonGallerySettings/#beforeselect) event is triggered before selecting an item in the Ribbon gallery.
 
-{% if page.publishingplatform == "typescript" %}
+```js
+var tabs = [
+  {
+    header: "Home",
+    groups: [
+      {
+        header: "Gallery",
+        collections: [
+          {
+            items: [
+              {
+                type: "Gallery",
+                gallerySettings: {
+                  groups: [{
+                    header: 'Styles',
+                    items: [
+                        {
+                            content: 'Normal'
+                        }, {
+                            content: 'No Spacing'
+                        }, {
+                            content: 'Heading 1'
+                        }, {
+                            content: 'Heading 2'
+                        }
+                      ]
+                  }],
+                  beforeSelect: (args) => {
+                    // Your required action here
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+];
 
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/ribbon/gallery/beforeSelect/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/ribbon/gallery/beforeSelect/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "page.domainurl/code-snippet/ribbon/gallery/beforeSelect" %}
+var ribbon = new ej.ribbon.Ribbon({
+    tabs: tabs
+  });
+ribbon.appendTo("#ribbon");
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/ribbon/gallery/beforeSelect/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/ribbon/gallery/beforeSelect/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "page.domainurl/code-snippet/ribbon/gallery/beforeSelect" %}
-{% endif %}
+```
 
 ### select
 
 The [select](../api/ribbon/gallerySelectEventArgs/) event is triggered while selecting an item in the Ribbon Gallery.
 
-{% if page.publishingplatform == "typescript" %}
+```js
+var tabs = [
+  {
+    header: "Home",
+    groups: [
+      {
+        header: "Gallery",
+        collections: [
+          {
+            items: [
+              {
+                type: "Gallery",
+                gallerySettings: {
+                  groups: [{
+                    header: 'Styles',
+                    items: [
+                        {
+                            content: 'Normal'
+                        }, {
+                            content: 'No Spacing'
+                        }, {
+                            content: 'Heading 1'
+                        }, {
+                            content: 'Heading 2'
+                        }
+                      ]
+                  }],
+                  select: (args) => {
+                    // Your required action here
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+];
 
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/ribbon/gallery/select/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/ribbon/gallery/select/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "page.domainurl/code-snippet/ribbon/gallery/select" %}
+var ribbon = new ej.ribbon.Ribbon({
+    tabs: tabs
+  });
+ribbon.appendTo("#ribbon");
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/ribbon/gallery/select/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/ribbon/gallery/select/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "page.domainurl/code-snippet/ribbon/gallery/select" %}
-{% endif %}
+```
