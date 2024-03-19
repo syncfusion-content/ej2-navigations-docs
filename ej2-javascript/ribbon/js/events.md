@@ -1598,3 +1598,191 @@ var ribbon = new ej.ribbon.Ribbon({
 });
 ribbon.appendTo("#ribbon");
 ```
+
+## Gallery events
+
+### popupOpen
+
+The [popupOpen](../api/ribbon/ribbonGallerySettings/#popupopen) event is triggered when the gallery popup opens.
+
+{% if page.publishingplatform == "typescript" %}
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/ribbon/gallery/popupOpen/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/ribbon/gallery/popupOpen/index.html %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "page.domainurl/code-snippet/ribbon/gallery/popupOpen" %}
+
+{% elsif page.publishingplatform == "javascript" %}
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/ribbon/gallery/popupOpen/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/ribbon/gallery/popupOpen/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/ribbon/gallery/popupOpen" %}
+{% endif %}
+
+### popupClose
+
+The [popupClose](../api/ribbon/ribbonGallerySettings/#popupclose) event is triggered when the gallery popup closes.
+
+{% if page.publishingplatform == "typescript" %}
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/ribbon/gallery/popupClose/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/ribbon/gallery/popupClose/index.html %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "page.domainurl/code-snippet/ribbon/gallery/popupClose" %}
+
+{% elsif page.publishingplatform == "javascript" %}
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/ribbon/gallery/popupClose/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/ribbon/gallery/popupClose/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/ribbon/gallery/popupClose" %}
+{% endif %}
+
+### itemHover
+
+The [itemHover](../api/ribbon/ribbonGallerySettings/#itemhover) event is triggered when hover over the gallery item.
+
+{% if page.publishingplatform == "typescript" %}
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/ribbon/gallery/itemHover/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/ribbon/gallery/itemHover/index.html %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "page.domainurl/code-snippet/ribbon/gallery/itemHover" %}
+
+{% elsif page.publishingplatform == "javascript" %}
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/ribbon/gallery/itemHover/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/ribbon/gallery/itemHover/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/ribbon/gallery/itemHover" %}
+{% endif %}
+
+### beforeItemRender
+
+The [beforeItemRender](../api/ribbon/ribbonGallerySettings/#beforeitemrender) event is triggered while rendering each gallery item.
+
+{% if page.publishingplatform == "typescript" %}
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/ribbon/gallery/beforeItemRender/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/ribbon/gallery/beforeItemRender/index.html %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "page.domainurl/code-snippet/ribbon/gallery/beforeItemRender" %}
+
+{% elsif page.publishingplatform == "javascript" %}
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/ribbon/gallery/beforeItemRender/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/ribbon/gallery/beforeItemRender/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/ribbon/gallery/beforeItemRender" %}
+{% endif %}
+
+### beforeSelect
+
+The [beforeSelect](../api/ribbon/ribbonGallerySettings/#beforeselect) event is triggered before selecting an item in the Ribbon gallery.
+
+{% if page.publishingplatform == "typescript" %}
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/ribbon/gallery/beforeSelect/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/ribbon/gallery/beforeSelect/index.html %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "page.domainurl/code-snippet/ribbon/gallery/beforeSelect" %}
+
+{% elsif page.publishingplatform == "javascript" %}
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/ribbon/gallery/beforeSelect/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/ribbon/gallery/beforeSelect/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/ribbon/gallery/beforeSelect" %}
+{% endif %}
+
+### select
+
+The [select](../api/ribbon/gallerySelectEventArgs/) event is triggered while selecting an item in the Ribbon Gallery.
+
+{% if page.publishingplatform == "typescript" %}
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/ribbon/gallery/select/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/ribbon/gallery/select/index.html %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "page.domainurl/code-snippet/ribbon/gallery/select" %}
+
+{% elsif page.publishingplatform == "javascript" %}
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/ribbon/gallery/select/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/ribbon/gallery/select/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/ribbon/gallery/select" %}
+{% endif %}

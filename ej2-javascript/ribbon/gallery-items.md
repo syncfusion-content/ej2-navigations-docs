@@ -11,17 +11,15 @@ domainurl: ##DomainURL##
 
 # Gallery Items in ##Platform_Name## Ribbon Control
 
-Gallery items in the ribbon control are visual representations of commands or options, providing a quick way for users to access and execute specific functions. Galleries display related items visually, giving users a fast and easy way to choose or move through different options, making things simple and quick for everyone.
-
-You can render the gallery Ribbon item by setting the [type](../api/ribbon/ribbonItemType/) property to `Gallery`. You can also customize the gallery item using the [RibbonGallerySettingsModel](../api/ribbon/ribbonGallerySettingsModel/), which provides options such as `groups`, `itemCount`, `popupHeight`, `popupWidth` and more.
+The Ribbon supports Gallery view which allows users to perform specific actions by displaying a collection of related items, including icons, content, or images. You can render the gallery item by setting the [type](../api/ribbon/ribbonItemType/) property to `Gallery` and customize the it by using the [RibbonGallerySettingsModel](../api/ribbon/ribbonGallerySettingsModel/), which provides options such as `groups`, `itemCount`, `popupHeight`, `popupWidth` and more.
 
 ## Groups 
 
-Groups in the gallery organize related items, simplifying user navigation. You can render the group inside the gallery items by using [groups](../api/ribbon/ribbonGallerySettingsModel/#groups) property. You can also customize the group in gallery items through [RibbonGalleryGroupModel](../api/ribbon/ribbonGalleryGroupModel/), which provides options such as `items`, `iconCss`, `header` and more.
+You can render the groups inside the gallery items by using [groups](../api/ribbon/ribbonGallerySettingsModel/#groups) property and customize the groups using [RibbonGalleryGroupModel](../api/ribbon/ribbonGalleryGroupModel/), which provides options such as `items`, `cssClass`, `header` and more.
 
-### Items
+### Adding items
 
-Gallery items represent individual elements within a group, allowing users to interact with specific functionalities. You can render the gallery items by using [items](../api/ribbon/ribbonGalleryGroupModel/#items) property. You can also customize the gallery items through [RibbonGalleryItemModel](../api/ribbon/ribbonGalleryItemModel/), which provides options such as `content`, `iconCss`, `disabled` and more.
+You can render the gallery items by using [items](../api/ribbon/ribbonGalleryGroupModel/#items) property and customize using the [RibbonGalleryItemModel](../api/ribbon/ribbonGalleryItemModel/), which provides options such as `content`, `iconCss`, `disabled` and more.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -50,7 +48,7 @@ Gallery items represent individual elements within a group, allowing users to in
 {% previewsample "page.domainurl/code-snippet/ribbon/gallery/galleryItems" %}
 {% endif %}
 
-#### Item Content
+#### Adding content
 
 You can use the [content](../api/ribbon/ribbonGalleryItemModel/#content) property to define the text content for the gallery item.
 
@@ -81,7 +79,7 @@ You can use the [content](../api/ribbon/ribbonGalleryItemModel/#content) propert
 {% previewsample "page.domainurl/code-snippet/ribbon/gallery/itemContent" %}
 {% endif %}
 
-#### IconCss
+#### Adding icons
 
 You can use the [iconCss](../api/ribbon/ribbonGalleryItemModel/#iconcss) property to define the icons for the gallery item.
 
@@ -112,9 +110,9 @@ You can use the [iconCss](../api/ribbon/ribbonGalleryItemModel/#iconcss) propert
 {% previewsample "page.domainurl/code-snippet/ribbon/gallery/galleryIcon" %}
 {% endif %}
 
-#### Html Attributes
+#### Adding html attributes
 
-You can use the [htmlAttributes](../api/ribbon/ribbonGalleryItemModel/#htmlattributes) property to specify additional HTML attributes to be applied to the Ribbon Gallery item.
+You can use the [htmlAttributes](../api/ribbon/ribbonGalleryItemModel/#htmlattributes) property to add HTML attributes to the Ribbon gallery item.
 
 The following sample showcases how to add title attribute to the gallery item using `htmlAttributes` property.
 
@@ -145,7 +143,7 @@ The following sample showcases how to add title attribute to the gallery item us
 {% previewsample "page.domainurl/code-snippet/ribbon/gallery/htmlAttributes" %}
 {% endif %}
 
-#### cssClass
+#### Css class
 
 You can use the [cssClass](../api/ribbon/ribbonGalleryItemModel/#cssclass) property to customize the gallery item.
 
@@ -184,9 +182,9 @@ The following sample showcases how to customize the appearance of each gallery i
 {% previewsample "page.domainurl/code-snippet/ribbon/gallery/classCustomization" %}
 {% endif %}
 
-#### Disabled Item
+#### Disabled
 
-You can use the [disabled](../api/ribbon/ribbonGalleryItemModel/#disabled) property to disable a Ribbon gallery item. It prevents the user interaction when set to `true`. By default, the value is `false`.
+You can use the [disabled](../api/ribbon/ribbonGalleryItemModel/#disabled) property to disable the Ribbon gallery item. It prevents the user interaction when set to `true`. By default, the value is `false`.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -215,9 +213,9 @@ You can use the [disabled](../api/ribbon/ribbonGalleryItemModel/#disabled) prope
 {% previewsample "page.domainurl/code-snippet/ribbon/gallery/disabledItem" %}
 {% endif %}
 
-### Custom Header
+### Custom header
 
-You can use the [header](../api/ribbon/ribbonGalleryGroupModel/#header) property to designate an appropriate header for the group items within the Ribbon Gallery popup.
+You can use the [header](../api/ribbon/ribbonGalleryGroupModel/#header) property to set header for the group items in the Ribbon gallery popup.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -246,13 +244,13 @@ You can use the [header](../api/ribbon/ribbonGalleryGroupModel/#header) property
 {% previewsample "page.domainurl/code-snippet/ribbon/gallery/galleryItems" %}
 {% endif %}
 
-### Item Width
+### Setting item width
 
 You can use the [itemWidth](../api/ribbon/ribbonGalleryGroupModel/#itemwidth) property to specify the width of gallery items.
 
-### Item Height
+### Setting item height
 
-You can use the [itemHeight](../api/ribbon/ribbonGalleryGroupModel/#itemheight) property to set the height of the gallery items.
+You can use the [itemHeight](../api/ribbon/ribbonGalleryGroupModel/#itemheight) property to set the height of the gallery items. If the `itemHeight` of the gallery item is smaller the remaining gallery items are aligned based on the [itemCount](../api/ribbon/ribbonGallerySettingsModel/#itemcount) specified.
 
 The provided example demonstrates how to customize gallery items using the `itemWidth` and `itemHeight` properties.
 
@@ -320,11 +318,11 @@ You can use the [cssClass](../api/ribbon/ribbonGalleryGroupModel/#cssclass) prop
 {% previewsample "page.domainurl/code-snippet/ribbon/gallery/groupCustomization" %}
 {% endif %}
 
-## Item Count
+## Setting item count
 
-You can customize the Ribbon Gallery display by utilizing the [itemCount](../api/ribbon/ribbonGallerySettingsModel/#itemcount) property, enabling you to specify the desired number of items. By default the `itemCount` will be `Three`.
+You can customize the number if items to be displayed in Ribbon gallery by using the [itemCount](../api/ribbon/ribbonGallerySettingsModel/#itemcount) property. By default the `itemCount` will be `3`.
 
-The following example showcases the utilization of the `itemCount` property, displaying a ribbon gallery containing four items.
+The following example showcases the utilization of the `itemCount` property, displaying a ribbon gallery with `4` items.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -353,9 +351,9 @@ The following example showcases the utilization of the `itemCount` property, dis
 {% previewsample "page.domainurl/code-snippet/ribbon/gallery/itemCount" %}
 {% endif %}
 
-## Selected Item Index
+## Setting selected item
 
-The [selectedItemIndex](../api/ribbon/ribbonGallerySettingsModel/#selecteditemindex) property defines the index of the currently selected item in the Ribbon Gallery, offering control over the default or dynamic selection for an interactive user experience.
+You can use the [selectedItemIndex](../api/ribbon/ribbonGallerySettingsModel/#selecteditemindex) property to define the currently selected item in the Ribbon gallery items.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -384,13 +382,13 @@ The [selectedItemIndex](../api/ribbon/ribbonGallerySettingsModel/#selecteditemin
 {% previewsample "page.domainurl/code-snippet/ribbon/gallery/selectedItemIndex" %}
 {% endif %}
 
-## Popup Height
+## Setting popup height
 
-You can specify the height of the popup that displays the Ribbon Gallery by using the [popupHeight](../api/ribbon/ribbonGallerySettingsModel/#popupheight) property, allowing you to control and customize the vertical dimensions for an optimized visual presentation.
+You can specify the height of the gallery popup by using the [popupHeight](../api/ribbon/ribbonGallerySettingsModel/#popupheight) property.
 
-## Popup Width
+## Setting popup width
 
-you can control the width of the popup in the Ribbon Gallery by using the [popupWidth](../api/ribbon/ribbonGallerySettingsModel/#popupwidth) propery, providing control and customization for an optimized visual layout.
+you can specify the width of the gallery popup by using the [popupWidth](../api/ribbon/ribbonGallerySettingsModel/#popupwidth) propery.
 
 The example demonstrates the customization of popup with `popupHeight` and `popupWidth` properties.
 
@@ -423,11 +421,11 @@ The example demonstrates the customization of popup with `popupHeight` and `popu
 
 ## Template
 
-You can customize the default appearance and content of Ribbon Gallery items to create a personalized user experience. Utilize the [template](../api/ribbon/ribbonGallerySettingsModel/#template) property to set custom content for the items.
+You can customize the default appearance and content of Ribbon gallery items by using the [template](../api/ribbon/ribbonGallerySettingsModel/#template) property.
 
-## Popup Template
+### Popup Template
 
-You can customize the appearance and content of Ribbon Gallery items within the popup for a personalized user experience. Utilize the [popupTemplate](../api/ribbon/ribbonGallerySettingsModel/#popuptemplate) property to set a custom template specifically designed for items displayed in the popup.
+You can customize the appearance of Ribbon gallery popup by using the [popupTemplate](../api/ribbon/ribbonGallerySettingsModel/#popuptemplate) property.
 
 The below example demonstrates the customization of both the `template` and `popupTemplate` properties:
 
@@ -456,196 +454,6 @@ The below example demonstrates the customization of both the `template` and `pop
 {% endtabs %}
 
 {% previewsample "page.domainurl/code-snippet/ribbon/gallery/galleryTemplate" %}
-{% endif %}
-
-## Events
-
-This section describes the events that will be triggered when an appropriate actions are performed in ribbon gallery. The following events are available in the Ribbon gallery.
-
-### popupOpen
-
-The [popupOpen](../api/ribbon/galleryPopupEventArgs/) event is triggered when the gallery popup opens.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/ribbon/gallery/popupOpen/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/ribbon/gallery/popupOpen/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "page.domainurl/code-snippet/ribbon/gallery/popupOpen" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/ribbon/gallery/popupOpen/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/ribbon/gallery/popupOpen/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "page.domainurl/code-snippet/ribbon/gallery/popupOpen" %}
-{% endif %}
-
-### popupClose
-
-The [popupClose](../api/ribbon/galleryPopupEventArgs/) event is triggered when the gallery popup closes.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/ribbon/gallery/popupClose/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/ribbon/gallery/popupClose/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "page.domainurl/code-snippet/ribbon/gallery/popupClose" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/ribbon/gallery/popupClose/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/ribbon/gallery/popupClose/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "page.domainurl/code-snippet/ribbon/gallery/popupClose" %}
-{% endif %}
-
-### itemHover
-
-The [itemHover](../api/ribbon/galleryHoverEventArgs/) event is triggered when hovering over a gallery item.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/ribbon/gallery/itemHover/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/ribbon/gallery/itemHover/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "page.domainurl/code-snippet/ribbon/gallery/itemHover" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/ribbon/gallery/itemHover/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/ribbon/gallery/itemHover/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "page.domainurl/code-snippet/ribbon/gallery/itemHover" %}
-{% endif %}
-
-### beforeItemRender
-
-The [beforeItemRender](../api/ribbon/galleryItemEventArgs/) event is triggered while rendering each gallery item.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/ribbon/gallery/beforeItemRender/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/ribbon/gallery/beforeItemRender/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "page.domainurl/code-snippet/ribbon/gallery/beforeItemRender" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/ribbon/gallery/beforeItemRender/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/ribbon/gallery/beforeItemRender/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "page.domainurl/code-snippet/ribbon/gallery/beforeItemRender" %}
-{% endif %}
-
-### beforeSelect
-
-The [beforeSelect](../api/ribbon/galleryBeforeSelectEventArgs/) event is triggered before item in the Ribbon Gallery is selected.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/ribbon/gallery/beforeSelect/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/ribbon/gallery/beforeSelect/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "page.domainurl/code-snippet/ribbon/gallery/beforeSelect" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/ribbon/gallery/beforeSelect/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/ribbon/gallery/beforeSelect/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "page.domainurl/code-snippet/ribbon/gallery/beforeSelect" %}
-{% endif %}
-
-### select
-
-The [select](../api/ribbon/gallerySelectEventArgs/) event is triggered while selecting an item in the Ribbon Gallery.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/ribbon/gallery/select/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/ribbon/gallery/select/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "page.domainurl/code-snippet/ribbon/gallery/select" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/ribbon/gallery/select/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/ribbon/gallery/select/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "page.domainurl/code-snippet/ribbon/gallery/select" %}
 {% endif %}
 
 > To know more about the built-in Ribbon items, please refer to the [Ribbon Items](./items) section.
