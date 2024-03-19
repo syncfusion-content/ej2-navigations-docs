@@ -7,6 +7,40 @@ let tabs: RibbonTabModel[] = [
     header: "Home",
     groups: [
       {
+        header: "Clipboard",
+        groupIconCss: 'e-icons e-paste',
+        collections: [{
+            items: [{
+                type: RibbonItemType.SplitButton,
+                splitButtonSettings: {
+                    iconCss: 'e-icons e-paste',
+                    items: [{ text: 'Keep Source Format' }, { text: 'Merge Format' }, { text: 'Keep Text Only' }],
+                    content: 'Paste'
+                }
+            }]
+        }, {
+            items: [{
+                type: RibbonItemType.Button,
+                buttonSettings: {
+                    content: 'Cut',
+                    iconCss: 'e-icons e-cut'
+                }
+            }, {
+                type: RibbonItemType.Button,
+                buttonSettings: {                    
+                    content: 'Copy',
+                    iconCss: 'e-icons e-copy'
+                }
+            }, {
+                type: RibbonItemType.Button,
+                buttonSettings: {                    
+                    content: 'Format Painter',
+                    iconCss: 'e-icons e-format-painter'
+                }
+            }]
+        }]
+    },
+      {
         header: "Gallery",
         collections: [
           {
@@ -17,22 +51,22 @@ let tabs: RibbonTabModel[] = [
                   popupHeight: '200',
                   popupWidth: '400',
                   groups: [{
-                    header: 'Title and Headings',
+                    header: 'Styles',
                     items: [
                         {
-                            content: 'Heading 1',
+                            content: 'Normal'
                         }, {
-                            content: 'Heading 2',
+                            content: 'No Spacing'
                         }, {
-                            content: 'Heading 3',
+                            content: 'Heading 1'
                         }, {
-                            content: 'Heading 4',
+                            content: 'Heading 2'
                         }, {
-                            content: 'Title',
+                          content: 'Title'
                         }, {
-                            content: 'Total',
+                          content: 'Subtitle'
                         }
-                    ]
+                      ]
                   }]
                 }
               }

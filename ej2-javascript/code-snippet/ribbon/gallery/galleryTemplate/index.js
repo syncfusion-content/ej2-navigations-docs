@@ -3,7 +3,41 @@ var tabs = [
     header: "Home",
     groups: [
       {
-        header: "Gallery",
+        header: "Clipboard",
+        groupIconCss: 'e-icons e-paste',
+        collections: [{
+            items: [{
+                type: "SplitButton",
+                splitButtonSettings: {
+                    iconCss: 'e-icons e-paste',
+                    items: [{ text: 'Keep Source Format' }, { text: 'Merge Format' }, { text: 'Keep Text Only' }],
+                    content: 'Paste'
+                }
+            }]
+        }, {
+            items: [{
+                type: "Button",
+                buttonSettings: {
+                    content: 'Cut',
+                    iconCss: 'e-icons e-cut'
+                }
+            }, {
+                type: "Button",
+                buttonSettings: {                    
+                    content: 'Copy',
+                    iconCss: 'e-icons e-copy'
+                }
+            }, {
+                type: "Button",
+                buttonSettings: {                    
+                    content: 'Format Painter',
+                    iconCss: 'e-icons e-format-painter'
+                }
+            }]
+        }]
+    },
+      {
+        header: "Table Styles",
         collections: [
           {
             items: [
@@ -71,6 +105,46 @@ var tabs = [
             ]
           }
         ]
+      }, 
+      {
+        header: "Insert", 
+          collections: [
+            {
+              items: [
+                {
+                  type: "Button",
+                  buttonSettings: {
+                    content: "Above",
+                    iconCss: "e-icons e-insert-above",
+                  }
+                },
+                {
+                  type: "Button",
+                  buttonSettings: {
+                    content: "Below",
+                    iconCss: "e-icons e-insert-below",
+                  }
+                }
+              ]
+            }, {
+              items: [
+                {
+                  type: "Button",
+                  buttonSettings: {
+                    content: "Left",
+                    iconCss: "e-icons e-insert-left",
+                  }
+                },
+                {
+                  type: "Button",
+                  buttonSettings: {
+                    content: "Right",
+                    iconCss: "e-icons e-insert-right",
+                  }
+                }
+              ]
+            }
+          ]
       }
     ]
   }

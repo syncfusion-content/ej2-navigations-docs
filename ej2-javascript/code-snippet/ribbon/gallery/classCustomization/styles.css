@@ -1,3 +1,6 @@
+.e-ribbon-gallery-item {
+    margin: 5px;
+}
 .e-ribbon-gallery-item.normal{
     background: #f0f0f0;
     color: #333;
